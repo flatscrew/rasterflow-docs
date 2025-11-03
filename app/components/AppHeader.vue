@@ -21,17 +21,14 @@ const { header } = useAppConfig()
       v-if="header?.logo?.dark || header?.logo?.light || header?.title"
       #title
     >
-      <UColorModeImage
-        v-if="header?.logo?.dark || header?.logo?.light"
-        :light="header?.logo?.light!"
-        :dark="header?.logo?.dark!"
-        :alt="header?.logo?.alt"
-        class="h-6 w-auto shrink-0"
-      />
+      <div class="flex items-center gap-4">
+        <span class="leading-none"
+          v-if="header?.title">
+          {{ header.title }}
+        </span>
 
-      <span v-else-if="header?.title">
-        {{ header.title }}
-      </span>
+        <TemplateMenu />
+      </div>
     </template>
 
     <template

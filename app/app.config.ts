@@ -1,8 +1,8 @@
 export default defineAppConfig({
   ui: {
     colors: {
-      primary: 'green',
-      neutral: 'slate'
+      primary: 'purple',
+      neutral: 'gray'
     },
     footer: {
       slots: {
@@ -15,10 +15,9 @@ export default defineAppConfig({
     siteName: 'Nuxt Docs Template'
   },
   header: {
-    title: '',
+    title: 'RasterFlow',
     to: '/',
     logo: {
-      alt: '',
       light: '',
       dark: ''
     },
@@ -32,24 +31,28 @@ export default defineAppConfig({
     }]
   },
   footer: {
-    credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
+    credits: `RasterFlow © ${new Date().getFullYear()}`,
     colorMode: false,
-    links: [{
-      'icon': 'i-simple-icons-discord',
-      'to': 'https://go.nuxt.com/discord',
-      'target': '_blank',
-      'aria-label': 'Nuxt on Discord'
-    }, {
-      'icon': 'i-simple-icons-x',
-      'to': 'https://go.nuxt.com/x',
-      'target': '_blank',
-      'aria-label': 'Nuxt on X'
-    }, {
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt/ui',
-      'target': '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
-    }]
+    links: [
+      {
+        icon: '/icons/gtk.svg',
+        to: 'https://www.gtk.org/',
+        target: '_blank',
+        'aria-label': 'GTK'
+      },
+      {
+        icon: '/icons/gegl.svg',
+        to: 'https://gegl.org/',
+        target: '_blank',
+        'aria-label': 'GEGL'
+      },
+      {
+        icon: '/icons/vala.svg',
+        to: 'https://vala.dev',
+        target: '_blank',
+        'aria-label': 'Vala'
+      }
+    ]
   },
   toc: {
     title: 'Table of Contents',

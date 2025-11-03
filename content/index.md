@@ -1,7 +1,7 @@
 ---
 seo:
-  title: Nuxt Docs Template
-  description: Create stunning, fast and SEO-optimized documentation sites with Nuxt UI.
+  title: RasterFlow
+  description: Build procedural images with RasterFlow’s node-based editor, real-time previews, and non-destructive workflow.
 ---
 
 ::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950"}
@@ -56,7 +56,7 @@ Core Features
   color: neutral
   size: lg
   target: _blank
-  to: https://rasterflow.io/ui
+  to: /getting-started
   trailingIcon: i-lucide-arrow-right
   variant: subtle
   ---
@@ -141,7 +141,7 @@ Workflow & Tools
   color: neutral
   size: lg
   target: _blank
-  to: https://rasterflow.io/operations
+  to: /operations
   trailingIcon: i-lucide-arrow-right
   variant: subtle
   ---
