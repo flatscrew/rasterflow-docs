@@ -4,7 +4,7 @@
     :modal="false"
     :items="[{
       label: 'User Interface guide',
-      to: '/ui'
+      to: '/user-interface'
     }, {
       label: 'Available operations',
       to: '/operations'
