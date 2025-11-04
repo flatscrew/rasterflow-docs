@@ -25,9 +25,14 @@ export default defineAppConfig({
     colorMode: true,
     links: [{
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt-ui-templates/docs',
+      'to': 'https://github.com/flatscrew/rasterflow',
       'target': '_blank',
       'aria-label': 'GitHub'
+    }, {
+      'icon': 'i-lucide-coffee',
+      'to': 'https://buymeacoffee.com/rasterflow',
+      'target': '_blank',
+      'aria-label': 'Buy me a coffee maybe? ;)'
     }]
   },
   footer: {
@@ -71,5 +76,30 @@ export default defineAppConfig({
         target: '_blank'
       }]
     }
+  },
+  
+  gegl: {
+    operations: [
+      {
+        id: 'gaussian-blur',
+        title: 'Gaussian Blur',
+        description: 'Blurs the image using a Gaussian kernel.',
+        params: [
+          { name: 'std-dev-x', type: 'float', default: 4.0 },
+          { name: 'std-dev-y', type: 'float', default: 4.0 }
+        ],
+        thumbnail: '/images/gegl/gaussian-blur.png'
+      },
+      {
+        id: 'unsharp-mask',
+        title: 'Unsharp Mask',
+        description: 'Enhances edges by subtracting a blurred version of the image from the original.',
+        params: [
+          { name: 'radius', type: 'float', default: 3.0 },
+          { name: 'amount', type: 'float', default: 1.0 }
+        ],
+        thumbnail: '/images/gegl/unsharp-mask.png'
+      }
+    ]
   }
 })

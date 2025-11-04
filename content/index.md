@@ -17,7 +17,7 @@ Procedural Imaging for [Real-World]{.text-primary} Workflows.
 #description
 Build procedural images with RasterFlow’s node-based editor, real-time previews, and non-destructive workflow.
 Combine over 250 operations into flexible visual graphs. Generate textures and patterns procedurally, and export results instantly.
-The same open foundation trusted by the [GEGL](https://gegl.org/) ecosystem — designed for creators, developers, and technical artists.
+The same open foundation trusted by the [GEGL](https://gegl.org/operations){.text-primary} ecosystem — designed for creators, developers, and technical artists.
 
 #links
   :::u-button
@@ -31,11 +31,11 @@ The same open foundation trusted by the [GEGL](https://gegl.org/) ecosystem — 
 
   :::u-button
   ---
-  icon: i-simple-icons-github
+  icon: i-lucide-arrow-right
   color: neutral
   variant: outline
   size: xl
-  to: /getting-started
+  to: /user-interface
   ---
   Getting started
   :::
@@ -55,8 +55,7 @@ Core Features
   ---
   color: neutral
   size: lg
-  target: _blank
-  to: /getting-started
+  to: /user-interface
   trailingIcon: i-lucide-arrow-right
   variant: subtle
   ---
@@ -140,7 +139,6 @@ Workflow & Tools
   ---
   color: neutral
   size: lg
-  target: _blank
   to: /operations
   trailingIcon: i-lucide-arrow-right
   variant: subtle
@@ -296,7 +294,7 @@ Creative & Procedural
       to: '/getting-started'
       trailingIcon: i-lucide-arrow-right
     - label: View on GitHub
-      to: 'https://github.com/nuxt-ui-templates/docs'
+      to: 'https://github.com/flatscrew/rasterflow'
       target: _blank
       variant: subtle
       icon: i-simple-icons-github
