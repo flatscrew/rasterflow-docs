@@ -9,15 +9,23 @@ const { footer } = useAppConfig()
     </template>
 
     <template #right>
-      <UColorModeButton v-if="footer?.colorMode" />
-
-      <template v-if="footer?.links">
+      <div class="flex gap-2 items-center">
         <UButton
-          v-for="(link, index) of footer?.links"
+          v-for="(link, index) in footer.links"
           :key="index"
-          v-bind="{ color: 'neutral', variant: 'ghost', ...link }"
-        />
-      </template>
+          color="neutral"
+          variant="ghost"
+          :to="link.to"
+          :target="link.target"
+          class="p-2"
+        >
+          <img
+            :src="link.icon"
+            alt=""
+            class="h-6  opacity-80 hover:opacity-100 transition-opacity"
+          />
+        </UButton>
+      </div>
     </template>
   </UFooter>
 </template>

@@ -1,7 +1,7 @@
 ---
 seo:
-  title: Nuxt Docs Template
-  description: Create stunning, fast and SEO-optimized documentation sites with Nuxt UI.
+  title: RasterFlow
+  description: Build procedural images with RasterFlow’s node-based editor, real-time previews, and non-destructive workflow.
 ---
 
 ::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950"}
@@ -12,19 +12,21 @@ orientation: horizontal
 :hero-background
 
 #title
-Ship Beautiful [Documentation]{.text-primary}.
+Procedural Imaging for [Real-World]{.text-primary} Workflows.
 
 #description
-Build professional documentation with Nuxt UI's powerful components, enhanced typography, and seamless Nuxt Content integration. The same system trusted by the entire [Nuxt ecosystem](https://nuxt.com).
+Build procedural images with RasterFlow’s node-based editor, real-time previews, and non-destructive workflow.
+Combine over 250 operations into flexible visual graphs. Generate textures and patterns procedurally, and export results instantly.
+The same open foundation trusted by the [GEGL](https://gegl.org/) ecosystem — designed for creators, developers, and technical artists.
 
 #links
   :::u-button
   ---
-  to: /getting-started
   size: xl
-  trailing-icon: i-lucide-arrow-right
+  trailing-icon: i-lucide-download
+  to: /download-latest
   ---
-  Get started
+  Download RasterFlow 0.1.0
   :::
 
   :::u-button
@@ -33,47 +35,20 @@ Build professional documentation with Nuxt UI's powerful components, enhanced ty
   color: neutral
   variant: outline
   size: xl
-  to: https://github.com/nuxt-ui-templates/docs
-  target: _blank
+  to: /getting-started
   ---
-  Use this template
+  Getting started
   :::
 
 #default
-  :::prose-pre
-  ---
-  code: |
-    export default defineNuxtConfig({
-      modules: [
-        '@nuxt/ui',
-        '@nuxt/content',
-        'nuxt-og-image',
-        'nuxt-llms'
-      ],
-
-      css: ['~/assets/css/main.css']
-    })
-  filename: nuxt.config.ts
-  ---
-
-  ```ts [nuxt.config.ts]
-  export default defineNuxtConfig({
-    modules: [
-      '@nuxt/ui',
-      '@nuxt/content',
-      'nuxt-og-image',
-      'nuxt-llms'
-    ],
-
-    css: ['~/assets/css/main.css']
-  })
-  ```
-  :::
+  ::HeroCarousel
+  ::
 ::
+
 
 ::u-page-section{class="dark:bg-neutral-950"}
 #title
-Powered by Nuxt UI components
+Core Features
 
 #links
   :::u-button
@@ -81,34 +56,23 @@ Powered by Nuxt UI components
   color: neutral
   size: lg
   target: _blank
-  to: https://ui.nuxt.com/docs/getting-started/installation/nuxt
+  to: /getting-started
   trailingIcon: i-lucide-arrow-right
   variant: subtle
   ---
-  Explore Nuxt UI
+  Explore RasterFlow UI
   :::
 
 #features
   :::u-page-feature
   ---
-  icon: i-lucide-palette
+  icon: i-lucide-undo-2
   ---
   #title
-  100+ UI Components
+  Non-Destructive Editing
 
   #description
-  Access the complete Nuxt UI component library. From badges to modals, everything styled and accessible out of the box.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-type
-  ---
-  #title
-  Beautiful Typography
-
-  #description
-  Pre-styled prose components with perfect visual harmony. No need for @tailwindcss/typography - get precise control over every element.
+  Every operation exists within a live node graph. You can adjust, reconnect, or reorder any part of the process without losing previous steps — the entire workflow remains reversible.
   :::
 
   :::u-page-feature
@@ -116,49 +80,60 @@ Powered by Nuxt UI components
   icon: i-lucide-layers
   ---
   #title
-  Rich Prose Components
+  254+ Image Operations
 
   #description
-  Accordions, cards, callouts, tabs, steps, code blocks, and more - all provided by Nuxt UI for interactive documentation.
+  RasterFlow provides the complete GEGL library: filters, color tools, generators, distortions, and blend modes ready to combine in any order.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-search
+  icon: i-lucide-eye
   ---
   #title
-  Built-in Search
+  Instant Visualization
 
   #description
-  Full-text search with ContentSearch component. No need for Algolia - instant, relevant results with keyboard shortcuts (⌘K).
+  Every node previews its output in real time. No rendering delays, no refresh buttons — what you see is what the graph produces.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-navigation
+  icon: i-lucide-history
   ---
   #title
-  Smart Navigation
+  Undo & Redo Support
 
   #description
-  Auto-generated navigation with ContentNavigation and ContentToc components. Sticky table of contents and prev/next links.
+  Experiment freely knowing every action can be reversed. RasterFlow keeps your creative flow safe and recoverable.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-moon
+  icon: i-lucide-code-2
   ---
   #title
-  Dark Mode Ready
+  Built with GTK4 & Vala
 
   #description
-  Automatic theme switching with smooth transitions. Respects system preferences and remembers user choice.
+  A fully native application with smooth performance and responsive interaction, even in large, complex graphs.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-globe-2
+  ---
+  #title
+  Cross-Platform
+
+  #description
+  RasterFlow runs on both Linux and Windows using open technologies — no dependencies outside GEGL and GTK.
   :::
 ::
 
 ::u-page-section{class="dark:bg-neutral-950"}
 #title
-Enhanced with Nuxt Content
+Workflow & Tools
 
 #links
   :::u-button
@@ -166,67 +141,95 @@ Enhanced with Nuxt Content
   color: neutral
   size: lg
   target: _blank
-  to: https://content.nuxt.com/docs/getting-started/installation
+  to: /operations
   trailingIcon: i-lucide-arrow-right
   variant: subtle
   ---
-  Explore Nuxt Content
+  Explore operations
   :::
 
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-markdown
+  icon: i-lucide-zoom-in
   ---
   #title
-  MDC Enhanced Markdown
+  Fluid Navigation & Zoom
 
   #description
-  Write in Markdown while embedding Vue components. Seamlessly integrate interactive elements in your content.
+  Navigate your graph naturally with mouse or touchpad. Zoom smoothly in and out to focus on details or get a full overview of your composition.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-file-text
+  icon: i-lucide-map
   ---
   #title
-  File-based Routing
+  Minimap Overview
 
   #description
-  Organize content in folders and files. Your documentation structure automatically becomes your navigation.
+  A built-in minimap gives you instant orientation in large graphs. Node colors and structure stay clear even in complex networks.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-code
+  icon: i-lucide-palette
   ---
   #title
-  Syntax Highlighting
+  Custom Node Colors
 
   #description
-  Beautiful code blocks with language detection, line numbers, and copy buttons. Support for 100+ languages.
+  Organize your graphs visually. Assign colors to nodes or groups to highlight structure and logic — perfectly mirrored on the minimap.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-database
+  icon: i-lucide-save
   ---
   #title
-  Content Database
+  Save What You See
 
   #description
-  Query your content with a MongoDB-like API. Filter, sort, and search through your documentation programmatically.
+  Export any node’s output directly to an image file, or export the entire graph as a PNG snapshot for documentation and sharing.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-file-code
+  icon: i-lucide-search
   ---
   #title
-  Frontmatter Support
+  Visual Debugging
 
   #description
-  Add metadata to your content files. Define SEO tags, navigation properties, and custom fields.
+  Preview intermediate results and inspect connections in real time. Perfect for understanding the flow of data through your image.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-sliders
+  ---
+  #title
+  Precise Parameter Control
+
+  #description
+  Adjust values numerically or interactively. Small tweaks can transform the entire look of your composition.
+  :::
+::
+
+::u-page-section{class="dark:bg-neutral-950"}
+#title
+Creative & Procedural
+
+#features
+  :::u-page-feature
+  ---
+  icon: i-lucide-audio-waveform
+  ---
+  #title
+  Procedural Generators
+
+  #description
+  Start from noise, grids, gradients, or patterns. RasterFlow lets you build images from nothing but math and imagination.
   :::
 
   :::u-page-feature
@@ -234,10 +237,54 @@ Enhanced with Nuxt Content
   icon: i-lucide-git-branch
   ---
   #title
-  Version Control
+  Compositing Made Modular
 
   #description
-  Content lives in your repository. Branch, review, and deploy documentation alongside your code.
+  Replace flat layer stacks with logic-driven graphs. Blend, mask, and combine images through explicit connections you can always see.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-sliders-horizontal
+  ---
+  #title
+  Graph Properties
+
+  #description
+  Expose key parameters as global controls. Adjust them live and see changes propagate instantly across the graph.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-monitor
+  ---
+  #title
+  Detachable Viewers
+
+  #description
+  Pop out any node into its own live window to compare stages, monitor different outputs, or analyze color and detail independently.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-gamepad-2
+  ---
+  #title
+  Game-Dev Ready
+
+  #description
+  Assemble HDRP mask maps, generate channel-packed textures, or combine data for procedural materials — all directly inside RasterFlow.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-infinity
+  ---
+  #title
+  Endless Experimentation
+
+  #description
+  RasterFlow is an image editor and generator built for discovery. Every node, link, and adjustment is part of a living process.
   :::
 ::
 

@@ -6,7 +6,8 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/content',
     'nuxt-og-image',
-    'nuxt-llms'
+    'nuxt-llms',
+    '@nuxtjs/google-fonts'
   ],
 
   devtools: {
@@ -15,6 +16,14 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  googleFonts: {
+    families: {
+      'Roboto+Condensed': [300, 400, 500, 700],
+    },
+    display: 'swap',
+    preload: true,
+  },
+  
   content: {
     build: {
       markdown: {
@@ -75,4 +84,5 @@ export default defineNuxtConfig({
       }
     ]
   }
+  
 })
