@@ -13,34 +13,34 @@
         justify-center
       "
     >
-      <!-- <img v-if="src != null" :src="src" :alt="alt" :style="style" class="rounded-lg block" />
-      <img v-if="src == null" src="/images/operations/_none.png" :alt="alt" :style="style" class="rounded-lg block" /> -->
-      
       <NuxtImg 
-        placeholder="/images/operations/_none.png" 
         :src="src" 
         :alt="alt" 
-        fit="fill"
         class="rounded-lg block"
-        sizes="10vw"
-      />
-      
-      
-      <figcaption
-        v-if="caption && src != null"
-        class="text-sm text-muted italic text-center mb-5"
+        sizes="30vw"
+        :custom="true"
+        v-slot="{ src, isLoaded, imgAttrs }"
       >
-        {{ caption }}
-      </figcaption>
+      <img
+        v-if="isLoaded"
+        v-bind="imgAttrs"
+        :src="src"
+      >
 
+      <img
+        v-else
+        src="/images/operations/_none.png"
+      >
+      
       <figcaption
-        v-else-if="src == null"
+        v-if="!isLoaded"
         class="absolute inset-0 flex items-center justify-center gap-2 text-white text-sm italic"
       >
         <UIcon name="i-heroicons-photo" class="w-5 h-5 text-white/80" />
         Picture not available yet
       </figcaption>
-
+      </NuxtImg>
+      
     </figure>
   </div>
 </template>
