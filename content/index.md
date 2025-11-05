@@ -35,7 +35,7 @@ The same open foundation trusted by the [GEGL](https://gegl.org/operations){.tex
   color: neutral
   variant: outline
   size: xl
-  to: /user-interface
+  to: /guide
   ---
   Getting started
   :::
@@ -55,7 +55,7 @@ Core Features
   ---
   color: neutral
   size: lg
-  to: /user-interface
+  to: /guide
   trailingIcon: i-lucide-arrow-right
   variant: subtle
   ---

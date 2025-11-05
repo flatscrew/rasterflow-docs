@@ -12,6 +12,7 @@ const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
           <UContentNavigation
             highlight
             :navigation="navigation"
+            :default-open="true"
           />
         </UPageAside>
       </template>
