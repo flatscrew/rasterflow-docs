@@ -13,6 +13,7 @@ links:
 ---
 alt: Opacity
 caption: Weights the opacity of the input both the value of the aux input and the global value property.
+src: /images/operations/gegl-opacity.png
 ---
 ::
 

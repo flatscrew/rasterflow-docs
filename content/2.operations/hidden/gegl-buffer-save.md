@@ -13,6 +13,7 @@ links:
 ---
 alt: 
 caption: GeglBuffer file writer.
+src: /images/operations/gegl-gegl-buffer-save.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: 
 caption: OpenEXR image saver
+src: /images/operations/gegl-exr-save.png
 ---
 ::
 

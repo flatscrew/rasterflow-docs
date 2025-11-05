@@ -13,6 +13,7 @@ links:
 ---
 alt: Pack
 caption: Packs an image horizontally or vertically next to each other with optional gap, aux right of input.
+src: /images/operations/gegl-pack.png
 ---
 ::
 

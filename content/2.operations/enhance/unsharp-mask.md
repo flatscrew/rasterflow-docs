@@ -13,6 +13,7 @@ links:
 ---
 alt: Sharpen (Unsharp Mask)
 caption: Sharpen image, by adding difference to blurred image, a technique for sharpening originally used in darkrooms.
+src: /images/operations/gegl-unsharp-mask.png
 ---
 ::
 

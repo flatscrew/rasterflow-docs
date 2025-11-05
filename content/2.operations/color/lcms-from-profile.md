@@ -13,6 +13,7 @@ links:
 ---
 alt: LCMS From Profile
 caption: Converts the input from an ICC color profile to a well defined babl format. The buffer's data will then be correctly managed by GEGL for further processing.
+src: /images/operations/gegl-lcms-from-profile.png
 ---
 ::
 

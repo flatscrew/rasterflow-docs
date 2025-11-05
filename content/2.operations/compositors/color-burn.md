@@ -13,6 +13,7 @@ links:
 ---
 alt: Color-burn
 caption: SVG blend operation color-burn (<code>if cA * aB + cB * aA <= aA * aB: d = cA * (1 - aB) + cB * (1 - aA) otherwise: d = (cA == 0 ? 1 : (aA * (cA * aB + cB * aA - aA * aB) / cA) + cA * (1 - aB) + cB * (1 - aA))</code>)
+src: /images/operations/svg-color-burn.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Bump Map
 caption: This plug-in uses the algorithm described by John Schlag, "Fast Embossing Effects on Raster Image Data" in Graphics GEMS IV (ISBN 0-12-336155-9). It takes a buffer to be applied as a bump map to another buffer and produces a nice embossing effect.
+src: /images/operations/gegl-bump-map.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Hard-light
 caption: SVG blend operation hard-light (<code>if 2 * cA < aA: d = 2 * cA * cB + cA * (1 - aB) + cB * (1 - aA) otherwise: d = aA * aB - 2 * (aB - cB) * (aA - cA) + cA * (1 - aB) + cB * (1 - aA)</code>)
+src: /images/operations/svg-hard-light.png
 ---
 ::
 

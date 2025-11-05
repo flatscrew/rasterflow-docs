@@ -13,6 +13,7 @@ links:
 ---
 alt: Illusion
 caption: Superimpose many altered copies of the image.
+src: /images/operations/gegl-illusion.png
 ---
 ::
 

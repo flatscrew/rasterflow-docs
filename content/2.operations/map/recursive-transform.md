@@ -13,6 +13,7 @@ links:
 ---
 alt: Recursive Transform
 caption: Apply a transformation recursively.
+src: /images/operations/gegl-recursive-transform.png
 ---
 ::
 

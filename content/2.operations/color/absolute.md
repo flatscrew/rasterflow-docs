@@ -13,6 +13,7 @@ links:
 ---
 alt: Absolute
 caption: Makes each linear RGB component be the absolute of its value, fabs(input_value)
+src: /images/operations/gegl-absolute.png
 ---
 ::
 

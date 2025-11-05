@@ -13,6 +13,7 @@ links:
 ---
 alt: Color Enhance
 caption: Stretch color chroma to cover maximum possible range, keeping hue and lightness untouched.
+src: /images/operations/gegl-color-enhance.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Value Invert
 caption: Invert the value component, the result has the brightness inverted, keeping the color.
+src: /images/operations/gegl-value-invert.png
 ---
 ::
 

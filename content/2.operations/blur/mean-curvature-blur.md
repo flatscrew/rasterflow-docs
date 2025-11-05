@@ -13,6 +13,7 @@ links:
 ---
 alt: Mean Curvature Blur
 caption: Regularize geometry at a speed proportional to the local mean curvature value
+src: /images/operations/gegl-mean-curvature-blur.png
 ---
 ::
 

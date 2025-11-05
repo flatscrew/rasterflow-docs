@@ -13,6 +13,7 @@ links:
 ---
 alt: Normal Map
 caption: Generate a normal map from a height map
+src: /images/operations/gegl-normal-map.png
 ---
 ::
 

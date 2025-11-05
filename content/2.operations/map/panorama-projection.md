@@ -13,6 +13,7 @@ links:
 ---
 alt: Panorama Projection
 caption: Do panorama viewer rendering mapping or its inverse for an equirectangular input image. (2:1 ratio containing 360x180 degree panorama).
+src: /images/operations/gegl-panorama-projection.png
 ---
 ::
 

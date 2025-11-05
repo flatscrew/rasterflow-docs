@@ -13,6 +13,7 @@ links:
 ---
 alt: Median Blur
 caption: Blur resulting from computing the median color in the neighborhood of each pixel.
+src: /images/operations/gegl-median-blur.png
 ---
 ::
 

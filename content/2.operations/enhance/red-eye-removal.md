@@ -13,6 +13,7 @@ links:
 ---
 alt: Red Eye Removal
 caption: Remove the red eye effect caused by camera flashes
+src: /images/operations/gegl-red-eye-removal.png
 ---
 ::
 

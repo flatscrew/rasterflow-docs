@@ -13,6 +13,7 @@ links:
 ---
 alt: Sepia
 caption: Apply a sepia tone to the input image
+src: /images/operations/gegl-sepia.png
 ---
 ::
 

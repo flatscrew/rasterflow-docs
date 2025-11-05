@@ -13,6 +13,7 @@ links:
 ---
 alt: Color Rotate
 caption: Replace a range of colors with another
+src: /images/operations/gegl-color-rotate.png
 ---
 ::
 

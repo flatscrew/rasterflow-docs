@@ -13,6 +13,7 @@ links:
 ---
 alt: Polar Coordinates
 caption: Convert image to or from polar coordinates
+src: /images/operations/gegl-polar-coordinates.png
 ---
 ::
 

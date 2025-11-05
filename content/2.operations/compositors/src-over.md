@@ -13,6 +13,7 @@ links:
 ---
 alt: Normal compositing
 caption: Porter Duff operation over (also known as normal mode, and src-over) (d = cA + cB * (1 - aA))
+src: /images/operations/svg-src-over.png
 ---
 ::
 

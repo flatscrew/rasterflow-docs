@@ -13,6 +13,7 @@ links:
 ---
 alt: Value Propagate
 caption: Propagate certain values to neighboring pixels. Erode and dilate any color or opacity.
+src: /images/operations/gegl-value-propagate.png
 ---
 ::
 

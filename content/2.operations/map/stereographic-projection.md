@@ -13,6 +13,7 @@ links:
 ---
 alt: Little Planet
 caption: Do a stereographic/little planet transform of an equirectangular image.
+src: /images/operations/gegl-stereographic-projection.png
 ---
 ::
 

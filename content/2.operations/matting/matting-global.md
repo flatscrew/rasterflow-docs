@@ -13,6 +13,7 @@ links:
 ---
 alt: Matting Global
 caption: Given a sparse user supplied tri-map and an input image, create a foreground alpha matte. Set white as foreground, black as background for the tri-map. Everything else will be treated as unknown and filled in.
+src: /images/operations/gegl-matting-global.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Pixelize
 caption: Simplify image into an array of solid-colored rectangles
+src: /images/operations/gegl-pixelize.png
 ---
 ::
 

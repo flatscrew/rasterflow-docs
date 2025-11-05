@@ -13,6 +13,7 @@ links:
 ---
 alt: Xor
 caption: Porter Duff operation xor (d = cA * (1.0f - aB)+ cB * (1.0f - aA))
+src: /images/operations/svg-xor.png
 ---
 ::
 

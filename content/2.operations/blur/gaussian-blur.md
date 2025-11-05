@@ -13,6 +13,7 @@ links:
 ---
 alt: Gaussian Blur
 caption: Performs an averaging of neighboring pixels with the normal distribution as weighting
+src: /images/operations/gegl-gaussian-blur.png
 ---
 ::
 

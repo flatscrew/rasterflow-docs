@@ -13,6 +13,7 @@ links:
 ---
 alt: Clip RGB
 caption: Keep RGB pixels values inside a specific range
+src: /images/operations/gegl-rgb-clip.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Write Buffer
 caption: Write input data into an existing GEGL buffer destination surface.
+src: /images/operations/gegl-write-buffer.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Linear Gradient
 caption: Linear gradient renderer
+src: /images/operations/gegl-linear-gradient.png
 ---
 ::
 

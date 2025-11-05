@@ -13,6 +13,7 @@ links:
 ---
 alt: Weighted Blend
 caption: blend two images using alpha values as weights
+src: /images/operations/gegl-weighted-blend.png
 ---
 ::
 

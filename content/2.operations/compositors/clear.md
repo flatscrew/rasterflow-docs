@@ -13,6 +13,7 @@ links:
 ---
 alt: Clear
 caption: Porter Duff operation clear (d = 0.0f)
+src: /images/operations/svg-clear.png
 ---
 ::
 

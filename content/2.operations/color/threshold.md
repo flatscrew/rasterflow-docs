@@ -13,6 +13,7 @@ links:
 ---
 alt: Threshold
 caption: Thresholds the image to white/black based on either the global values set in the value (low) and high properties, or per pixel from the aux input.
+src: /images/operations/gegl-threshold.png
 ---
 ::
 

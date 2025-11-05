@@ -13,6 +13,7 @@ links:
 ---
 alt: Dst-over
 caption: Porter Duff operation dst-over (d = cB + cA * (1.0f - aB))
+src: /images/operations/svg-dst-over.png
 ---
 ::
 

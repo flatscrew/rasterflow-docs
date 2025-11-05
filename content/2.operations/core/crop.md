@@ -13,6 +13,7 @@ links:
 ---
 alt: Crop
 caption: Crops a buffer, if the aux pad is connected the bounding box of the node connected is used. When the crop area is configured to 0x0 at 0,0 and nothing is connected on aux, the bounding box of the node at the producing end of the input chain is used.
+src: /images/operations/gegl-crop.png
 ---
 ::
 

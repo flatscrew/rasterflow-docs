@@ -13,6 +13,7 @@ links:
 ---
 alt: Exposure
 caption: Change exposure of an image in shutter speed stops
+src: /images/operations/gegl-exposure.png
 ---
 ::
 

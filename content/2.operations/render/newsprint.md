@@ -13,6 +13,7 @@ links:
 ---
 alt: Newsprint
 caption: Digital halftoning with optional modulations. 
+src: /images/operations/gegl-newsprint.png
 ---
 ::
 

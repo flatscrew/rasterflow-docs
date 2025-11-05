@@ -13,6 +13,7 @@ links:
 ---
 alt: Oilify
 caption: Emulate an oil painting
+src: /images/operations/gegl-oilify.png
 ---
 ::
 

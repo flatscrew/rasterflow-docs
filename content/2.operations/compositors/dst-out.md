@@ -13,6 +13,7 @@ links:
 ---
 alt: Dst-out
 caption: Porter Duff operation dst-out (d = cB * (1.0f - aA))
+src: /images/operations/svg-dst-out.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Stretch Contrast HSV
 caption: Scales the components of the buffer to be in the 0.0-1.0 range. This improves images that make poor use of the available contrast (little contrast, very dark, or very bright images). This version differs from Contrast Autostretch in that it works in HSV space, and preserves hue.
+src: /images/operations/gegl-stretch-contrast-hsv.png
 ---
 ::
 

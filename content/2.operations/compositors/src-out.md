@@ -13,6 +13,7 @@ links:
 ---
 alt: Src-out
 caption: Porter Duff operation src-out (d = cA * (1.0f - aB))
+src: /images/operations/svg-src-out.png
 ---
 ::
 

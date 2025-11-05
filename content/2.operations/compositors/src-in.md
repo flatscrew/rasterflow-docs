@@ -13,6 +13,7 @@ links:
 ---
 alt: Src-in
 caption: Porter Duff compositing operation src-in (formula:   cA * aB)
+src: /images/operations/svg-src-in.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Image Gradient
 caption: Compute gradient magnitude and/or direction by central differences
+src: /images/operations/gegl-image-gradient.png
 ---
 ::
 

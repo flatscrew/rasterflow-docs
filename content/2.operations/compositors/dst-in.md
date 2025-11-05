@@ -13,6 +13,7 @@ links:
 ---
 alt: Dst-in
 caption: Porter Duff operation dst-in (d = cB * aA)
+src: /images/operations/svg-dst-in.png
 ---
 ::
 

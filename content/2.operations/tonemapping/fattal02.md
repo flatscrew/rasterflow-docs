@@ -13,6 +13,7 @@ links:
 ---
 alt: Fattal et al. 2002 Tone Mapping
 caption: Adapt an image, which may have a high dynamic range, for presentation using a low dynamic range. This operator attenuates the magnitudes of local image gradients, producing luminance within the range 0.0-1.0. This tonemapping approach was originally presented by Raanan Fattal, in the 2002 SIGGRAPH paper: Gradient Domain High Dynamic Range Compression.
+src: /images/operations/gegl-fattal02.png
 ---
 ::
 

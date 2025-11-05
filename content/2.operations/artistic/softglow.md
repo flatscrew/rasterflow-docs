@@ -13,6 +13,7 @@ links:
 ---
 alt: Softglow
 caption: Simulate glow by making highlights intense and fuzzy
+src: /images/operations/gegl-softglow.png
 ---
 ::
 

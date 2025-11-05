@@ -13,6 +13,7 @@ links:
 ---
 alt: 
 caption: SVG blend operation darken (<code>d = MIN (cA * aB, cB * aA) + cA * (1 - aB) + cB * (1 - aA)</code>)
+src: /images/operations/svg-darken.png
 ---
 ::
 

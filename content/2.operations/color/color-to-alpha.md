@@ -13,6 +13,7 @@ links:
 ---
 alt: Color to Alpha
 caption: Convert a specified color to transparency, works best with white.
+src: /images/operations/gegl-color-to-alpha.png
 ---
 ::
 

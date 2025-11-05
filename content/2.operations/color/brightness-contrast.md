@@ -13,6 +13,7 @@ links:
 ---
 alt: Brightness Contrast
 caption: Changes the light level and contrast. This operation operates in linear light, 'contrast' is a scale factor around 50% gray, and 'brightness' a constant offset to apply after contrast scaling.
+src: /images/operations/gegl-brightness-contrast.png
 ---
 ::
 

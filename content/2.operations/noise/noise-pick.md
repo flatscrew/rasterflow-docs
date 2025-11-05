@@ -13,6 +13,7 @@ links:
 ---
 alt: Noise Pick
 caption: Randomly interchange some pixels with neighbors
+src: /images/operations/gegl-noise-pick.png
 ---
 ::
 

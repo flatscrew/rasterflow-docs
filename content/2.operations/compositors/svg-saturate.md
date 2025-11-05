@@ -13,6 +13,7 @@ links:
 ---
 alt: SVG Saturate
 caption: SVG color matrix operation svg_saturate
+src: /images/operations/gegl-svg-saturate.png
 ---
 ::
 

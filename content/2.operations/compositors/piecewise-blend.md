@@ -13,6 +13,7 @@ links:
 ---
 alt: Piecewise Blend
 caption: Blend a chain of inputs using a mask
+src: /images/operations/gegl-piecewise-blend.png
 ---
 ::
 

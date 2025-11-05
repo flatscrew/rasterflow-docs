@@ -13,6 +13,7 @@ links:
 ---
 alt: Linear Motion Blur
 caption: Blur pixels in a direction, simulates blurring caused by moving camera in a straight line during exposure.
+src: /images/operations/gegl-motion-blur-linear.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Plus
 caption: SVG blend operation plus (<code>d = cA + cB</code>)
+src: /images/operations/svg-plus.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Map Absolute
 caption: sample input with an auxiliary buffer that contain absolute source coordinates
+src: /images/operations/gegl-map-absolute.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: 
 caption: EXR image loader.
+src: /images/operations/gegl-exr-load.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: 
 caption: SVG blend operation screen (<code>d = cA + cB - cA * cB</code>)
+src: /images/operations/svg-screen.png
 ---
 ::
 

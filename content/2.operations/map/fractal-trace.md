@@ -13,6 +13,7 @@ links:
 ---
 alt: Fractal Trace
 caption: Transform the image with the fractals
+src: /images/operations/gegl-fractal-trace.png
 ---
 ::
 

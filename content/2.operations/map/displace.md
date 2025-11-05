@@ -13,6 +13,7 @@ links:
 ---
 alt: Displace
 caption: Displace pixels as indicated by displacement maps
+src: /images/operations/gegl-displace.png
 ---
 ::
 

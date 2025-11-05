@@ -13,6 +13,7 @@ links:
 ---
 alt: 
 caption: Compares if input and aux buffers are different. Global statistics are saved in the properties and a visual difference image is produced as a visual result. 
+src: /images/operations/gegl-image-compare.png
 ---
 ::
 

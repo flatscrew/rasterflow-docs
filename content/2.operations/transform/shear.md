@@ -13,6 +13,7 @@ links:
 ---
 alt: Shear
 caption: Shears the buffer. 
+src: /images/operations/gegl-shear.png
 ---
 ::
 

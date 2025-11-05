@@ -13,6 +13,7 @@ links:
 ---
 alt: Src
 caption: Porter Duff operation src (d = cA)
+src: /images/operations/svg-src.png
 ---
 ::
 

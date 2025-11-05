@@ -13,6 +13,7 @@ links:
 ---
 alt: Cast color space
 caption: Override the specified color space setting a pointer to a format override the string property and setting an aux pad overrides both. 
+src: /images/operations/gegl-cast-space.png
 ---
 ::
 

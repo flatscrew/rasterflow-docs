@@ -13,6 +13,7 @@ links:
 ---
 alt: Neon Edge Detection
 caption: Performs edge detection using a Gaussian derivative method
+src: /images/operations/gegl-edge-neon.png
 ---
 ::
 

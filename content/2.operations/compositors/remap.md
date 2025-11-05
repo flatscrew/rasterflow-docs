@@ -13,6 +13,7 @@ links:
 ---
 alt: Remap
 caption: stretch components of pixels individually based on luminance envelopes
+src: /images/operations/gegl-remap.png
 ---
 ::
 

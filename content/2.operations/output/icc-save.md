@@ -13,6 +13,7 @@ links:
 ---
 alt: ICC profile saver
 caption: Stores the ICC profile that would be embedded if stored as an image.
+src: /images/operations/gegl-icc-save.png
 ---
 ::
 

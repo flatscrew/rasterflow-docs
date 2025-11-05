@@ -13,6 +13,7 @@ links:
 ---
 alt: Add CIE Lch Noise
 caption: Randomize lightness, chroma and hue independently
+src: /images/operations/gegl-noise-cie-lch.png
 ---
 ::
 

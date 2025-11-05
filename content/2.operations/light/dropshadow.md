@@ -13,6 +13,7 @@ links:
 ---
 alt: Dropshadow
 caption: Creates a dropshadow effect on the input buffer
+src: /images/operations/gegl-dropshadow.png
 ---
 ::
 

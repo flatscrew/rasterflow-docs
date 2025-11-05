@@ -13,6 +13,7 @@ links:
 ---
 alt: Distance Transform
 caption: Calculate a distance transform
+src: /images/operations/gegl-distance-transform.png
 ---
 ::
 

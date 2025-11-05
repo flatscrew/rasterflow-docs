@@ -13,6 +13,7 @@ links:
 ---
 alt: JPEG File Loader
 caption: JPEG image loader using libjpeg
+src: /images/operations/gegl-jpg-load.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Rectangle
 caption: A rectangular source of a fixed size with a solid color
+src: /images/operations/gegl-rectangle.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Save
 caption: Multipurpose file saver, that uses other native save handlers depending on extension, use the format specific save ops to specify additional parameters.
+src: /images/operations/gegl-save.png
 ---
 ::
 

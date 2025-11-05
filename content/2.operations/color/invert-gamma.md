@@ -13,6 +13,7 @@ links:
 ---
 alt: Invert in Perceptual space
 caption: Invert the components (except alpha) perceptually, the result is the corresponding "negative" image.
+src: /images/operations/gegl-invert-gamma.png
 ---
 ::
 

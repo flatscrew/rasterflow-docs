@@ -13,6 +13,7 @@ links:
 ---
 alt: Copy Buffer
 caption: Writes image data to an already existing buffer
+src: /images/operations/gegl-copy-buffer.png
 ---
 ::
 

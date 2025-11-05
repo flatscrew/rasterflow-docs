@@ -13,6 +13,7 @@ links:
 ---
 alt: Local Threshold
 caption: Applies a threshold using the local neighborhood.
+src: /images/operations/gegl-local-threshold.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Channel Mixer
 caption: Remix colors; by defining relative contributions from source components.
+src: /images/operations/gegl-channel-mixer.png
 ---
 ::
 

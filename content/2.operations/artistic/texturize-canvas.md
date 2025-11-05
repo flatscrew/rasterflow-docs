@@ -13,6 +13,7 @@ links:
 ---
 alt: Texturize Canvas
 caption: Textures the image as if it were an artist's canvas.
+src: /images/operations/gegl-texturize-canvas.png
 ---
 ::
 

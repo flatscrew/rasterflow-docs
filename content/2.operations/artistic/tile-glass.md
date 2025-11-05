@@ -13,6 +13,7 @@ links:
 ---
 alt: Tile Glass
 caption: Simulate distortion caused by rectangular glass tiles
+src: /images/operations/gegl-tile-glass.png
 ---
 ::
 

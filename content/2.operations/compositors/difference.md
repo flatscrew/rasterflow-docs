@@ -13,6 +13,7 @@ links:
 ---
 alt: 
 caption: SVG blend operation difference (<code>d = cA + cB - 2 * (MIN (cA * aB, cB * aA))</code>)
+src: /images/operations/svg-difference.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: SVG Matrix
 caption: SVG color matrix operation svg_matrix
+src: /images/operations/gegl-svg-matrix.png
 ---
 ::
 

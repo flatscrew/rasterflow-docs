@@ -13,6 +13,7 @@ links:
 ---
 alt: Rotate on center
 caption: Rotate the buffer around its center, taking care of possible offsets.
+src: /images/operations/gegl-rotate-on-center.png
 ---
 ::
 

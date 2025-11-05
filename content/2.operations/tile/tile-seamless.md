@@ -13,6 +13,7 @@ links:
 ---
 alt: Make Seamlessly tileable
 caption: Make the input buffer seamlessly tileable. The algorithm is not content-aware, so the result may need post-processing.
+src: /images/operations/gegl-tile-seamless.png
 ---
 ::
 

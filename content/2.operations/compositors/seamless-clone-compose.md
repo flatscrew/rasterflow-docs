@@ -13,6 +13,7 @@ links:
 ---
 alt: 
 caption: Seamless cloning composite operation
+src: /images/operations/gegl-seamless-clone-compose.png
 ---
 ::
 

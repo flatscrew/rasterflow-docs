@@ -13,6 +13,7 @@ links:
 ---
 alt: Contrast Curve
 caption: Adjusts the contrast of a grayscale image with a curve specifying contrast for intensity.
+src: /images/operations/gegl-contrast-curve.png
 ---
 ::
 

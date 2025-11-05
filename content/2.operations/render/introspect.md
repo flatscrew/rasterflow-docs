@@ -13,6 +13,7 @@ links:
 ---
 alt: 
 caption: GEGL graph visualizer.
+src: /images/operations/gegl-introspect.png
 ---
 ::
 

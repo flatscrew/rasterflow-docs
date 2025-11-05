@@ -13,6 +13,7 @@ links:
 ---
 alt: GEGL graph
 caption: Do a chain of operations, with key=value pairs after each operation name to set properties. And aux=[ source filter ] for specifying a chain with a source as something connected to an aux pad.
+src: /images/operations/gegl-gegl.png
 ---
 ::
 

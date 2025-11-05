@@ -13,6 +13,7 @@ links:
 ---
 alt: 
 caption: Image Magick wrapper using the png op.
+src: /images/operations/gegl-magick-load.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: 
 caption: SVG blend operation lighten (<code>d = MAX (cA * aB, cB * aA) + cA * (1 - aB) + cB * (1 - aA)</code>)
+src: /images/operations/svg-lighten.png
 ---
 ::
 

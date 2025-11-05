@@ -13,6 +13,7 @@ links:
 ---
 alt: Warp
 caption: Compute a relative displacement mapping from a stroke
+src: /images/operations/gegl-warp.png
 ---
 ::
 

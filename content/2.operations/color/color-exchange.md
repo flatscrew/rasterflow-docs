@@ -13,6 +13,7 @@ links:
 ---
 alt: Exchange color
 caption: Exchange one color with another, optionally setting a threshold to convert from one shade to another.
+src: /images/operations/gegl-color-exchange.png
 ---
 ::
 

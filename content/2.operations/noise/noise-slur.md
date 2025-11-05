@@ -13,6 +13,7 @@ links:
 ---
 alt: Noise Slur
 caption: Randomly slide some pixels downward (similar to melting)
+src: /images/operations/gegl-noise-slur.png
 ---
 ::
 

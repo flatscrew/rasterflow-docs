@@ -13,6 +13,7 @@ links:
 ---
 alt: Waves
 caption: Distort the image with waves
+src: /images/operations/gegl-waves.png
 ---
 ::
 

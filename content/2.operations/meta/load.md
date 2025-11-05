@@ -13,6 +13,7 @@ links:
 ---
 alt: Load Image
 caption: Multipurpose file loader, that uses other native handlers, and fallback conversion using Image Magick's convert.
+src: /images/operations/gegl-load.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Denoise DCT
 caption: Denoising algorithm using a per-patch DCT thresholding
+src: /images/operations/gegl-denoise-dct.png
 ---
 ::
 

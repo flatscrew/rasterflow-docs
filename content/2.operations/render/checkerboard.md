@@ -13,6 +13,7 @@ links:
 ---
 alt: Checkerboard
 caption: Render a checkerboard pattern
+src: /images/operations/gegl-checkerboard.png
 ---
 ::
 

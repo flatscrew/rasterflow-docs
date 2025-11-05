@@ -13,6 +13,7 @@ links:
 ---
 alt: Buffer Source
 caption: Use an existing in-memory GeglBuffer as image source.
+src: /images/operations/gegl-buffer-source.png
 ---
 ::
 

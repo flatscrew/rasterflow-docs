@@ -13,6 +13,7 @@ links:
 ---
 alt: Scale size keep aspect
 caption: Scales the buffer to a size, preserving aspect ratio
+src: /images/operations/gegl-scale-size-keepaspect.png
 ---
 ::
 

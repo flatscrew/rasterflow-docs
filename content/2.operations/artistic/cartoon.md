@@ -13,6 +13,7 @@ links:
 ---
 alt: Cartoon
 caption: Simulates a cartoon, its result is similar to a black felt pen drawing subsequently shaded with color. This is achieved by enhancing edges and darkening areas that are already distinctly darker than their neighborhood
+src: /images/operations/gegl-cartoon.png
 ---
 ::
 

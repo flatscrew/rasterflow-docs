@@ -13,6 +13,7 @@ links:
 ---
 alt: PPM File Saver
 caption: PPM image saver (Portable pixmap saver.)
+src: /images/operations/gegl-ppm-save.png
 ---
 ::
 

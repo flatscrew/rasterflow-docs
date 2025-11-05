@@ -13,6 +13,7 @@ links:
 ---
 alt: Color warp
 caption: Warps the colors of an image between colors with weighted distortion factors, color pairs which are black to black get ignored when constructing the mapping.
+src: /images/operations/gegl-color-warp.png
 ---
 ::
 

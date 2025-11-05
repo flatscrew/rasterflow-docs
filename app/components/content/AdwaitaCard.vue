@@ -13,8 +13,18 @@
         justify-center
       "
     >
-      <img v-if="src != null" :src="src" :alt="alt" :style="style" class="rounded-lg block" />
-      <img v-if="src == null" src="/images/operations/_none.png" :alt="alt" :style="style" class="rounded-lg block" />
+      <!-- <img v-if="src != null" :src="src" :alt="alt" :style="style" class="rounded-lg block" />
+      <img v-if="src == null" src="/images/operations/_none.png" :alt="alt" :style="style" class="rounded-lg block" /> -->
+      
+      <NuxtImg 
+        placeholder="/images/operations/_none.png" 
+        :src="src" 
+        :alt="alt" 
+        fit="fill"
+        class="rounded-lg block"
+        sizes="10vw"
+      />
+      
       
       <figcaption
         v-if="caption && src != null"
@@ -41,7 +51,6 @@ defineProps<{
   src?: string
   alt?: string
   caption?: string
-  style?: string
 }>()
 </script>
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Deinterlace
 caption: Fix images where every other row or column is missing
+src: /images/operations/gegl-deinterlace.png
 ---
 ::
 

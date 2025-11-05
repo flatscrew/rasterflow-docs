@@ -13,6 +13,7 @@ links:
 ---
 alt: Lens Blur
 caption: Simulate out-of-focus lens blur
+src: /images/operations/gegl-lens-blur.png
 ---
 ::
 

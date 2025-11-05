@@ -13,6 +13,7 @@ links:
 ---
 alt: Selective Gaussian Blur
 caption: Blur neighboring pixels, but only in low-contrast areas
+src: /images/operations/gegl-gaussian-blur-selective.png
 ---
 ::
 

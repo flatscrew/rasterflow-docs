@@ -13,6 +13,7 @@ links:
 ---
 alt: GIF File Loader
 caption: GIF image loader.
+src: /images/operations/gegl-gif-load.png
 ---
 ::
 

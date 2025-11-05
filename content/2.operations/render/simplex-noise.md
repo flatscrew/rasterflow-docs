@@ -13,6 +13,7 @@ links:
 ---
 alt: Simplex Noise
 caption: Generates a solid noise texture.
+src: /images/operations/gegl-simplex-noise.png
 ---
 ::
 

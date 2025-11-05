@@ -13,6 +13,7 @@ links:
 ---
 alt: 
 caption: Lighten shadows and darken highlights
+src: /images/operations/gegl-shadows-highlights-correction.png
 ---
 ::
 

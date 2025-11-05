@@ -13,6 +13,7 @@ links:
 ---
 alt: 
 caption: SVG blend operation exclusion (<code>d = (cA * aB + cB * aA - 2 * cA * cB) + cA * (1 - aB) + cB * (1 - aA)</code>)
+src: /images/operations/svg-exclusion.png
 ---
 ::
 

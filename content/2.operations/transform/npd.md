@@ -13,6 +13,7 @@ links:
 ---
 alt: 
 caption: Performs n-point image deformation
+src: /images/operations/gegl-npd.png
 ---
 ::
 

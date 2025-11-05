@@ -13,6 +13,7 @@ links:
 ---
 alt: Src-atop
 caption: Porter Duff operation src-atop (d = cA * aB + cB * (1.0f - aA))
+src: /images/operations/svg-src-atop.png
 ---
 ::
 

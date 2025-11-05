@@ -13,6 +13,7 @@ links:
 ---
 alt: Transform
 caption: Do a transformation using SVG syntax transformation.
+src: /images/operations/gegl-transform.png
 ---
 ::
 

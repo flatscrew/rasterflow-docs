@@ -13,6 +13,7 @@ links:
 ---
 alt: Reinhard 2005 Tone Mapping
 caption: Adapt an image, which may have a high dynamic range, for presentation using a low dynamic range. This is an efficient global operator derived from simple physiological observations, producing luminance within the range 0.0-1.0
+src: /images/operations/gegl-reinhard05.png
 ---
 ::
 

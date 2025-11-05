@@ -13,6 +13,7 @@ links:
 ---
 alt: 1D Wavelet-blur
 caption: This blur is used for the wavelet decomposition filter, each pixel is computed from another by the HAT transform
+src: /images/operations/gegl-wavelet-blur-1d.png
 ---
 ::
 

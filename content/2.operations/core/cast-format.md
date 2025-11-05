@@ -13,6 +13,7 @@ links:
 ---
 alt: Cast Format
 caption: Cast the data between input_format and output_format, both formats must have the same bpp
+src: /images/operations/gegl-cast-format.png
 ---
 ::
 

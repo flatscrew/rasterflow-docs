@@ -13,6 +13,7 @@ links:
 ---
 alt: Rotate
 caption: Rotate the buffer around the specified origin.
+src: /images/operations/gegl-rotate.png
 ---
 ::
 

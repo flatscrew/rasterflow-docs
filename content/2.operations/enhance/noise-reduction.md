@@ -13,6 +13,7 @@ links:
 ---
 alt: Noise Reduction
 caption: Anisotropic smoothing operation
+src: /images/operations/gegl-noise-reduction.png
 ---
 ::
 

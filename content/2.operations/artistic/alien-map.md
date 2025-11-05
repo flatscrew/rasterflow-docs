@@ -13,6 +13,7 @@ links:
 ---
 alt: Alien Map
 caption: Heavily distort images colors by applying trigonometric functions to map color values.
+src: /images/operations/gegl-alien-map.png
 ---
 ::
 

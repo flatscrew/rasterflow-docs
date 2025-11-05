@@ -13,6 +13,7 @@ links:
 ---
 alt: Bloom
 caption: Add glow around bright areas
+src: /images/operations/gegl-bloom.png
 ---
 ::
 

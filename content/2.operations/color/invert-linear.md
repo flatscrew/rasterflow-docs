@@ -13,6 +13,7 @@ links:
 ---
 alt: Invert
 caption: Invert the components (except alpha) in linear light, the result is the corresponding "negative" image.
+src: /images/operations/gegl-invert-linear.png
 ---
 ::
 

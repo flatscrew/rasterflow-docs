@@ -13,6 +13,7 @@ links:
 ---
 alt: Long Shadow
 caption: Creates a long-shadow effect
+src: /images/operations/gegl-long-shadow.png
 ---
 ::
 

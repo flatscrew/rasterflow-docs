@@ -13,6 +13,7 @@ links:
 ---
 alt: Store in GdkPixbuf
 caption: Store image in a GdkPixbuf.
+src: /images/operations/gegl-save-pixbuf.png
 ---
 ::
 

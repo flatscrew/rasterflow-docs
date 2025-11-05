@@ -13,6 +13,7 @@ links:
 ---
 alt: Wind
 caption: Wind-like bleed effect
+src: /images/operations/gegl-wind.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Color-dodge
 caption: SVG blend operation color-dodge (<code>if cA * aB + cB * aA >= aA * aB: d = aA * aB + cA * (1 - aB) + cB * (1 - aA) otherwise: d = (cA == aA ? 1 : cB * aA / (aA == 0 ? 1 : 1 - cA / aA)) + cA * (1 - aB) + cB * (1 - aA)</code>)
+src: /images/operations/svg-color-dodge.png
 ---
 ::
 

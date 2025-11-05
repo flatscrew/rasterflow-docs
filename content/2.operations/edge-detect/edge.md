@@ -13,6 +13,7 @@ links:
 ---
 alt: Edge Detection
 caption: Several simple methods for detecting edges
+src: /images/operations/gegl-edge.png
 ---
 ::
 

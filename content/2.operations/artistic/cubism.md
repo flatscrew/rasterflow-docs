@@ -13,6 +13,7 @@ links:
 ---
 alt: Cubism
 caption: Convert the image into randomly rotated square blobs, somehow resembling a cubist painting style
+src: /images/operations/gegl-cubism.png
 ---
 ::
 

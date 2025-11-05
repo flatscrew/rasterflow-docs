@@ -13,6 +13,7 @@ links:
 ---
 alt: Overlay
 caption: SVG blend operation overlay (<code>if 2 * cB > aB: d = 2 * cA * cB + cA * (1 - aB) + cB * (1 - aA) otherwise: d = aA * aB - 2 * (aB - cB) * (aA - cA) + cA * (1 - aB) + cB * (1 - aA)</code>)
+src: /images/operations/svg-overlay.png
 ---
 ::
 

@@ -13,6 +13,7 @@ links:
 ---
 alt: Spiral
 caption: Spiral renderer
+src: /images/operations/gegl-spiral.png
 ---
 ::
 

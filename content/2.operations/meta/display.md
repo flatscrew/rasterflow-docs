@@ -13,6 +13,7 @@ links:
 ---
 alt: Display
 caption: Display the input buffer in a window.
+src: /images/operations/gegl-display.png
 ---
 ::
 

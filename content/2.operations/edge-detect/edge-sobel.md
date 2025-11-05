@@ -13,6 +13,7 @@ links:
 ---
 alt: Sobel Edge Detection
 caption: Specialized direction-dependent edge detection
+src: /images/operations/gegl-edge-sobel.png
 ---
 ::
 

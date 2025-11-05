@@ -13,6 +13,7 @@ links:
 ---
 alt: pdf loader
 caption: PDF page decoder
+src: /images/operations/gegl-pdf-load.png
 ---
 ::
 

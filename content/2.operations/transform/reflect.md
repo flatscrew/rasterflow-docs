@@ -13,6 +13,7 @@ links:
 ---
 alt: Reflect
 caption: Reflect an image about a line, whose direction is specified by the vector that is defined by the x and y properties. 
+src: /images/operations/gegl-reflect.png
 ---
 ::
 
