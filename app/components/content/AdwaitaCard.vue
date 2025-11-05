@@ -1,29 +1,5 @@
 <template>
   <div class="relative inline-block mb-8">
-    <div
-      v-if="hasInput"
-      :class="[
-        'absolute -left-8 text-white cursor-help',
-        hasAux ? 'top-1/3' : 'top-1/2'
-      ]"
-    >
-      <UTooltip text="Main input pad — accepts an image or buffer.">
-        <UBadge color="info" size="xl">Input</UBadge>
-      </UTooltip>
-    </div>
-
-    <div v-if="hasAux" class="absolute -left-8 top-2/3 text-white cursor-help">
-      <UTooltip text="Auxiliary pad — can provide an additional input or mask.">
-        <UBadge color="info" size="xl">Aux</UBadge>
-      </UTooltip>
-    </div>
-
-    <div v-if="hasOutput" class="absolute -right-8 top-1/2 text-white cursor-help">
-      <UTooltip text="Output pad — emits the processed result.">
-        <UBadge color="success" size="xl">Output</UBadge>
-      </UTooltip>
-    </div>
-
     <figure
       class="
         card-grid
@@ -37,13 +13,24 @@
         justify-center
       "
     >
-      <img :src="src" :alt="alt" :style="style" class="rounded-lg block" />
+      <img v-if="src != null" :src="src" :alt="alt" :style="style" class="rounded-lg block" />
+      <img v-if="src == null" src="/images/operations/_none.png" :alt="alt" :style="style" class="rounded-lg block" />
+      
       <figcaption
-        v-if="caption"
+        v-if="caption && src != null"
         class="text-sm text-muted italic text-center mb-5"
       >
         {{ caption }}
       </figcaption>
+
+      <figcaption
+        v-else-if="src == null"
+        class="absolute inset-0 flex items-center justify-center gap-2 text-white text-sm italic"
+      >
+        <UIcon name="i-heroicons-photo" class="w-5 h-5 text-white/80" />
+        Picture not available yet
+      </figcaption>
+
     </figure>
   </div>
 </template>
@@ -51,13 +38,10 @@
 
 <script setup lang="ts">
 defineProps<{
-  src: string
+  src?: string
   alt?: string
   caption?: string
   style?: string
-  hasInput?: boolean
-  hasAux?: boolean
-  hasOutput?: boolean
 }>()
 </script>
 
