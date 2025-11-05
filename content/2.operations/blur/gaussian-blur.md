@@ -12,6 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Gaussian Blur
+src: /images/operations/gaussian-blur.png
 caption: Performs an averaging of neighboring pixels with the normal distribution as weighting
 ---
 ::
