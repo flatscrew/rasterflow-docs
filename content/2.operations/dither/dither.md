@@ -1,6 +1,6 @@
 ---
 title: Dither
-description: Reduce the number of colors in the image, by reducing the levels per channel (colors and alpha). Different dithering methods can be specified to counteract quantization induced banding.
+description: "Reduce the number of colors in the image, by reducing the levels per channel (colors and alpha). Different dithering methods can be specified to counteract quantization induced banding."
 links:
   - label: "gegl:dither"
     to: "https://gegl.org/operations/gegl-dither"

@@ -1,6 +1,6 @@
 ---
 title: Stretch Contrast HSV
-description: Scales the components of the buffer to be in the 0.0-1.0 range. This improves images that make poor use of the available contrast (little contrast, very dark, or very bright images). This version differs from Contrast Autostretch in that it works in HSV space, and preserves hue.
+description: "Scales the components of the buffer to be in the 0.0-1.0 range. This improves images that make poor use of the available contrast (little contrast, very dark, or very bright images). This version differs from Contrast Autostretch in that it works in HSV space, and preserves hue."
 links:
   - label: "gegl:stretch-contrast-hsv"
     to: "https://gegl.org/operations/gegl-stretch-contrast-hsv"

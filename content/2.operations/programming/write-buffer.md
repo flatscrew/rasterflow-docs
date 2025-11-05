@@ -1,6 +1,6 @@
 ---
 title: Write Buffer
-description: Write input data into an existing GEGL buffer destination surface.
+description: "Write input data into an existing GEGL buffer destination surface."
 links:
   - label: "gegl:write-buffer"
     to: "https://gegl.org/operations/gegl-write-buffer"

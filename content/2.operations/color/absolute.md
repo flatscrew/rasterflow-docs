@@ -1,6 +1,6 @@
 ---
 title: Absolute
-description: Makes each linear RGB component be the absolute of its value, fabs(input_value)
+description: "Makes each linear RGB component be the absolute of its value, fabs(input_value)"
 links:
   - label: "gegl:absolute"
     to: "https://gegl.org/operations/gegl-absolute"

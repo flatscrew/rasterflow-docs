@@ -1,6 +1,6 @@
 ---
 title: 1D Wavelet-blur
-description: This blur is used for the wavelet decomposition filter, each pixel is computed from another by the HAT transform
+description: "This blur is used for the wavelet decomposition filter, each pixel is computed from another by the HAT transform"
 links:
   - label: "gegl:wavelet-blur-1d"
     to: "https://gegl.org/operations/gegl-wavelet-blur-1d"

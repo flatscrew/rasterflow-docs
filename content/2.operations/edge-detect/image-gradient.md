@@ -1,6 +1,6 @@
 ---
 title: Image Gradient
-description: Compute gradient magnitude and/or direction by central differences
+description: "Compute gradient magnitude and/or direction by central differences"
 links:
   - label: "gegl:image-gradient"
     to: "https://gegl.org/operations/gegl-image-gradient"

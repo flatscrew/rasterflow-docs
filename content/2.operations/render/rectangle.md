@@ -1,6 +1,6 @@
 ---
 title: Rectangle
-description: A rectangular source of a fixed size with a solid color
+description: "A rectangular source of a fixed size with a solid color"
 links:
   - label: "gegl:rectangle"
     to: "https://gegl.org/operations/gegl-rectangle"

@@ -1,6 +1,6 @@
 ---
 title: Clear
-description: Porter Duff operation clear (d = 0.0f)
+description: "Porter Duff operation clear (d = 0.0f)"
 links:
   - label: "svg:clear"
     to: "https://gegl.org/operations/svg-clear"

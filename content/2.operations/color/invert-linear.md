@@ -1,6 +1,6 @@
 ---
 title: Invert
-description: Invert the components (except alpha) in linear light, the result is the corresponding "negative" image.
+description: "Invert the components (except alpha) in linear light, the result is the corresponding "negative" image."
 links:
   - label: "gegl:invert-linear"
     to: "https://gegl.org/operations/gegl-invert-linear"

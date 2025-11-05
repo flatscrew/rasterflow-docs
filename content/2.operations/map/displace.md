@@ -1,6 +1,6 @@
 ---
 title: Displace
-description: Displace pixels as indicated by displacement maps
+description: "Displace pixels as indicated by displacement maps"
 links:
   - label: "gegl:displace"
     to: "https://gegl.org/operations/gegl-displace"

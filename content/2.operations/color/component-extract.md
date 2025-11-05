@@ -1,6 +1,6 @@
 ---
 title: Extract Component
-description: Extract a color model component
+description: "Extract a color model component"
 links:
   - label: "gegl:component-extract"
     to: "https://gegl.org/operations/gegl-component-extract"

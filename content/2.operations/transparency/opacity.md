@@ -1,6 +1,6 @@
 ---
 title: Opacity
-description: Weights the opacity of the input both the value of the aux input and the global value property.
+description: "Weights the opacity of the input both the value of the aux input and the global value property."
 links:
   - label: "gegl:opacity"
     to: "https://gegl.org/operations/gegl-opacity"

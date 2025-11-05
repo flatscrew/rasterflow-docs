@@ -1,6 +1,6 @@
 ---
 title: Mantiuk 2006 Tone Mapping
-description: Adapt an image, which may have a high dynamic range, for presentation using a low dynamic range. This operator constrains contrasts across multiple spatial frequencies, producing luminance within the range 0.0-1.0
+description: "Adapt an image, which may have a high dynamic range, for presentation using a low dynamic range. This operator constrains contrasts across multiple spatial frequencies, producing luminance within the range 0.0-1.0"
 links:
   - label: "gegl:mantiuk06"
     to: "https://gegl.org/operations/gegl-mantiuk06"

@@ -1,6 +1,6 @@
 ---
 title: Emboss
-description: Simulates an image created by embossing
+description: "Simulates an image created by embossing"
 links:
   - label: "gegl:emboss"
     to: "https://gegl.org/operations/gegl-emboss"

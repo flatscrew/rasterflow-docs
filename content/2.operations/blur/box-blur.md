@@ -1,6 +1,6 @@
 ---
 title: Box Blur
-description: Blur resulting from averaging the colors of a square neighborhood.
+description: "Blur resulting from averaging the colors of a square neighborhood."
 links:
   - label: "gegl:box-blur"
     to: "https://gegl.org/operations/gegl-box-blur"

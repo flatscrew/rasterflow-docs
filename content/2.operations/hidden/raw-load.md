@@ -1,6 +1,6 @@
 ---
 title: libraw File Loader
-description: Camera RAW image loader
+description: "Camera RAW image loader"
 links:
   - label: "gegl:raw-load"
     to: "https://gegl.org/operations/gegl-raw-load"

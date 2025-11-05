@@ -1,6 +1,6 @@
 ---
 title: Plus
-description: SVG blend operation plus (<code>d = cA + cB</code>)
+description: "SVG blend operation plus (<code>d = cA + cB</code>)"
 links:
   - label: "svg:plus"
     to: "https://gegl.org/operations/svg-plus"

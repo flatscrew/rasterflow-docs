@@ -1,6 +1,6 @@
 ---
 title: Fractal Trace
-description: Transform the image with the fractals
+description: "Transform the image with the fractals"
 links:
   - label: "gegl:fractal-trace"
     to: "https://gegl.org/operations/gegl-fractal-trace"

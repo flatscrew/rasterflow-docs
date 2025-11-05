@@ -1,6 +1,6 @@
 ---
 title: 
-description: SVG blend operation darken (<code>d = MIN (cA * aB, cB * aA) + cA * (1 - aB) + cB * (1 - aA)</code>)
+description: "SVG blend operation darken (<code>d = MIN (cA * aB, cB * aA) + cA * (1 - aB) + cB * (1 - aA)</code>)"
 links:
   - label: "svg:darken"
     to: "https://gegl.org/operations/svg-darken"

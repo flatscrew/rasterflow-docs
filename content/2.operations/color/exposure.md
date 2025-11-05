@@ -1,6 +1,6 @@
 ---
 title: Exposure
-description: Change exposure of an image in shutter speed stops
+description: "Change exposure of an image in shutter speed stops"
 links:
   - label: "gegl:exposure"
     to: "https://gegl.org/operations/gegl-exposure"

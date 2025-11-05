@@ -1,6 +1,6 @@
 ---
 title: Variable Blur
-description: Blur the image by a varying amount using a mask
+description: "Blur the image by a varying amount using a mask"
 links:
   - label: "gegl:variable-blur"
     to: "https://gegl.org/operations/gegl-variable-blur"

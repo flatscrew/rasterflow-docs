@@ -1,6 +1,6 @@
 ---
 title: Rotate
-description: Rotate the buffer around the specified origin.
+description: "Rotate the buffer around the specified origin."
 links:
   - label: "gegl:rotate"
     to: "https://gegl.org/operations/gegl-rotate"

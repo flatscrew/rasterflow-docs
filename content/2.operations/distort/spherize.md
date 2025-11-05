@@ -1,6 +1,6 @@
 ---
 title: Spherize
-description: Wrap image around a spherical cap
+description: "Wrap image around a spherical cap"
 links:
   - label: "gegl:spherize"
     to: "https://gegl.org/operations/gegl-spherize"

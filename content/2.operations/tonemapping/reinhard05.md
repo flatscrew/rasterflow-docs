@@ -1,6 +1,6 @@
 ---
 title: Reinhard 2005 Tone Mapping
-description: Adapt an image, which may have a high dynamic range, for presentation using a low dynamic range. This is an efficient global operator derived from simple physiological observations, producing luminance within the range 0.0-1.0
+description: "Adapt an image, which may have a high dynamic range, for presentation using a low dynamic range. This is an efficient global operator derived from simple physiological observations, producing luminance within the range 0.0-1.0"
 links:
   - label: "gegl:reinhard05"
     to: "https://gegl.org/operations/gegl-reinhard05"

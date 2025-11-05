@@ -1,6 +1,6 @@
 ---
 title: SVG Matrix
-description: SVG color matrix operation svg_matrix
+description: "SVG color matrix operation svg_matrix"
 links:
   - label: "gegl:svg-matrix"
     to: "https://gegl.org/operations/gegl-svg-matrix"

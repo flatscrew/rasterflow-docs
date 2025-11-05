@@ -1,6 +1,6 @@
 ---
 title: Color warp
-description: Warps the colors of an image between colors with weighted distortion factors, color pairs which are black to black get ignored when constructing the mapping.
+description: "Warps the colors of an image between colors with weighted distortion factors, color pairs which are black to black get ignored when constructing the mapping."
 links:
   - label: "gegl:color-warp"
     to: "https://gegl.org/operations/gegl-color-warp"

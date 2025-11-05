@@ -1,6 +1,6 @@
 ---
 title: Translate
-description: Repositions the buffer (with subpixel precision), if integer coordinates are passed a fast-path without resampling is used
+description: "Repositions the buffer (with subpixel precision), if integer coordinates are passed a fast-path without resampling is used"
 links:
   - label: "gegl:translate"
     to: "https://gegl.org/operations/gegl-translate"

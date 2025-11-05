@@ -1,6 +1,6 @@
 ---
 title: Video4Linux Frame Source
-description: Video4Linux input, webcams framegrabbers and similar devices.
+description: "Video4Linux input, webcams framegrabbers and similar devices."
 links:
   - label: "gegl:v4l"
     to: "https://gegl.org/operations/gegl-v4l"

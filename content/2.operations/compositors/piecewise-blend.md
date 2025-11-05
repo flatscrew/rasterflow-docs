@@ -1,6 +1,6 @@
 ---
 title: Piecewise Blend
-description: Blend a chain of inputs using a mask
+description: "Blend a chain of inputs using a mask"
 links:
   - label: "gegl:piecewise-blend"
     to: "https://gegl.org/operations/gegl-piecewise-blend"

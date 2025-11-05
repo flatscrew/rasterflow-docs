@@ -1,6 +1,6 @@
 ---
 title: Noise Reduction
-description: Anisotropic smoothing operation
+description: "Anisotropic smoothing operation"
 links:
   - label: "gegl:noise-reduction"
     to: "https://gegl.org/operations/gegl-noise-reduction"

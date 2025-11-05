@@ -1,6 +1,6 @@
 ---
 title: Invert in Perceptual space
-description: Invert the components (except alpha) perceptually, the result is the corresponding "negative" image.
+description: "Invert the components (except alpha) perceptually, the result is the corresponding "negative" image."
 links:
   - label: "gegl:invert-gamma"
     to: "https://gegl.org/operations/gegl-invert-gamma"

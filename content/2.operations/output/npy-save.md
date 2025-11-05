@@ -1,6 +1,6 @@
 ---
 title: NumPy File Saver
-description: NumPy (Numerical Python) image saver
+description: "NumPy (Numerical Python) image saver"
 links:
   - label: "gegl:npy-save"
     to: "https://gegl.org/operations/gegl-npy-save"

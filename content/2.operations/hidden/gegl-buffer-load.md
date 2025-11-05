@@ -1,6 +1,6 @@
 ---
 title: 
-description: GeglBuffer file loader.
+description: "GeglBuffer file loader."
 links:
   - label: "gegl:gegl-buffer-load"
     to: "https://gegl.org/operations/gegl-gegl-buffer-load"

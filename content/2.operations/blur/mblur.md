@@ -1,6 +1,6 @@
 ---
 title: Temporal blur
-description: Accumulating motion blur using a kalman filter, for use with video sequences of frames.
+description: "Accumulating motion blur using a kalman filter, for use with video sequences of frames."
 links:
   - label: "gegl:mblur"
     to: "https://gegl.org/operations/gegl-mblur"

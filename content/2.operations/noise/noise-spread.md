@@ -1,6 +1,6 @@
 ---
 title: Noise Spread
-description: Move pixels around randomly
+description: "Move pixels around randomly"
 links:
   - label: "gegl:noise-spread"
     to: "https://gegl.org/operations/gegl-noise-spread"

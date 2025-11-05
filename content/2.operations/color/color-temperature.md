@@ -1,6 +1,6 @@
 ---
 title: Color Temperature
-description: Change the color temperature of the image, from an assumed original color temperature to an intended one.
+description: "Change the color temperature of the image, from an assumed original color temperature to an intended one."
 links:
   - label: "gegl:color-temperature"
     to: "https://gegl.org/operations/gegl-color-temperature"

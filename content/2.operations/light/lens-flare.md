@@ -1,6 +1,6 @@
 ---
 title: Lens Flare
-description: Adds a lens flare effect.
+description: "Adds a lens flare effect."
 links:
   - label: "gegl:lens-flare"
     to: "https://gegl.org/operations/gegl-lens-flare"

@@ -1,6 +1,6 @@
 ---
 title: Noise Pick
-description: Randomly interchange some pixels with neighbors
+description: "Randomly interchange some pixels with neighbors"
 links:
   - label: "gegl:noise-pick"
     to: "https://gegl.org/operations/gegl-noise-pick"

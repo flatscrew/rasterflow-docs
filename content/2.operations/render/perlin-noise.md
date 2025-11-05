@@ -1,6 +1,6 @@
 ---
 title: Perlin Noise
-description: Perlin noise generator
+description: "Perlin noise generator"
 links:
   - label: "gegl:perlin-noise"
     to: "https://gegl.org/operations/gegl-perlin-noise"

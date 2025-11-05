@@ -1,6 +1,6 @@
 ---
 title: Transform
-description: Do a transformation using SVG syntax transformation.
+description: "Do a transformation using SVG syntax transformation."
 links:
   - label: "gegl:transform"
     to: "https://gegl.org/operations/gegl-transform"

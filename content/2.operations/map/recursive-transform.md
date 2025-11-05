@@ -1,6 +1,6 @@
 ---
 title: Recursive Transform
-description: Apply a transformation recursively.
+description: "Apply a transformation recursively."
 links:
   - label: "gegl:recursive-transform"
     to: "https://gegl.org/operations/gegl-recursive-transform"

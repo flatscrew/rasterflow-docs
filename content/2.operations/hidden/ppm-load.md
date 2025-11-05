@@ -1,6 +1,6 @@
 ---
 title: PPM File Loader
-description: PPM image loader.
+description: "PPM image loader."
 links:
   - label: "gegl:ppm-load"
     to: "https://gegl.org/operations/gegl-ppm-load"

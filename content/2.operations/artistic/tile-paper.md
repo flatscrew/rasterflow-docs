@@ -1,6 +1,6 @@
 ---
 title: Paper Tile
-description: Cut image into paper tiles, and slide them
+description: "Cut image into paper tiles, and slide them"
 links:
   - label: "gegl:tile-paper"
     to: "https://gegl.org/operations/gegl-tile-paper"

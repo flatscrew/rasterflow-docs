@@ -1,6 +1,6 @@
 ---
 title: Focus Blur
-description: Blur the image around a focal point
+description: "Blur the image around a focal point"
 links:
   - label: "gegl:focus-blur"
     to: "https://gegl.org/operations/gegl-focus-blur"

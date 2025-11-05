@@ -1,6 +1,6 @@
 ---
 title: Whirl Pinch
-description: Distort an image by whirling and pinching
+description: "Distort an image by whirling and pinching"
 links:
   - label: "gegl:whirl-pinch"
     to: "https://gegl.org/operations/gegl-whirl-pinch"

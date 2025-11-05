@@ -1,6 +1,6 @@
 ---
 title: Red Eye Removal
-description: Remove the red eye effect caused by camera flashes
+description: "Remove the red eye effect caused by camera flashes"
 links:
   - label: "gegl:red-eye-removal"
     to: "https://gegl.org/operations/gegl-red-eye-removal"

@@ -1,6 +1,6 @@
 ---
 title: Mix
-description: Do a lerp, linear interpolation (lerp) between input and aux
+description: "Do a lerp, linear interpolation (lerp) between input and aux"
 links:
   - label: "gegl:mix"
     to: "https://gegl.org/operations/gegl-mix"

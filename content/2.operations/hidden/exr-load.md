@@ -1,6 +1,6 @@
 ---
 title: 
-description: EXR image loader.
+description: "EXR image loader."
 links:
   - label: "gegl:exr-load"
     to: "https://gegl.org/operations/gegl-exr-load"

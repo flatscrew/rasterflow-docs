@@ -1,6 +1,6 @@
 ---
 title: Posterize
-description: Reduces the number of levels in each color component of the image.
+description: "Reduces the number of levels in each color component of the image."
 links:
   - label: "gegl:posterize"
     to: "https://gegl.org/operations/gegl-posterize"

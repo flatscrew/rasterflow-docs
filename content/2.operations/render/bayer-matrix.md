@@ -1,6 +1,6 @@
 ---
 title: Bayer Matrix
-description: Generate a Bayer matrix pattern
+description: "Generate a Bayer matrix pattern"
 links:
   - label: "gegl:bayer-matrix"
     to: "https://gegl.org/operations/gegl-bayer-matrix"

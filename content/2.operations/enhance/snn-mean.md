@@ -1,6 +1,6 @@
 ---
 title: Symmetric Nearest Neighbor
-description: Noise reducing edge preserving blur filter based on Symmetric Nearest Neighbors
+description: "Noise reducing edge preserving blur filter based on Symmetric Nearest Neighbors"
 links:
   - label: "gegl:snn-mean"
     to: "https://gegl.org/operations/gegl-snn-mean"

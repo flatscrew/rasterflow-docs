@@ -1,6 +1,6 @@
 ---
 title: Combine Exposures
-description: Combine multiple scene exposures into one high dynamic range image.
+description: "Combine multiple scene exposures into one high dynamic range image."
 links:
   - label: "gegl:exp-combine"
     to: "https://gegl.org/operations/gegl-exp-combine"

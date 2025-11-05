@@ -1,6 +1,6 @@
 ---
 title: Distance Transform
-description: Calculate a distance transform
+description: "Calculate a distance transform"
 links:
   - label: "gegl:distance-transform"
     to: "https://gegl.org/operations/gegl-distance-transform"

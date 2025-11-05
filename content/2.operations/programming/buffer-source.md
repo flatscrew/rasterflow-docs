@@ -1,6 +1,6 @@
 ---
 title: Buffer Source
-description: Use an existing in-memory GeglBuffer as image source.
+description: "Use an existing in-memory GeglBuffer as image source."
 links:
   - label: "gegl:buffer-source"
     to: "https://gegl.org/operations/gegl-buffer-source"

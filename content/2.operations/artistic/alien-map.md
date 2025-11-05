@@ -1,6 +1,6 @@
 ---
 title: Alien Map
-description: Heavily distort images colors by applying trigonometric functions to map color values.
+description: "Heavily distort images colors by applying trigonometric functions to map color values."
 links:
   - label: "gegl:alien-map"
     to: "https://gegl.org/operations/gegl-alien-map"

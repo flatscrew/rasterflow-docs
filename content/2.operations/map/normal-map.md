@@ -1,6 +1,6 @@
 ---
 title: Normal Map
-description: Generate a normal map from a height map
+description: "Generate a normal map from a height map"
 links:
   - label: "gegl:normal-map"
     to: "https://gegl.org/operations/gegl-normal-map"

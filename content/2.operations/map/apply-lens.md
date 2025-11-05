@@ -1,6 +1,6 @@
 ---
 title: Apply Lens
-description: Simulates the optical distortion caused by having an elliptical lens over the image
+description: "Simulates the optical distortion caused by having an elliptical lens over the image"
 links:
   - label: "gegl:apply-lens"
     to: "https://gegl.org/operations/gegl-apply-lens"

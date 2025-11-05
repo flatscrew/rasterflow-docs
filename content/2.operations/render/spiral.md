@@ -1,6 +1,6 @@
 ---
 title: Spiral
-description: Spiral renderer
+description: "Spiral renderer"
 links:
   - label: "gegl:spiral"
     to: "https://gegl.org/operations/gegl-spiral"

@@ -1,6 +1,6 @@
 ---
 title: GEGL graph
-description: Do a chain of operations, with key=value pairs after each operation name to set properties. And aux=[ source filter ] for specifying a chain with a source as something connected to an aux pad.
+description: "Do a chain of operations, with key=value pairs after each operation name to set properties. And aux=[ source filter ] for specifying a chain with a source as something connected to an aux pad."
 links:
   - label: "gegl:gegl"
     to: "https://gegl.org/operations/gegl-gegl"

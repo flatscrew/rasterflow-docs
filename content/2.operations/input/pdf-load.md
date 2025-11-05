@@ -1,6 +1,6 @@
 ---
 title: pdf loader
-description: PDF page decoder
+description: "PDF page decoder"
 links:
   - label: "gegl:pdf-load"
     to: "https://gegl.org/operations/gegl-pdf-load"

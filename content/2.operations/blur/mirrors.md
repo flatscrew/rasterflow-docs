@@ -1,6 +1,6 @@
 ---
 title: Kaleidoscopic Mirroring
-description: Create a kaleidoscope like effect.
+description: "Create a kaleidoscope like effect."
 links:
   - label: "gegl:mirrors"
     to: "https://gegl.org/operations/gegl-mirrors"

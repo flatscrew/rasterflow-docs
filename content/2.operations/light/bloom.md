@@ -1,6 +1,6 @@
 ---
 title: Bloom
-description: Add glow around bright areas
+description: "Add glow around bright areas"
 links:
   - label: "gegl:bloom"
     to: "https://gegl.org/operations/gegl-bloom"

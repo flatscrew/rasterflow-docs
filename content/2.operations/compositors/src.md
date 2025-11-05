@@ -1,6 +1,6 @@
 ---
 title: Src
-description: Porter Duff operation src (d = cA)
+description: "Porter Duff operation src (d = cA)"
 links:
   - label: "svg:src"
     to: "https://gegl.org/operations/svg-src"

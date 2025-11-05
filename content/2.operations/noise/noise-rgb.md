@@ -1,6 +1,6 @@
 ---
 title: Add RGB Noise
-description: Distort colors by random amounts
+description: "Distort colors by random amounts"
 links:
   - label: "gegl:noise-rgb"
     to: "https://gegl.org/operations/gegl-noise-rgb"

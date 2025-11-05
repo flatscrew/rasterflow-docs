@@ -1,6 +1,6 @@
 ---
 title: Clip RGB
-description: Keep RGB pixels values inside a specific range
+description: "Keep RGB pixels values inside a specific range"
 links:
   - label: "gegl:rgb-clip"
     to: "https://gegl.org/operations/gegl-rgb-clip"

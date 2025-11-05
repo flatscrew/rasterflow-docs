@@ -1,6 +1,6 @@
 ---
 title: Color to Grayscale
-description: Color to grayscale conversion, uses envelopes formed with the STRESS approach to perform local color-difference preserving grayscale generation.
+description: "Color to grayscale conversion, uses envelopes formed with the STRESS approach to perform local color-difference preserving grayscale generation."
 links:
   - label: "gegl:c2g"
     to: "https://gegl.org/operations/gegl-c2g"

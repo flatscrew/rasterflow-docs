@@ -1,6 +1,6 @@
 ---
 title: Zooming Motion Blur
-description: Zoom motion blur
+description: "Zoom motion blur"
 links:
   - label: "gegl:motion-blur-zoom"
     to: "https://gegl.org/operations/gegl-motion-blur-zoom"

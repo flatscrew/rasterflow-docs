@@ -1,6 +1,6 @@
 ---
 title: Cache
-description: An explicit caching node, caches results and should provide faster recomputation if what is cached by it is expensive but isn't changing.
+description: "An explicit caching node, caches results and should provide faster recomputation if what is cached by it is expensive but isn't changing."
 links:
   - label: "gegl:cache"
     to: "https://gegl.org/operations/gegl-cache"

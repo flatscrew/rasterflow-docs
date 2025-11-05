@@ -1,6 +1,6 @@
 ---
 title: Linear Motion Blur
-description: Blur pixels in a direction, simulates blurring caused by moving camera in a straight line during exposure.
+description: "Blur pixels in a direction, simulates blurring caused by moving camera in a straight line during exposure."
 links:
   - label: "gegl:motion-blur-linear"
     to: "https://gegl.org/operations/gegl-motion-blur-linear"

@@ -1,6 +1,6 @@
 ---
 title: Vignette
-description: Applies a vignette to an image. Simulates the luminance fall off at the edge of exposed film, and some other fuzzier border effects that can naturally occur with analog photography
+description: "Applies a vignette to an image. Simulates the luminance fall off at the edge of exposed film, and some other fuzzier border effects that can naturally occur with analog photography"
 links:
   - label: "gegl:vignette"
     to: "https://gegl.org/operations/gegl-vignette"

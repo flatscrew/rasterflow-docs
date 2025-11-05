@@ -1,6 +1,6 @@
 ---
 title: Store in GdkPixbuf
-description: Store image in a GdkPixbuf.
+description: "Store image in a GdkPixbuf."
 links:
   - label: "gegl:save-pixbuf"
     to: "https://gegl.org/operations/gegl-save-pixbuf"

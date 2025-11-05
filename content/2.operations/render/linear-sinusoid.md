@@ -1,6 +1,6 @@
 ---
 title: Linear Sinusoid
-description: Generate a linear sinusoid pattern
+description: "Generate a linear sinusoid pattern"
 links:
   - label: "gegl:linear-sinusoid"
     to: "https://gegl.org/operations/gegl-linear-sinusoid"

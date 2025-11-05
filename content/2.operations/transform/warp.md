@@ -1,6 +1,6 @@
 ---
 title: Warp
-description: Compute a relative displacement mapping from a stroke
+description: "Compute a relative displacement mapping from a stroke"
 links:
   - label: "gegl:warp"
     to: "https://gegl.org/operations/gegl-warp"

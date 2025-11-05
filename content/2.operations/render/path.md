@@ -1,6 +1,6 @@
 ---
 title: Render Path
-description: Renders a brush stroke
+description: "Renders a brush stroke"
 links:
   - label: "gegl:path"
     to: "https://gegl.org/operations/gegl-path"

@@ -1,6 +1,6 @@
 ---
 title: Edge Detection
-description: Several simple methods for detecting edges
+description: "Several simple methods for detecting edges"
 links:
   - label: "gegl:edge"
     to: "https://gegl.org/operations/gegl-edge"

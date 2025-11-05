@@ -1,6 +1,6 @@
 ---
 title: Convert Format
-description: Convert the data to the specified format
+description: "Convert the data to the specified format"
 links:
   - label: "gegl:convert-format"
     to: "https://gegl.org/operations/gegl-convert-format"

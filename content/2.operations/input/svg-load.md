@@ -1,6 +1,6 @@
 ---
 title: SVG File Loader
-description: Load an SVG file using librsvg
+description: "Load an SVG file using librsvg"
 links:
   - label: "gegl:svg-load"
     to: "https://gegl.org/operations/gegl-svg-load"

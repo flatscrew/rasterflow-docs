@@ -1,6 +1,6 @@
 ---
 title: Shadows-Highlights
-description: Perform shadows and highlights correction
+description: "Perform shadows and highlights correction"
 links:
   - label: "gegl:shadows-highlights"
     to: "https://gegl.org/operations/gegl-shadows-highlights"

@@ -1,6 +1,6 @@
 ---
 title: 
-description: Image Magick wrapper using the png op.
+description: "Image Magick wrapper using the png op."
 links:
   - label: "gegl:magick-load"
     to: "https://gegl.org/operations/gegl-magick-load"

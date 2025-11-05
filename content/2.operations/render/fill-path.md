@@ -1,6 +1,6 @@
 ---
 title: Fill Path
-description: Renders a filled region
+description: "Renders a filled region"
 links:
   - label: "gegl:fill-path"
     to: "https://gegl.org/operations/gegl-fill-path"

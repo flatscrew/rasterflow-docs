@@ -1,6 +1,6 @@
 ---
 title: 
-description: SVG blend operation lighten (<code>d = MAX (cA * aB, cB * aA) + cA * (1 - aB) + cB * (1 - aA)</code>)
+description: "SVG blend operation lighten (<code>d = MAX (cA * aB, cB * aA) + cA * (1 - aB) + cB * (1 - aA)</code>)"
 links:
   - label: "svg:lighten"
     to: "https://gegl.org/operations/svg-lighten"

@@ -1,6 +1,6 @@
 ---
 title: Unpremultiply alpha
-description: Unpremultiplies a buffer that contains pre-multiplied colors (but according to the babl format is not.)
+description: "Unpremultiplies a buffer that contains pre-multiplied colors (but according to the babl format is not.)"
 links:
   - label: "gegl:unpremultiply"
     to: "https://gegl.org/operations/gegl-unpremultiply"

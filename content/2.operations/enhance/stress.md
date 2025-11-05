@@ -1,6 +1,6 @@
 ---
 title: Spatio Temporal Retinex-like Envelope with Stochastic Sampling
-description: Spatio Temporal Retinex-like Envelope with Stochastic Sampling
+description: "Spatio Temporal Retinex-like Envelope with Stochastic Sampling"
 links:
   - label: "gegl:stress"
     to: "https://gegl.org/operations/gegl-stress"

@@ -1,6 +1,6 @@
 ---
 title: 1D Gaussian-blur
-description: Performs an averaging of neighboring pixels with the normal distribution as weighting
+description: "Performs an averaging of neighboring pixels with the normal distribution as weighting"
 links:
   - label: "gegl:gblur-1d"
     to: "https://gegl.org/operations/gegl-gblur-1d"

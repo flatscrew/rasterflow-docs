@@ -1,6 +1,6 @@
 ---
 title: Layer
-description: A layer in the traditional sense
+description: "A layer in the traditional sense"
 links:
   - label: "gegl:layer"
     to: "https://gegl.org/operations/gegl-layer"

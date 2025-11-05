@@ -1,6 +1,6 @@
 ---
 title: Open GEGL Buffer
-description: Use an on-disk GeglBuffer as data source.
+description: "Use an on-disk GeglBuffer as data source."
 links:
   - label: "gegl:open-buffer"
     to: "https://gegl.org/operations/gegl-open-buffer"

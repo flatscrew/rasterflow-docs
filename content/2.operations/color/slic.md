@@ -1,6 +1,6 @@
 ---
 title: Simple Linear Iterative Clustering
-description: Superpixels based on k-means clustering
+description: "Superpixels based on k-means clustering"
 links:
   - label: "gegl:slic"
     to: "https://gegl.org/operations/gegl-slic"

@@ -1,6 +1,6 @@
 ---
 title: Diffraction Patterns
-description: Generate diffraction patterns
+description: "Generate diffraction patterns"
 links:
   - label: "gegl:diffraction-patterns"
     to: "https://gegl.org/operations/gegl-diffraction-patterns"

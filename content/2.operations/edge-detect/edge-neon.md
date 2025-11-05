@@ -1,6 +1,6 @@
 ---
 title: Neon Edge Detection
-description: Performs edge detection using a Gaussian derivative method
+description: "Performs edge detection using a Gaussian derivative method"
 links:
   - label: "gegl:edge-neon"
     to: "https://gegl.org/operations/gegl-edge-neon"

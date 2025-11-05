@@ -1,6 +1,6 @@
 ---
 title: Dropshadow
-description: Creates a dropshadow effect on the input buffer
+description: "Creates a dropshadow effect on the input buffer"
 links:
   - label: "gegl:dropshadow"
     to: "https://gegl.org/operations/gegl-dropshadow"

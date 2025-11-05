@@ -1,6 +1,6 @@
 ---
 title: Wind
-description: Wind-like bleed effect
+description: "Wind-like bleed effect"
 links:
   - label: "gegl:wind"
     to: "https://gegl.org/operations/gegl-wind"

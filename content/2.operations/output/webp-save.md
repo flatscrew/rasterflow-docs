@@ -1,6 +1,6 @@
 ---
 title: WebP File Saver
-description: WebP image saver
+description: "WebP image saver"
 links:
   - label: "gegl:webp-save"
     to: "https://gegl.org/operations/gegl-webp-save"

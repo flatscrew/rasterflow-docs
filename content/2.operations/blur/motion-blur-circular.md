@@ -1,6 +1,6 @@
 ---
 title: Circular Motion Blur
-description: Circular motion blur
+description: "Circular motion blur"
 links:
   - label: "gegl:motion-blur-circular"
     to: "https://gegl.org/operations/gegl-motion-blur-circular"

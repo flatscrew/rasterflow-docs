@@ -1,6 +1,6 @@
 ---
 title: Mean Curvature Blur
-description: Regularize geometry at a speed proportional to the local mean curvature value
+description: "Regularize geometry at a speed proportional to the local mean curvature value"
 links:
   - label: "gegl:mean-curvature-blur"
     to: "https://gegl.org/operations/gegl-mean-curvature-blur"

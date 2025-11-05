@@ -1,6 +1,6 @@
 ---
 title: Mosaic
-description: Mosaic is a filter which transforms an image into what appears to be a mosaic, composed of small primitives, each of constant color and of an approximate size.
+description: "Mosaic is a filter which transforms an image into what appears to be a mosaic, composed of small primitives, each of constant color and of an approximate size."
 links:
   - label: "gegl:mosaic"
     to: "https://gegl.org/operations/gegl-mosaic"

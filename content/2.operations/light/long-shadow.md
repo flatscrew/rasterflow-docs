@@ -1,6 +1,6 @@
 ---
 title: Long Shadow
-description: Creates a long-shadow effect
+description: "Creates a long-shadow effect"
 links:
   - label: "gegl:long-shadow"
     to: "https://gegl.org/operations/gegl-long-shadow"

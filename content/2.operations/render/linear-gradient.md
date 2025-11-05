@@ -1,6 +1,6 @@
 ---
 title: Linear Gradient
-description: Linear gradient renderer
+description: "Linear gradient renderer"
 links:
   - label: "gegl:linear-gradient"
     to: "https://gegl.org/operations/gegl-linear-gradient"

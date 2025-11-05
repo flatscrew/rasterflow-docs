@@ -1,6 +1,6 @@
 ---
 title: ICC profile saver
-description: Stores the ICC profile that would be embedded if stored as an image.
+description: "Stores the ICC profile that would be embedded if stored as an image."
 links:
   - label: "gegl:icc-save"
     to: "https://gegl.org/operations/gegl-icc-save"

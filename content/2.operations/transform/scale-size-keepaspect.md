@@ -1,6 +1,6 @@
 ---
 title: Scale size keep aspect
-description: Scales the buffer to a size, preserving aspect ratio
+description: "Scales the buffer to a size, preserving aspect ratio"
 links:
   - label: "gegl:scale-size-keepaspect"
     to: "https://gegl.org/operations/gegl-scale-size-keepaspect"

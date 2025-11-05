@@ -1,6 +1,6 @@
 ---
 title: WebP File Loader
-description: WebP image loader.
+description: "WebP image loader."
 links:
   - label: "gegl:webp-load"
     to: "https://gegl.org/operations/gegl-webp-load"

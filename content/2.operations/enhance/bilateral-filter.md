@@ -1,6 +1,6 @@
 ---
 title: Bilateral Filter
-description: Like a gaussian blur; but where the contribution for each neighborhood pixel is also weighted by the color difference with the original center pixel.
+description: "Like a gaussian blur; but where the contribution for each neighborhood pixel is also weighted by the color difference with the original center pixel."
 links:
   - label: "gegl:bilateral-filter"
     to: "https://gegl.org/operations/gegl-bilateral-filter"

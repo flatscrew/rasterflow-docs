@@ -1,6 +1,6 @@
 ---
 title: Photocopy
-description: Simulate color distortion produced by a copy machine
+description: "Simulate color distortion produced by a copy machine"
 links:
   - label: "gegl:photocopy"
     to: "https://gegl.org/operations/gegl-photocopy"

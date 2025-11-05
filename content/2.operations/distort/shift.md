@@ -1,6 +1,6 @@
 ---
 title: Shift
-description: Shift each row or column of pixels by a random amount
+description: "Shift each row or column of pixels by a random amount"
 links:
   - label: "gegl:shift"
     to: "https://gegl.org/operations/gegl-shift"

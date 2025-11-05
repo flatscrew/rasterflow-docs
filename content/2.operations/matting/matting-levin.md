@@ -1,6 +1,6 @@
 ---
 title: Matting Levin
-description: Given a sparse user supplied tri-map and an input image, create a foreground alpha mat. Set white as selected, black as unselected, for the tri-map.
+description: "Given a sparse user supplied tri-map and an input image, create a foreground alpha mat. Set white as selected, black as unselected, for the tri-map."
 links:
   - label: "gegl:matting-levin"
     to: "https://gegl.org/operations/gegl-matting-levin"

@@ -1,6 +1,6 @@
 ---
 title: Median Blur
-description: Blur resulting from computing the median color in the neighborhood of each pixel.
+description: "Blur resulting from computing the median color in the neighborhood of each pixel."
 links:
   - label: "gegl:median-blur"
     to: "https://gegl.org/operations/gegl-median-blur"

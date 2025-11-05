@@ -1,6 +1,6 @@
 ---
 title: JPEG File Loader
-description: JPEG image loader using libjpeg
+description: "JPEG image loader using libjpeg"
 links:
   - label: "gegl:jpg-load"
     to: "https://gegl.org/operations/gegl-jpg-load"

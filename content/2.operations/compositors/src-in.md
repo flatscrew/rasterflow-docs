@@ -1,6 +1,6 @@
 ---
 title: Src-in
-description: Porter Duff compositing operation src-in (formula:   cA * aB)
+description: "Porter Duff compositing operation src-in (formula:   cA * aB)"
 links:
   - label: "svg:src-in"
     to: "https://gegl.org/operations/svg-src-in"

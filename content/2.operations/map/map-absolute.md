@@ -1,6 +1,6 @@
 ---
 title: Map Absolute
-description: sample input with an auxiliary buffer that contain absolute source coordinates
+description: "sample input with an auxiliary buffer that contain absolute source coordinates"
 links:
   - label: "gegl:map-absolute"
     to: "https://gegl.org/operations/gegl-map-absolute"

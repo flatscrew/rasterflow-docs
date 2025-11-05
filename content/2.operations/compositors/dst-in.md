@@ -1,6 +1,6 @@
 ---
 title: Dst-in
-description: Porter Duff operation dst-in (d = cB * aA)
+description: "Porter Duff operation dst-in (d = cB * aA)"
 links:
   - label: "svg:dst-in"
     to: "https://gegl.org/operations/svg-dst-in"

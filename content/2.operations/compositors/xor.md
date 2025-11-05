@@ -1,6 +1,6 @@
 ---
 title: Xor
-description: Porter Duff operation xor (d = cA * (1.0f - aB)+ cB * (1.0f - aA))
+description: "Porter Duff operation xor (d = cA * (1.0f - aB)+ cB * (1.0f - aA))"
 links:
   - label: "svg:xor"
     to: "https://gegl.org/operations/svg-xor"

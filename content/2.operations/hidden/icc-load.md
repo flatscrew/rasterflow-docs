@@ -1,6 +1,6 @@
 ---
 title: ICC File Loader
-description: ICC profile loader.
+description: "ICC profile loader."
 links:
   - label: "gegl:icc-load"
     to: "https://gegl.org/operations/gegl-icc-load"

@@ -1,6 +1,6 @@
 ---
 title: Color Rotate
-description: Replace a range of colors with another
+description: "Replace a range of colors with another"
 links:
   - label: "gegl:color-rotate"
     to: "https://gegl.org/operations/gegl-color-rotate"

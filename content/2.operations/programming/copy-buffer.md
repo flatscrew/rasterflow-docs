@@ -1,6 +1,6 @@
 ---
 title: Copy Buffer
-description: Writes image data to an already existing buffer
+description: "Writes image data to an already existing buffer"
 links:
   - label: "gegl:copy-buffer"
     to: "https://gegl.org/operations/gegl-copy-buffer"

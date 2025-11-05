@@ -1,6 +1,6 @@
 ---
 title: Cast Format
-description: Cast the data between input_format and output_format, both formats must have the same bpp
+description: "Cast the data between input_format and output_format, both formats must have the same bpp"
 links:
   - label: "gegl:cast-format"
     to: "https://gegl.org/operations/gegl-cast-format"

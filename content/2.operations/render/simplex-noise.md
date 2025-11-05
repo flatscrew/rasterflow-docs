@@ -1,6 +1,6 @@
 ---
 title: Simplex Noise
-description: Generates a solid noise texture.
+description: "Generates a solid noise texture."
 links:
   - label: "gegl:simplex-noise"
     to: "https://gegl.org/operations/gegl-simplex-noise"

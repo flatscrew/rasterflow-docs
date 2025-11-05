@@ -1,6 +1,6 @@
 ---
 title: SVG Hue Rotate
-description: SVG color matrix operation svg_huerotate
+description: "SVG color matrix operation svg_huerotate"
 links:
   - label: "gegl:svg-huerotate"
     to: "https://gegl.org/operations/gegl-svg-huerotate"

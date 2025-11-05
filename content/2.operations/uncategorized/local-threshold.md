@@ -1,6 +1,6 @@
 ---
 title: Local Threshold
-description: Applies a threshold using the local neighborhood.
+description: "Applies a threshold using the local neighborhood."
 links:
   - label: "gegl:local-threshold"
     to: "https://gegl.org/operations/gegl-local-threshold"

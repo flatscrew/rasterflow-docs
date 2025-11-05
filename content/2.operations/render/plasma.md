@@ -1,6 +1,6 @@
 ---
 title: Plasma
-description: Creates an image filled with a plasma effect.
+description: "Creates an image filled with a plasma effect."
 links:
   - label: "gegl:plasma"
     to: "https://gegl.org/operations/gegl-plasma"

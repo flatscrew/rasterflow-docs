@@ -1,6 +1,6 @@
 ---
 title: Negative Darkroom
-description: Simulate a negative film enlargement in an analog darkroom.
+description: "Simulate a negative film enlargement in an analog darkroom."
 links:
   - label: "gegl:negative-darkroom"
     to: "https://gegl.org/operations/gegl-negative-darkroom"

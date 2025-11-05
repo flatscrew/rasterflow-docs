@@ -1,6 +1,6 @@
 ---
 title: 
-description: Performs n-point image deformation
+description: "Performs n-point image deformation"
 links:
   - label: "gegl:npd"
     to: "https://gegl.org/operations/gegl-npd"

@@ -1,6 +1,6 @@
 ---
 title: Exchange color
-description: Exchange one color with another, optionally setting a threshold to convert from one shade to another.
+description: "Exchange one color with another, optionally setting a threshold to convert from one shade to another."
 links:
   - label: "gegl:color-exchange"
     to: "https://gegl.org/operations/gegl-color-exchange"

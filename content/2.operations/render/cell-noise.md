@@ -1,6 +1,6 @@
 ---
 title: Cell Noise
-description: Generates a cellular texture.
+description: "Generates a cellular texture."
 links:
   - label: "gegl:cell-noise"
     to: "https://gegl.org/operations/gegl-cell-noise"

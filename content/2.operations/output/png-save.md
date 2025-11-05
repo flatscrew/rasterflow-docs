@@ -1,6 +1,6 @@
 ---
 title: PNG File Saver
-description: PNG image saver, using libpng
+description: "PNG image saver, using libpng"
 links:
   - label: "gegl:png-save"
     to: "https://gegl.org/operations/gegl-png-save"

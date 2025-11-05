@@ -1,6 +1,6 @@
 ---
 title: PNG File Loader
-description: PNG image loader.
+description: "PNG image loader."
 links:
   - label: "gegl:png-load"
     to: "https://gegl.org/operations/gegl-png-load"

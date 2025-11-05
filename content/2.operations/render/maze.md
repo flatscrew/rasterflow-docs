@@ -1,6 +1,6 @@
 ---
 title: Maze
-description: Draw a labyrinth
+description: "Draw a labyrinth"
 links:
   - label: "gegl:maze"
     to: "https://gegl.org/operations/gegl-maze"

@@ -1,6 +1,6 @@
 ---
 title: Cubism
-description: Convert the image into randomly rotated square blobs, somehow resembling a cubist painting style
+description: "Convert the image into randomly rotated square blobs, somehow resembling a cubist painting style"
 links:
   - label: "gegl:cubism"
     to: "https://gegl.org/operations/gegl-cubism"

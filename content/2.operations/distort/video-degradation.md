@@ -1,6 +1,6 @@
 ---
 title: Video Degradation
-description: This function simulates the degradation of being on an old low-dotpitch RGB video monitor.
+description: "This function simulates the degradation of being on an old low-dotpitch RGB video monitor."
 links:
   - label: "gegl:video-degradation"
     to: "https://gegl.org/operations/gegl-video-degradation"

@@ -1,6 +1,6 @@
 ---
 title: Pixelize
-description: Simplify image into an array of solid-colored rectangles
+description: "Simplify image into an array of solid-colored rectangles"
 links:
   - label: "gegl:pixelize"
     to: "https://gegl.org/operations/gegl-pixelize"

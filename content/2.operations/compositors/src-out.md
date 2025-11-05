@@ -1,6 +1,6 @@
 ---
 title: Src-out
-description: Porter Duff operation src-out (d = cA * (1.0f - aB))
+description: "Porter Duff operation src-out (d = cA * (1.0f - aB))"
 links:
   - label: "svg:src-out"
     to: "https://gegl.org/operations/svg-src-out"

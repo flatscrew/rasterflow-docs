@@ -1,6 +1,6 @@
 ---
 title: Denoise DCT
-description: Denoising algorithm using a per-patch DCT thresholding
+description: "Denoising algorithm using a per-patch DCT thresholding"
 links:
   - label: "gegl:denoise-dct"
     to: "https://gegl.org/operations/gegl-denoise-dct"

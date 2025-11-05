@@ -1,6 +1,6 @@
 ---
 title: RGBE File Loader
-description: RGBE image loader (Radiance HDR format).
+description: "RGBE image loader (Radiance HDR format)."
 links:
   - label: "gegl:rgbe-load"
     to: "https://gegl.org/operations/gegl-rgbe-load"

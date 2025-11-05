@@ -1,6 +1,6 @@
 ---
 title: 
-description: OpenEXR image saver
+description: "OpenEXR image saver"
 links:
   - label: "gegl:exr-save"
     to: "https://gegl.org/operations/gegl-exr-save"

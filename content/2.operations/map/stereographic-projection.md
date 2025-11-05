@@ -1,6 +1,6 @@
 ---
 title: Little Planet
-description: Do a stereographic/little planet transform of an equirectangular image.
+description: "Do a stereographic/little planet transform of an equirectangular image."
 links:
   - label: "gegl:stereographic-projection"
     to: "https://gegl.org/operations/gegl-stereographic-projection"

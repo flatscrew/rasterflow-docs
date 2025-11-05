@@ -1,6 +1,6 @@
 ---
 title: Value Invert
-description: Invert the value component, the result has the brightness inverted, keeping the color.
+description: "Invert the value component, the result has the brightness inverted, keeping the color."
 links:
   - label: "gegl:value-invert"
     to: "https://gegl.org/operations/gegl-value-invert"

@@ -1,6 +1,6 @@
 ---
 title: Checkerboard
-description: Render a checkerboard pattern
+description: "Render a checkerboard pattern"
 links:
   - label: "gegl:checkerboard"
     to: "https://gegl.org/operations/gegl-checkerboard"

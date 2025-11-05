@@ -1,6 +1,6 @@
 ---
 title: Color to Alpha
-description: Convert a specified color to transparency, works best with white.
+description: "Convert a specified color to transparency, works best with white."
 links:
   - label: "gegl:color-to-alpha"
     to: "https://gegl.org/operations/gegl-color-to-alpha"

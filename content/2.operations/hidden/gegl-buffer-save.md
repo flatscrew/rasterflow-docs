@@ -1,6 +1,6 @@
 ---
 title: 
-description: GeglBuffer file writer.
+description: "GeglBuffer file writer."
 links:
   - label: "gegl:gegl-buffer-save"
     to: "https://gegl.org/operations/gegl-gegl-buffer-save"

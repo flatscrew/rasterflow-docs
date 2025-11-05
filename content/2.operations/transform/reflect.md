@@ -1,6 +1,6 @@
 ---
 title: Reflect
-description: Reflect an image about a line, whose direction is specified by the vector that is defined by the x and y properties. 
+description: "Reflect an image about a line, whose direction is specified by the vector that is defined by the x and y properties. "
 links:
   - label: "gegl:reflect"
     to: "https://gegl.org/operations/gegl-reflect"

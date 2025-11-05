@@ -1,6 +1,6 @@
 ---
 title: Make Gray
-description: Turns the image grayscale
+description: "Turns the image grayscale"
 links:
   - label: "gegl:gray"
     to: "https://gegl.org/operations/gegl-gray"

@@ -1,6 +1,6 @@
 ---
 title: Saturation
-description: Changes the saturation
+description: "Changes the saturation"
 links:
   - label: "gegl:saturation"
     to: "https://gegl.org/operations/gegl-saturation"

@@ -1,6 +1,6 @@
 ---
 title: Rotate on center
-description: Rotate the buffer around its center, taking care of possible offsets.
+description: "Rotate the buffer around its center, taking care of possible offsets."
 links:
   - label: "gegl:rotate-on-center"
     to: "https://gegl.org/operations/gegl-rotate-on-center"

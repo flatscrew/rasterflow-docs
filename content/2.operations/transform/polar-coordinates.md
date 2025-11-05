@@ -1,6 +1,6 @@
 ---
 title: Polar Coordinates
-description: Convert image to or from polar coordinates
+description: "Convert image to or from polar coordinates"
 links:
   - label: "gegl:polar-coordinates"
     to: "https://gegl.org/operations/gegl-polar-coordinates"

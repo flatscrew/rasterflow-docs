@@ -1,6 +1,6 @@
 ---
 title: Hue-Chroma
-description: Adjust LCH Hue, Chroma, and Lightness
+description: "Adjust LCH Hue, Chroma, and Lightness"
 links:
   - label: "gegl:hue-chroma"
     to: "https://gegl.org/operations/gegl-hue-chroma"

@@ -1,6 +1,6 @@
 ---
 title: RGBE File Saver
-description: RGBE image saver (Radiance HDR format)
+description: "RGBE image saver (Radiance HDR format)"
 links:
   - label: "gegl:rgbe-save"
     to: "https://gegl.org/operations/gegl-rgbe-save"

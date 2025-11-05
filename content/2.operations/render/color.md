@@ -1,6 +1,6 @@
 ---
 title: Color
-description: Generates a buffer entirely filled with the specified color, use gegl:crop to get smaller dimensions.
+description: "Generates a buffer entirely filled with the specified color, use gegl:crop to get smaller dimensions."
 links:
   - label: "gegl:color"
     to: "https://gegl.org/operations/gegl-color"

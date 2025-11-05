@@ -1,6 +1,6 @@
 ---
 title: Grid
-description: Grid renderer
+description: "Grid renderer"
 links:
   - label: "gegl:grid"
     to: "https://gegl.org/operations/gegl-grid"

@@ -1,6 +1,6 @@
 ---
 title: Smooth by Domain Transform
-description: An edge-preserving smoothing filter implemented with the Domain Transform recursive technique. Similar to a bilateral filter, but faster to compute.
+description: "An edge-preserving smoothing filter implemented with the Domain Transform recursive technique. Similar to a bilateral filter, but faster to compute."
 links:
   - label: "gegl:domain-transform"
     to: "https://gegl.org/operations/gegl-domain-transform"

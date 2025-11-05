@@ -1,6 +1,6 @@
 ---
 title: High Pass Filter
-description: Enhances fine details.
+description: "Enhances fine details."
 links:
   - label: "gegl:high-pass"
     to: "https://gegl.org/operations/gegl-high-pass"

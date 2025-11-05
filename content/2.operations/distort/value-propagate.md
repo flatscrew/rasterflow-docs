@@ -1,6 +1,6 @@
 ---
 title: Value Propagate
-description: Propagate certain values to neighboring pixels. Erode and dilate any color or opacity.
+description: "Propagate certain values to neighboring pixels. Erode and dilate any color or opacity."
 links:
   - label: "gegl:value-propagate"
     to: "https://gegl.org/operations/gegl-value-propagate"

@@ -1,6 +1,6 @@
 ---
 title: Subtract
-description: Math operation subtract, performs the operation per pixel, using either the constant provided in 'value' or the corresponding pixel from the buffer on aux as operands. The result is the evaluation of the expression result = input - value
+description: "Math operation subtract, performs the operation per pixel, using either the constant provided in 'value' or the corresponding pixel from the buffer on aux as operands. The result is the evaluation of the expression result = input - value"
 links:
   - label: "gegl:subtract"
     to: "https://gegl.org/operations/gegl-subtract"

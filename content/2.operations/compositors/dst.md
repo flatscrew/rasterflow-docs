@@ -1,6 +1,6 @@
 ---
 title: Dst
-description: Porter Duff operation dst (d = cB)
+description: "Porter Duff operation dst (d = cB)"
 links:
   - label: "svg:dst"
     to: "https://gegl.org/operations/svg-dst"

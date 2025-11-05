@@ -1,6 +1,6 @@
 ---
 title: Sepia
-description: Apply a sepia tone to the input image
+description: "Apply a sepia tone to the input image"
 links:
   - label: "gegl:sepia"
     to: "https://gegl.org/operations/gegl-sepia"

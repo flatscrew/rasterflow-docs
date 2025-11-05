@@ -1,6 +1,6 @@
 ---
 title: Add CIE Lch Noise
-description: Randomize lightness, chroma and hue independently
+description: "Randomize lightness, chroma and hue independently"
 links:
   - label: "gegl:noise-cie-lch"
     to: "https://gegl.org/operations/gegl-noise-cie-lch"

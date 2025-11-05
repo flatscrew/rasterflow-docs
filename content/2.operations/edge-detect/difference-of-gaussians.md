@@ -1,6 +1,6 @@
 ---
 title: Difference of Gaussians
-description: Edge detection with control of edge thickness, based on the difference of two gaussian blurs
+description: "Edge detection with control of edge thickness, based on the difference of two gaussian blurs"
 links:
   - label: "gegl:difference-of-gaussians"
     to: "https://gegl.org/operations/gegl-difference-of-gaussians"

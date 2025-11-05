@@ -1,6 +1,6 @@
 ---
 title: Laplacian Edge Detection
-description: High-resolution edge detection
+description: "High-resolution edge detection"
 links:
   - label: "gegl:edge-laplace"
     to: "https://gegl.org/operations/gegl-edge-laplace"

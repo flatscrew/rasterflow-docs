@@ -1,6 +1,6 @@
 ---
 title: Map Relative
-description: sample input with an auxiliary buffer that contain relative source coordinates
+description: "sample input with an auxiliary buffer that contain relative source coordinates"
 links:
   - label: "gegl:map-relative"
     to: "https://gegl.org/operations/gegl-map-relative"

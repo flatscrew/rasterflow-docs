@@ -1,6 +1,6 @@
 ---
 title: Reset origin
-description: Translate top-left to 0,0.
+description: "Translate top-left to 0,0."
 links:
   - label: "gegl:reset-origin"
     to: "https://gegl.org/operations/gegl-reset-origin"

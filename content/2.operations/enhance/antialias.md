@@ -1,6 +1,6 @@
 ---
 title: Scale3X Antialiasing
-description: Antialias using the Scale3X edge-extrapolation algorithm
+description: "Antialias using the Scale3X edge-extrapolation algorithm"
 links:
   - label: "gegl:antialias"
     to: "https://gegl.org/operations/gegl-antialias"

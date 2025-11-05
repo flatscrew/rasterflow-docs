@@ -1,6 +1,6 @@
 ---
 title: Deinterlace
-description: Fix images where every other row or column is missing
+description: "Fix images where every other row or column is missing"
 links:
   - label: "gegl:deinterlace"
     to: "https://gegl.org/operations/gegl-deinterlace"

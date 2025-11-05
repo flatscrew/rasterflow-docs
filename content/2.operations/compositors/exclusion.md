@@ -1,6 +1,6 @@
 ---
 title: 
-description: SVG blend operation exclusion (<code>d = (cA * aB + cB * aA - 2 * cA * cB) + cA * (1 - aB) + cB * (1 - aA)</code>)
+description: "SVG blend operation exclusion (<code>d = (cA * aB + cB * aA - 2 * cA * cB) + cA * (1 - aB) + cB * (1 - aA)</code>)"
 links:
   - label: "svg:exclusion"
     to: "https://gegl.org/operations/svg-exclusion"

@@ -1,6 +1,6 @@
 ---
 title: Engrave
-description: Simulate an antique engraving
+description: "Simulate an antique engraving"
 links:
   - label: "gegl:engrave"
     to: "https://gegl.org/operations/gegl-engrave"

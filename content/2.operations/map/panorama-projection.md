@@ -1,6 +1,6 @@
 ---
 title: Panorama Projection
-description: Do panorama viewer rendering mapping or its inverse for an equirectangular input image. (2:1 ratio containing 360x180 degree panorama).
+description: "Do panorama viewer rendering mapping or its inverse for an equirectangular input image. (2:1 ratio containing 360x180 degree panorama)."
 links:
   - label: "gegl:panorama-projection"
     to: "https://gegl.org/operations/gegl-panorama-projection"

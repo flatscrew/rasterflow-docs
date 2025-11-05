@@ -1,6 +1,6 @@
 ---
 title: Color Enhance
-description: Stretch color chroma to cover maximum possible range, keeping hue and lightness untouched.
+description: "Stretch color chroma to cover maximum possible range, keeping hue and lightness untouched."
 links:
   - label: "gegl:color-enhance"
     to: "https://gegl.org/operations/gegl-color-enhance"

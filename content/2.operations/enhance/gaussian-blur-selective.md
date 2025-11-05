@@ -1,6 +1,6 @@
 ---
 title: Selective Gaussian Blur
-description: Blur neighboring pixels, but only in low-contrast areas
+description: "Blur neighboring pixels, but only in low-contrast areas"
 links:
   - label: "gegl:gaussian-blur-selective"
     to: "https://gegl.org/operations/gegl-gaussian-blur-selective"

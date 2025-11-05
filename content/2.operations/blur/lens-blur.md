@@ -1,6 +1,6 @@
 ---
 title: Lens Blur
-description: Simulate out-of-focus lens blur
+description: "Simulate out-of-focus lens blur"
 links:
   - label: "gegl:lens-blur"
     to: "https://gegl.org/operations/gegl-lens-blur"

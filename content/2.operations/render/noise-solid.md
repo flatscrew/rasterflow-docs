@@ -1,6 +1,6 @@
 ---
 title: Solid Noise
-description: Create a random cloud-like texture
+description: "Create a random cloud-like texture"
 links:
   - label: "gegl:noise-solid"
     to: "https://gegl.org/operations/gegl-noise-solid"

@@ -1,6 +1,6 @@
 ---
 title: Scale ratio
-description: Scales the buffer according to a ratio.
+description: "Scales the buffer according to a ratio."
 links:
   - label: "gegl:scale-ratio"
     to: "https://gegl.org/operations/gegl-scale-ratio"

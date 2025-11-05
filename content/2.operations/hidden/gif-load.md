@@ -1,6 +1,6 @@
 ---
 title: GIF File Loader
-description: GIF image loader.
+description: "GIF image loader."
 links:
   - label: "gegl:gif-load"
     to: "https://gegl.org/operations/gegl-gif-load"

@@ -1,6 +1,6 @@
 ---
 title: 
-description: GEGL graph visualizer.
+description: "GEGL graph visualizer."
 links:
   - label: "gegl:introspect"
     to: "https://gegl.org/operations/gegl-introspect"

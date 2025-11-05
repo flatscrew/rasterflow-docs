@@ -1,6 +1,6 @@
 ---
 title: Waterpixels
-description: Superpixels based on the watershed transformation
+description: "Superpixels based on the watershed transformation"
 links:
   - label: "gegl:waterpixels"
     to: "https://gegl.org/operations/gegl-waterpixels"

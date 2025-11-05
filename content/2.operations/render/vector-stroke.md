@@ -1,6 +1,6 @@
 ---
 title: Vector Stroke
-description: Renders a vector stroke
+description: "Renders a vector stroke"
 links:
   - label: "gegl:vector-stroke"
     to: "https://gegl.org/operations/gegl-vector-stroke"

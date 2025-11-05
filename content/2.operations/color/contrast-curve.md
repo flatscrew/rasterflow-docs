@@ -1,6 +1,6 @@
 ---
 title: Contrast Curve
-description: Adjusts the contrast of a grayscale image with a curve specifying contrast for intensity.
+description: "Adjusts the contrast of a grayscale image with a curve specifying contrast for intensity."
 links:
   - label: "gegl:contrast-curve"
     to: "https://gegl.org/operations/gegl-contrast-curve"

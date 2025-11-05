@@ -1,6 +1,6 @@
 ---
 title: Tile Glass
-description: Simulate distortion caused by rectangular glass tiles
+description: "Simulate distortion caused by rectangular glass tiles"
 links:
   - label: "gegl:tile-glass"
     to: "https://gegl.org/operations/gegl-tile-glass"

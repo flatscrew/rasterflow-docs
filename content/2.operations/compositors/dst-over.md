@@ -1,6 +1,6 @@
 ---
 title: Dst-over
-description: Porter Duff operation dst-over (d = cB + cA * (1.0f - aB))
+description: "Porter Duff operation dst-over (d = cB + cA * (1.0f - aB))"
 links:
   - label: "svg:dst-over"
     to: "https://gegl.org/operations/svg-dst-over"

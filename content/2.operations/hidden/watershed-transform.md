@@ -1,6 +1,6 @@
 ---
 title: Watershed Transform
-description: Labels propagation by watershed transformation. Output buffer will keep the input format. Unlabelled pixels are marked with a given flag value (by default: last component with NULL value). The aux buffer is a "Y u8" image representing the priority levels (lower value is higher priority). If aux is absent, all labellized pixels have the same priority and propagated labels have a lower priority.
+description: "Labels propagation by watershed transformation. Output buffer will keep the input format. Unlabelled pixels are marked with a given flag value (by default: last component with NULL value). The aux buffer is a "Y u8" image representing the priority levels (lower value is higher priority). If aux is absent, all labellized pixels have the same priority and propagated labels have a lower priority."
 links:
   - label: "gegl:watershed-transform"
     to: "https://gegl.org/operations/gegl-watershed-transform"

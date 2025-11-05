@@ -1,6 +1,6 @@
 ---
 title: Illusion
-description: Superimpose many altered copies of the image.
+description: "Superimpose many altered copies of the image."
 links:
   - label: "gegl:illusion"
     to: "https://gegl.org/operations/gegl-illusion"

@@ -1,6 +1,6 @@
 ---
 title: Sharpen (Unsharp Mask)
-description: Sharpen image, by adding difference to blurred image, a technique for sharpening originally used in darkrooms.
+description: "Sharpen image, by adding difference to blurred image, a technique for sharpening originally used in darkrooms."
 links:
   - label: "gegl:unsharp-mask"
     to: "https://gegl.org/operations/gegl-unsharp-mask"

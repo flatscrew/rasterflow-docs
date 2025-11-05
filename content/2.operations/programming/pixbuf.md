@@ -1,6 +1,6 @@
 ---
 title: GdkPixbuf Source
-description: Uses the GdkPixbuf located at the memory location in <em>pixbuf</em>.
+description: "Uses the GdkPixbuf located at the memory location in <em>pixbuf</em>."
 links:
   - label: "gegl:pixbuf"
     to: "https://gegl.org/operations/gegl-pixbuf"

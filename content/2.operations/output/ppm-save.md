@@ -1,6 +1,6 @@
 ---
 title: PPM File Saver
-description: PPM image saver (Portable pixmap saver.)
+description: "PPM image saver (Portable pixmap saver.)"
 links:
   - label: "gegl:ppm-save"
     to: "https://gegl.org/operations/gegl-ppm-save"

@@ -1,6 +1,6 @@
 ---
 title: Fractal Explorer
-description: Rendering of multiple different fractal systems, with configurable coloring options.
+description: "Rendering of multiple different fractal systems, with configurable coloring options."
 links:
   - label: "gegl:fractal-explorer"
     to: "https://gegl.org/operations/gegl-fractal-explorer"

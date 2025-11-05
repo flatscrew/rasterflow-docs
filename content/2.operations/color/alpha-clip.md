@@ -1,6 +1,6 @@
 ---
 title: Clip Alpha
-description: Keep alpha values inside a specific range
+description: "Keep alpha values inside a specific range"
 links:
   - label: "gegl:alpha-clip"
     to: "https://gegl.org/operations/gegl-alpha-clip"

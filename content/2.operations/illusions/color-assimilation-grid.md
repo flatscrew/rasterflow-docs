@@ -1,6 +1,6 @@
 ---
 title: Color Assimilation Grid
-description: Turn image grayscale and overlay an oversaturated grid - through color assimilation happening in the human visual system, for some grid scales this produces the illusion that the grayscale grid cells themselves also have color.
+description: "Turn image grayscale and overlay an oversaturated grid - through color assimilation happening in the human visual system, for some grid scales this produces the illusion that the grayscale grid cells themselves also have color."
 links:
   - label: "gegl:color-assimilation-grid"
     to: "https://gegl.org/operations/gegl-color-assimilation-grid"

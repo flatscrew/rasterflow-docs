@@ -1,6 +1,6 @@
 ---
 title: Tile
-description: Infinitely repeats the input image.
+description: "Infinitely repeats the input image."
 links:
   - label: "gegl:tile"
     to: "https://gegl.org/operations/gegl-tile"

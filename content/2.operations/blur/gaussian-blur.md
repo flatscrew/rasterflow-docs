@@ -1,6 +1,6 @@
 ---
 title: Gaussian Blur
-description: Performs an averaging of neighboring pixels with the normal distribution as weighting
+description: "Performs an averaging of neighboring pixels with the normal distribution as weighting"
 links:
   - label: "gegl:gaussian-blur"
     to: "https://gegl.org/operations/gegl-gaussian-blur"
@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Gaussian Blur
-src: /images/operations/gaussian-blur.png
 caption: Performs an averaging of neighboring pixels with the normal distribution as weighting
 ---
 ::

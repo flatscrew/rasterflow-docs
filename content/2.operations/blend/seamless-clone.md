@@ -1,6 +1,6 @@
 ---
 title: 
-description: Seamless cloning operation
+description: "Seamless cloning operation"
 links:
   - label: "gegl:seamless-clone"
     to: "https://gegl.org/operations/gegl-seamless-clone"

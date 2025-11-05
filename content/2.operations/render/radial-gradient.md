@@ -1,6 +1,6 @@
 ---
 title: Radial Gradient
-description: Radial gradient renderer
+description: "Radial gradient renderer"
 links:
   - label: "gegl:radial-gradient"
     to: "https://gegl.org/operations/gegl-radial-gradient"

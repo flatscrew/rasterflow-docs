@@ -1,6 +1,6 @@
 ---
 title: Dst-out
-description: Porter Duff operation dst-out (d = cB * (1.0f - aA))
+description: "Porter Duff operation dst-out (d = cB * (1.0f - aA))"
 links:
   - label: "svg:dst-out"
     to: "https://gegl.org/operations/svg-dst-out"

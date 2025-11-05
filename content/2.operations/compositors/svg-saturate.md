@@ -1,6 +1,6 @@
 ---
 title: SVG Saturate
-description: SVG color matrix operation svg_saturate
+description: "SVG color matrix operation svg_saturate"
 links:
   - label: "gegl:svg-saturate"
     to: "https://gegl.org/operations/gegl-svg-saturate"

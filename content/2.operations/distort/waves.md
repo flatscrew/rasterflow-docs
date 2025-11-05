@@ -1,6 +1,6 @@
 ---
 title: Waves
-description: Distort the image with waves
+description: "Distort the image with waves"
 links:
   - label: "gegl:waves"
     to: "https://gegl.org/operations/gegl-waves"

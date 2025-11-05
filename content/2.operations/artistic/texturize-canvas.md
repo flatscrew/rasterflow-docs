@@ -1,6 +1,6 @@
 ---
 title: Texturize Canvas
-description: Textures the image as if it were an artist's canvas.
+description: "Textures the image as if it were an artist's canvas."
 links:
   - label: "gegl:texturize-canvas"
     to: "https://gegl.org/operations/gegl-texturize-canvas"

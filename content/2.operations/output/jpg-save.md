@@ -1,6 +1,6 @@
 ---
 title: JPEG File Saver
-description: JPEG image saver, using libjpeg
+description: "JPEG image saver, using libjpeg"
 links:
   - label: "gegl:jpg-save"
     to: "https://gegl.org/operations/gegl-jpg-save"

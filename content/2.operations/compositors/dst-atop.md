@@ -1,6 +1,6 @@
 ---
 title: Dst-atop
-description: Porter Duff operation dst-atop (d = cB * aA + cA * (1.0f - aB))
+description: "Porter Duff operation dst-atop (d = cB * aA + cA * (1.0f - aB))"
 links:
   - label: "svg:dst-atop"
     to: "https://gegl.org/operations/svg-dst-atop"

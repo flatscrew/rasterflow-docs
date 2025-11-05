@@ -1,6 +1,6 @@
 ---
 title: Pack
-description: Packs an image horizontally or vertically next to each other with optional gap, aux right of input.
+description: "Packs an image horizontally or vertically next to each other with optional gap, aux right of input."
 links:
   - label: "gegl:pack"
     to: "https://gegl.org/operations/gegl-pack"

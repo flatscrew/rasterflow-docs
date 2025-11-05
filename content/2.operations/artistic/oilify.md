@@ -1,6 +1,6 @@
 ---
 title: Oilify
-description: Emulate an oil painting
+description: "Emulate an oil painting"
 links:
   - label: "gegl:oilify"
     to: "https://gegl.org/operations/gegl-oilify"

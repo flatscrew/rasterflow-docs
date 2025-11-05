@@ -1,6 +1,6 @@
 ---
 title: Levels
-description: Remaps the intensity range of the image
+description: "Remaps the intensity range of the image"
 links:
   - label: "gegl:levels"
     to: "https://gegl.org/operations/gegl-levels"

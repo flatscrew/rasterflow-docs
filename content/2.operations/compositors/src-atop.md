@@ -1,6 +1,6 @@
 ---
 title: Src-atop
-description: Porter Duff operation src-atop (d = cA * aB + cB * (1.0f - aA))
+description: "Porter Duff operation src-atop (d = cA * aB + cB * (1.0f - aA))"
 links:
   - label: "svg:src-atop"
     to: "https://gegl.org/operations/svg-src-atop"

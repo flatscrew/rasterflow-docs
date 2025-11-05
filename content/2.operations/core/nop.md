@@ -1,6 +1,6 @@
 ---
 title: No Operation
-description: No operation (can be used as a routing point)
+description: "No operation (can be used as a routing point)"
 links:
   - label: "gegl:nop"
     to: "https://gegl.org/operations/gegl-nop"

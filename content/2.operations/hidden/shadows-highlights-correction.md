@@ -1,6 +1,6 @@
 ---
 title: 
-description: Lighten shadows and darken highlights
+description: "Lighten shadows and darken highlights"
 links:
   - label: "gegl:shadows-highlights-correction"
     to: "https://gegl.org/operations/gegl-shadows-highlights-correction"

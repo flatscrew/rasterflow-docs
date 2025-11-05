@@ -1,6 +1,6 @@
 ---
 title: Clone
-description: Clone a buffer, this is the same as gegl:nop but can get special treatment to get more human readable references in serializations/UI.
+description: "Clone a buffer, this is the same as gegl:nop but can get special treatment to get more human readable references in serializations/UI."
 links:
   - label: "gegl:clone"
     to: "https://gegl.org/operations/gegl-clone"

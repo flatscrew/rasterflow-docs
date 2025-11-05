@@ -1,6 +1,6 @@
 ---
 title: Scale size
-description: Scales the buffer according to a size.
+description: "Scales the buffer according to a size."
 links:
   - label: "gegl:scale-size"
     to: "https://gegl.org/operations/gegl-scale-size"

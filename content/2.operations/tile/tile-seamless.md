@@ -1,6 +1,6 @@
 ---
 title: Make Seamlessly tileable
-description: Make the input buffer seamlessly tileable. The algorithm is not content-aware, so the result may need post-processing.
+description: "Make the input buffer seamlessly tileable. The algorithm is not content-aware, so the result may need post-processing."
 links:
   - label: "gegl:tile-seamless"
     to: "https://gegl.org/operations/gegl-tile-seamless"

@@ -1,6 +1,6 @@
 ---
 title: Mono Mixer
-description: Monochrome channel mixer
+description: "Monochrome channel mixer"
 links:
   - label: "gegl:mono-mixer"
     to: "https://gegl.org/operations/gegl-mono-mixer"

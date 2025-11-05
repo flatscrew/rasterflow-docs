@@ -1,6 +1,6 @@
 ---
 title: Border Align
-description: Aligns box of input rectangle with border of compositing target or aux' bounding-box border, if aux pad is not connected the op tries to figure out which bounding box' border applies.
+description: "Aligns box of input rectangle with border of compositing target or aux' bounding-box border, if aux pad is not connected the op tries to figure out which bounding box' border applies."
 links:
   - label: "gegl:border-align"
     to: "https://gegl.org/operations/gegl-border-align"

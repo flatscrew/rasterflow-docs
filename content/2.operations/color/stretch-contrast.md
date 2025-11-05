@@ -1,6 +1,6 @@
 ---
 title: Stretch Contrast
-description: Scales the components of the buffer to be in the 0.0-1.0 range. This improves images that make poor use of the available contrast (little contrast, very dark, or very bright images).
+description: "Scales the components of the buffer to be in the 0.0-1.0 range. This improves images that make poor use of the available contrast (little contrast, very dark, or very bright images)."
 links:
   - label: "gegl:stretch-contrast"
     to: "https://gegl.org/operations/gegl-stretch-contrast"

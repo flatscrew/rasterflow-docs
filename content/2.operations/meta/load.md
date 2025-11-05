@@ -1,6 +1,6 @@
 ---
 title: Load Image
-description: Multipurpose file loader, that uses other native handlers, and fallback conversion using Image Magick's convert.
+description: "Multipurpose file loader, that uses other native handlers, and fallback conversion using Image Magick's convert."
 links:
   - label: "gegl:load"
     to: "https://gegl.org/operations/gegl-load"

@@ -1,6 +1,6 @@
 ---
 title: TIFF File Loader
-description: TIFF image loader using libtiff
+description: "TIFF image loader using libtiff"
 links:
   - label: "gegl:tiff-load"
     to: "https://gegl.org/operations/gegl-tiff-load"

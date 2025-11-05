@@ -1,6 +1,6 @@
 ---
 title: Sobel Edge Detection
-description: Specialized direction-dependent edge detection
+description: "Specialized direction-dependent edge detection"
 links:
   - label: "gegl:edge-sobel"
     to: "https://gegl.org/operations/gegl-edge-sobel"

@@ -1,6 +1,6 @@
 ---
 title: Lens Distortion
-description: Corrects barrel or pincushion lens distortion.
+description: "Corrects barrel or pincushion lens distortion."
 links:
   - label: "gegl:lens-distortion"
     to: "https://gegl.org/operations/gegl-lens-distortion"

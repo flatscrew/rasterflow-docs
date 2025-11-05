@@ -1,6 +1,6 @@
 ---
 title: Ripple
-description: Displace pixels in a ripple pattern
+description: "Displace pixels in a ripple pattern"
 links:
   - label: "gegl:ripple"
     to: "https://gegl.org/operations/gegl-ripple"

@@ -1,6 +1,6 @@
 ---
 title: Channel Mixer
-description: Remix colors; by defining relative contributions from source components.
+description: "Remix colors; by defining relative contributions from source components."
 links:
   - label: "gegl:channel-mixer"
     to: "https://gegl.org/operations/gegl-channel-mixer"

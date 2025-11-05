@@ -1,6 +1,6 @@
 ---
 title: Render Text
-description: Display a string of text using pango and cairo.
+description: "Display a string of text using pango and cairo."
 links:
   - label: "gegl:text"
     to: "https://gegl.org/operations/gegl-text"

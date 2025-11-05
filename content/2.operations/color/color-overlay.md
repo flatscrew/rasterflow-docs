@@ -1,6 +1,6 @@
 ---
 title: Color Overlay
-description: Paint a color overlay over the input, preserving its transparency.
+description: "Paint a color overlay over the input, preserving its transparency."
 links:
   - label: "gegl:color-overlay"
     to: "https://gegl.org/operations/gegl-color-overlay"

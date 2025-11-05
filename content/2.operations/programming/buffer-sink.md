@@ -1,6 +1,6 @@
 ---
 title: Buffer Sink
-description: Create a new GEGL buffer to write the resulting rendering.
+description: "Create a new GEGL buffer to write the resulting rendering."
 links:
   - label: "gegl:buffer-sink"
     to: "https://gegl.org/operations/gegl-buffer-sink"

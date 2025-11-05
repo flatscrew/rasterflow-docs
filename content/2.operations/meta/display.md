@@ -1,6 +1,6 @@
 ---
 title: Display
-description: Display the input buffer in a window.
+description: "Display the input buffer in a window."
 links:
   - label: "gegl:display"
     to: "https://gegl.org/operations/gegl-display"

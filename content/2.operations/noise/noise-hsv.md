@@ -1,6 +1,6 @@
 ---
 title: Add HSV Noise
-description: Randomize hue, saturation and value independently
+description: "Randomize hue, saturation and value independently"
 links:
   - label: "gegl:noise-hsv"
     to: "https://gegl.org/operations/gegl-noise-hsv"

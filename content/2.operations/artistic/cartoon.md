@@ -1,6 +1,6 @@
 ---
 title: Cartoon
-description: Simulates a cartoon, its result is similar to a black felt pen drawing subsequently shaded with color. This is achieved by enhancing edges and darkening areas that are already distinctly darker than their neighborhood
+description: "Simulates a cartoon, its result is similar to a black felt pen drawing subsequently shaded with color. This is achieved by enhancing edges and darkening areas that are already distinctly darker than their neighborhood"
 links:
   - label: "gegl:cartoon"
     to: "https://gegl.org/operations/gegl-cartoon"

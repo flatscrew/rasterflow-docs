@@ -1,6 +1,6 @@
 ---
 title: Sinus
-description: Generate complex sinusoidal textures
+description: "Generate complex sinusoidal textures"
 links:
   - label: "gegl:sinus"
     to: "https://gegl.org/operations/gegl-sinus"

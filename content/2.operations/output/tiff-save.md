@@ -1,6 +1,6 @@
 ---
 title: TIFF File Saver
-description: TIFF image saver using libtiff
+description: "TIFF image saver using libtiff"
 links:
   - label: "gegl:tiff-save"
     to: "https://gegl.org/operations/gegl-tiff-save"
