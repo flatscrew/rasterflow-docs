@@ -39,7 +39,8 @@ name: Operation properties
 
     ::field-group
       ::field{name="Blur type" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Gaussian Blur`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Gaussian Blur`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Gaussian Blur` • `Lens Blur` 
       ::
 
@@ -64,7 +65,8 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `1.00`  
       ::
       ::field{name="Shape" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Circle`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Circle`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Circle` • `Square` • `Diamond` • `Horizontal` • `Vertical` 
       ::
 

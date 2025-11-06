@@ -45,7 +45,8 @@ name: Operation properties
         
       ::
       ::field{name="Interpolation Color Space" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Native`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Native`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Native` • `CIE Lab/Lch` • `CIE Yuv` 
       ::
 

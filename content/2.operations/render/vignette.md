@@ -39,7 +39,8 @@ name: Operation properties
 
     ::field-group
       ::field{name="Vignette shape" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Circle`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Circle`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Circle` • `Square` • `Diamond` • `Horizontal` • `Vertical` 
       ::
 

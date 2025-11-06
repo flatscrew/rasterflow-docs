@@ -47,7 +47,8 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="Orientation" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Horizontal`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Horizontal`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Horizontal` • `Vertical` 
       ::
 

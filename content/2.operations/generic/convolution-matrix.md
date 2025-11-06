@@ -173,7 +173,8 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="Border" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Clamp`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Clamp`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `None` • `Clamp` • `Loop` • `Black` • `White` 
       ::
 

@@ -39,7 +39,8 @@ name: Operation properties
 
     ::field-group
       ::field{name="Fractal type" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Mandelbrot`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Mandelbrot`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Mandelbrot` • `Julia` 
       ::
 

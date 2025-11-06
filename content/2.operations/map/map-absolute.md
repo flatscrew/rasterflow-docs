@@ -39,12 +39,14 @@ name: Operation properties
 
     ::field-group
       ::field{name="Resampling method" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Cubic`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Cubic`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Nearest` • `Linear` • `Cubic` • `NoHalo` • `LoHalo` 
       ::
 
       ::field{name="Abyss policy" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `None`  
+        
+        :icon{name="i-lucide-puzzle"} Default `None`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `None` • `Clamp` • `Loop` • `Black` • `White` 
       ::
 

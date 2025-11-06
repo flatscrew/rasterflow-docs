@@ -45,7 +45,8 @@ name: Operation properties
         
       ::
       ::field{name="Shift direction" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Horizontal`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Horizontal`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Horizontal` • `Vertical` 
       ::
 

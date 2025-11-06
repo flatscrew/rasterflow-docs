@@ -95,17 +95,20 @@ name: Operation properties
         
       ::
       ::field{name="Red application mode" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Cosine`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Cosine`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Sine` • `Cosine` • `None` 
       ::
 
       ::field{name="Green application mode" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Cosine`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Cosine`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Sine` • `Cosine` • `None` 
       ::
 
       ::field{name="Blue application mode" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Sine`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Sine`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Sine` • `Cosine` • `None` 
       ::
 

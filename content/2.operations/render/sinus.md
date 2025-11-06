@@ -75,7 +75,8 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="Blend Mode" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Sinusoidal`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Sinusoidal`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Linear` • `Bilinear` • `Sinusoidal` 
       ::
 

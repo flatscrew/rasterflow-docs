@@ -63,12 +63,14 @@ name: Operation properties
         
       ::
       ::field{name="Resampling method" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Cubic`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Cubic`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Nearest` • `Linear` • `Cubic` • `NoHalo` • `LoHalo` 
       ::
 
       ::field{name="Wave type" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Sine`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Sine`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Sine` • `Triangle` • `Sawtooth` 
       ::
 
