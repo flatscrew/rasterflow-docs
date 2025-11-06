@@ -1,6 +1,6 @@
 ---
 title: Normal compositing
-description: "Porter Duff operation over (also known as normal mode, and src-over) (d = cA + cB * (1 - aA))"
+description: "Porter Duff operation over (also known as normal mode, and src-over) (d = cA + cB * (1 - aA))."
 links:
   - label: "svg:src-over"
     to: "https://gegl.org/operations/svg-src-over"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Normal compositing
-caption: Porter Duff operation over (also known as normal mode, and src-over) (d = cA + cB * (1 - aA))
+caption: Porter Duff operation over (also known as normal mode, and src-over) (d = cA + cB * (1 - aA)).
 src: /images/operations/svg-src-over.png
 ---
 ::
@@ -38,8 +38,8 @@ name: Operation properties
 ---
 
     ::field-group
-      ::field{name="sRGB" type="gboolean"}
-        Use sRGB gamma instead of linear  
+      ::field{name="SRGB" type="gboolean"}
+        Use sRGB gamma instead of linear.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 

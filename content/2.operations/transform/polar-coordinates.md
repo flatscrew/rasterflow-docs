@@ -1,6 +1,6 @@
 ---
 title: Polar Coordinates
-description: "Convert image to or from polar coordinates"
+description: "Convert image to or from polar coordinates."
 links:
   - label: "gegl:polar-coordinates"
     to: "https://gegl.org/operations/gegl-polar-coordinates"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Polar Coordinates
-caption: Convert image to or from polar coordinates
+caption: Convert image to or from polar coordinates.
 src: /images/operations/gegl-polar-coordinates.png
 ---
 ::
@@ -51,31 +51,31 @@ name: Operation properties
         
       ::
       ::field{name="Map backwards" type="gboolean"}
-        Start from the right instead of the left  
+        Start from the right instead of the left.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
       ::field{name="Map from top" type="gboolean"}
-        Put the top row in the middle and the bottom row on the outside  
+        Put the top row in the middle and the bottom row on the outside.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="To polar" type="gboolean"}
-        Map the image to a circle  
+        Map the image to a circle.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="X" type="gint"}
-        Origin point for the polar coordinates  
+        Origin point for the polar coordinates.  
         :icon{name="i-lucide-puzzle"} Default `0`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         
       ::
       ::field{name="Y" type="gint"}
-        Origin point for the polar coordinates  
+        Origin point for the polar coordinates.  
         :icon{name="i-lucide-puzzle"} Default `0`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         
       ::
       ::field{name="Choose middle" type="gboolean"}
-        Let origin point to be the middle one  
+        Let origin point to be the middle one.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
 

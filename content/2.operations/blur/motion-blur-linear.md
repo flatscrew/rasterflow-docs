@@ -39,13 +39,13 @@ name: Operation properties
 
     ::field-group
       ::field{name="Length" type="gdouble"}
-        Length of blur in pixels  
+        Length of blur in pixels.  
         :icon{name="i-lucide-puzzle"} Default `10.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1000.00`. 
         
       ::
       ::field{name="Angle" type="gdouble"}
-        Angle of blur in degrees  
+        Angle of blur in degrees.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-180.00` • :icon{name="i-lucide-arrow-right"} • `180.00`. 
         

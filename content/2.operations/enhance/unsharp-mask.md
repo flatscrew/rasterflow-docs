@@ -39,13 +39,13 @@ name: Operation properties
 
     ::field-group
       ::field{name="Radius" type="gdouble"}
-        Expressed as standard deviation, in pixels  
+        Expressed as standard deviation, in pixels.  
         :icon{name="i-lucide-puzzle"} Default `3.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1500.00`. 
         
       ::
       ::field{name="Amount" type="gdouble"}
-        Scaling factor for unsharp-mask, the strength of effect  
+        Scaling factor for unsharp-mask, the strength of effect.  
         :icon{name="i-lucide-puzzle"} Default `0.50`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `300.00`. 
         

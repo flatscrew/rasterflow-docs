@@ -39,17 +39,17 @@ name: Operation properties
 
     ::field-group
       ::field{name="Path" type="gchararray"}
-        Path to v4l device  
+        Path to v4l device.  
         :icon{name="i-lucide-puzzle"} Default `"/dev/video0"`  
       ::
       ::field{name="Width" type="gint"}
-        Width for rendered image  
+        Width for rendered image.  
         :icon{name="i-lucide-puzzle"} Default `320`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         
       ::
       ::field{name="Height" type="gint"}
-        Height for rendered image  
+        Height for rendered image.  
         :icon{name="i-lucide-puzzle"} Default `240`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         

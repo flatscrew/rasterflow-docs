@@ -1,6 +1,6 @@
 ---
 title: Edge Detection
-description: "Several simple methods for detecting edges"
+description: "Several simple methods for detecting edges."
 links:
   - label: "gegl:edge"
     to: "https://gegl.org/operations/gegl-edge"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Edge Detection
-caption: Several simple methods for detecting edges
+caption: Several simple methods for detecting edges.
 src: /images/operations/gegl-edge.png
 ---
 ::
@@ -39,19 +39,19 @@ name: Operation properties
 
     ::field-group
       ::field{name="Algorithm" type="dictionary"}
-        Edge detection algorithm  
+        Edge detection algorithm.  
         :icon{name="i-lucide-puzzle"} Default `Sobel`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Sobel` • `Prewitt compass` • `Gradient` • `Roberts` • `Differential` • `Laplace` 
       ::
 
       ::field{name="Amount" type="gdouble"}
-        Edge detection amount  
+        Edge detection amount.  
         :icon{name="i-lucide-puzzle"} Default `2.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1.00` • :icon{name="i-lucide-arrow-right"} • `10.00`. 
         
       ::
       ::field{name="Border behavior" type="dictionary"}
-        Edge detection behavior  
+        Edge detection behavior.  
         :icon{name="i-lucide-puzzle"} Default `Clamp`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `None` • `Clamp` • `Loop` • `Black` • `White` 
       ::

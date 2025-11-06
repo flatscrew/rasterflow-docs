@@ -1,6 +1,6 @@
 ---
 title: Long Shadow
-description: "Creates a long-shadow effect"
+description: "Creates a long-shadow effect."
 links:
   - label: "gegl:long-shadow"
     to: "https://gegl.org/operations/gegl-long-shadow"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Long Shadow
-caption: Creates a long-shadow effect
+caption: Creates a long-shadow effect.
 src: /images/operations/gegl-long-shadow.png
 ---
 ::
@@ -39,37 +39,37 @@ name: Operation properties
 
     ::field-group
       ::field{name="Style" type="dictionary"}
-        Shadow style  
+        Shadow style.  
         :icon{name="i-lucide-puzzle"} Default `Finite`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Finite` • `Infinite` • `Fading` • `Fading (fixed length)` 
       ::
 
       ::field{name="Angle" type="gdouble"}
-        Shadow angle  
+        Shadow angle.  
         :icon{name="i-lucide-puzzle"} Default `45.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-180.00` • :icon{name="i-lucide-arrow-right"} • `180.00`. 
         
       ::
       ::field{name="Length" type="gdouble"}
-        Shadow length  
+        Shadow length.  
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
       ::field{name="Midpoint" type="gdouble"}
-        Shadow fade midpoint  
+        Shadow fade midpoint.  
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
       ::field{name="Midpoint (relative)" type="gdouble"}
-        Shadow fade midpoint, as a factor of the shadow length  
+        Shadow fade midpoint, as a factor of the shadow length.  
         :icon{name="i-lucide-puzzle"} Default `0.50`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
       ::
       ::field{name="Color" type="GeglColor"}
-        Shadow color  
+        Shadow color.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="Composition" type="dictionary"}
-        Output composition  
+        Output composition.  
         :icon{name="i-lucide-puzzle"} Default `Shadow plus image`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Shadow plus image` • `Shadow only` • `Shadow minus image` 
       ::

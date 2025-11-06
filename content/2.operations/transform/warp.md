@@ -1,6 +1,6 @@
 ---
 title: Warp
-description: "Compute a relative displacement mapping from a stroke"
+description: "Compute a relative displacement mapping from a stroke."
 links:
   - label: "gegl:warp"
     to: "https://gegl.org/operations/gegl-warp"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Warp
-caption: Compute a relative displacement mapping from a stroke
+caption: Compute a relative displacement mapping from a stroke.
 src: /images/operations/gegl-warp.png
 ---
 ::
@@ -67,7 +67,7 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="Behavior" type="dictionary"}
-        Behavior of the op  
+        Behavior of the op.  
         :icon{name="i-lucide-puzzle"} Default `Move pixels`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Move pixels` • `Grow area` • `Shrink area` • `Swirl clockwise` • `Swirl counter-clockwise` • `Erase warping` • `Smooth warping` 
       ::

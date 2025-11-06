@@ -39,37 +39,37 @@ name: Operation properties
 
     ::field-group
       ::field{name="Main" type="gdouble"}
-        Amount of second-order distortion  
+        Amount of second-order distortion.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-100.00` • :icon{name="i-lucide-arrow-right"} • `100.00`. 
         
       ::
       ::field{name="Edge" type="gdouble"}
-        Amount of fourth-order distortion  
+        Amount of fourth-order distortion.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-100.00` • :icon{name="i-lucide-arrow-right"} • `100.00`. 
         
       ::
       ::field{name="Zoom" type="gdouble"}
-        Rescale overall image size  
+        Rescale overall image size.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-100.00` • :icon{name="i-lucide-arrow-right"} • `100.00`. 
         
       ::
       ::field{name="Shift X" type="gdouble"}
-        Effect center offset in X  
+        Effect center offset in X.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-100.00` • :icon{name="i-lucide-arrow-right"} • `100.00`. 
         
       ::
       ::field{name="Shift Y" type="gdouble"}
-        Effect center offset in Y  
+        Effect center offset in Y.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-100.00` • :icon{name="i-lucide-arrow-right"} • `100.00`. 
         
       ::
       ::field{name="Brighten" type="gdouble"}
-        Adjust brightness in corners  
+        Adjust brightness in corners.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-100.00` • :icon{name="i-lucide-arrow-right"} • `100.00`. 
         

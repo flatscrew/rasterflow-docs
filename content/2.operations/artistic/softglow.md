@@ -1,6 +1,6 @@
 ---
 title: Softglow
-description: "Simulate glow by making highlights intense and fuzzy"
+description: "Simulate glow by making highlights intense and fuzzy."
 links:
   - label: "gegl:softglow"
     to: "https://gegl.org/operations/gegl-softglow"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Softglow
-caption: Simulate glow by making highlights intense and fuzzy
+caption: Simulate glow by making highlights intense and fuzzy.
 src: /images/operations/gegl-softglow.png
 ---
 ::

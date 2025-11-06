@@ -1,6 +1,6 @@
 ---
 title: Src-in
-description: "Porter Duff compositing operation src-in (formula:   cA * aB)"
+description: "Porter Duff compositing operation src-in (formula:   cA * aB)."
 links:
   - label: "svg:src-in"
     to: "https://gegl.org/operations/svg-src-in"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Src-in
-caption: Porter Duff compositing operation src-in (formula:   cA * aB)
+caption: Porter Duff compositing operation src-in (formula:   cA * aB).
 src: /images/operations/svg-src-in.png
 ---
 ::
@@ -38,8 +38,8 @@ name: Operation properties
 ---
 
     ::field-group
-      ::field{name="sRGB" type="gboolean"}
-        Use sRGB gamma instead of linear  
+      ::field{name="SRGB" type="gboolean"}
+        Use sRGB gamma instead of linear.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 

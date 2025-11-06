@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Levels" type="gint"}
-        number of levels per component  
+        number of levels per component.  
         :icon{name="i-lucide-puzzle"} Default `8`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `64`. 
         

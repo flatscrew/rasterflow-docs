@@ -1,6 +1,6 @@
 ---
 title: Remap
-description: "stretch components of pixels individually based on luminance envelopes"
+description: "stretch components of pixels individually based on luminance envelopes."
 links:
   - label: "gegl:remap"
     to: "https://gegl.org/operations/gegl-remap"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Remap
-caption: stretch components of pixels individually based on luminance envelopes
+caption: stretch components of pixels individually based on luminance envelopes.
 src: /images/operations/gegl-remap.png
 ---
 ::

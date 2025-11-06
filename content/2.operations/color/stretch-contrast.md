@@ -39,11 +39,11 @@ name: Operation properties
 
     ::field-group
       ::field{name="Keep colors" type="gboolean"}
-        Impact each channel with the same amount  
+        Impact each channel with the same amount.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="Non-linear components" type="gboolean"}
-        When set operate on gamma corrected values instead of linear RGB - acting like the old normalize filter in GIMP  
+        When set operate on gamma corrected values instead of linear RGB - acting like the old normalize filter in GIMP.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 

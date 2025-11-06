@@ -1,6 +1,6 @@
 ---
 title: Noise Reduction
-description: "Anisotropic smoothing operation"
+description: "Anisotropic smoothing operation."
 links:
   - label: "gegl:noise-reduction"
     to: "https://gegl.org/operations/gegl-noise-reduction"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Noise Reduction
-caption: Anisotropic smoothing operation
+caption: Anisotropic smoothing operation.
 src: /images/operations/gegl-noise-reduction.png
 ---
 ::
@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Strength" type="gint"}
-        Controls the number of iterations; lower values give less plastic results  
+        Controls the number of iterations; lower values give less plastic results.  
         :icon{name="i-lucide-puzzle"} Default `4`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `32`. 
         

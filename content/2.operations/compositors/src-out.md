@@ -1,6 +1,6 @@
 ---
 title: Src-out
-description: "Porter Duff operation src-out (d = cA * (1.0f - aB))"
+description: "Porter Duff operation src-out (d = cA * (1.0f - aB))."
 links:
   - label: "svg:src-out"
     to: "https://gegl.org/operations/svg-src-out"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Src-out
-caption: Porter Duff operation src-out (d = cA * (1.0f - aB))
+caption: Porter Duff operation src-out (d = cA * (1.0f - aB)).
 src: /images/operations/svg-src-out.png
 ---
 ::
@@ -38,8 +38,8 @@ name: Operation properties
 ---
 
     ::field-group
-      ::field{name="sRGB" type="gboolean"}
-        Use sRGB gamma instead of linear  
+      ::field{name="SRGB" type="gboolean"}
+        Use sRGB gamma instead of linear.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 

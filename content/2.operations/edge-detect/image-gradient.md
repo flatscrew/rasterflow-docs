@@ -1,6 +1,6 @@
 ---
 title: Image Gradient
-description: "Compute gradient magnitude and/or direction by central differences"
+description: "Compute gradient magnitude and/or direction by central differences."
 links:
   - label: "gegl:image-gradient"
     to: "https://gegl.org/operations/gegl-image-gradient"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Image Gradient
-caption: Compute gradient magnitude and/or direction by central differences
+caption: Compute gradient magnitude and/or direction by central differences.
 src: /images/operations/gegl-image-gradient.png
 ---
 ::
@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Output mode" type="dictionary"}
-        Output Mode  
+        Output Mode.  
         :icon{name="i-lucide-puzzle"} Default `Magnitude`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Magnitude` • `Direction` • `Both` 
       ::

@@ -1,6 +1,6 @@
 ---
 title: 
-description: "OpenEXR image saver"
+description: "OpenEXR image saver."
 links:
   - label: "gegl:exr-save"
     to: "https://gegl.org/operations/gegl-exr-save"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: 
-caption: OpenEXR image saver
+caption: OpenEXR image saver.
 src: /images/operations/gegl-exr-save.png
 ---
 ::

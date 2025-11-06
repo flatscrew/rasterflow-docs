@@ -1,6 +1,6 @@
 ---
 title: Mean Curvature Blur
-description: "Regularize geometry at a speed proportional to the local mean curvature value"
+description: "Regularize geometry at a speed proportional to the local mean curvature value."
 links:
   - label: "gegl:mean-curvature-blur"
     to: "https://gegl.org/operations/gegl-mean-curvature-blur"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Mean Curvature Blur
-caption: Regularize geometry at a speed proportional to the local mean curvature value
+caption: Regularize geometry at a speed proportional to the local mean curvature value.
 src: /images/operations/gegl-mean-curvature-blur.png
 ---
 ::
@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Iterations" type="gint"}
-        Controls the number of iterations  
+        Controls the number of iterations.  
         :icon{name="i-lucide-puzzle"} Default `20`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `500`. 
         

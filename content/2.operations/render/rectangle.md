@@ -1,6 +1,6 @@
 ---
 title: Rectangle
-description: "A rectangular source of a fixed size with a solid color"
+description: "A rectangular source of a fixed size with a solid color."
 links:
   - label: "gegl:rectangle"
     to: "https://gegl.org/operations/gegl-rectangle"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Rectangle
-caption: A rectangular source of a fixed size with a solid color
+caption: A rectangular source of a fixed size with a solid color.
 src: /images/operations/gegl-rectangle.png
 ---
 ::
@@ -39,23 +39,23 @@ name: Operation properties
 
     ::field-group
       ::field{name="X" type="gdouble"}
-        Horizontal position  
+        Horizontal position.  
         :icon{name="i-lucide-puzzle"} Default `42.00`  
       ::
       ::field{name="Y" type="gdouble"}
-        Vertical position  
+        Vertical position.  
         :icon{name="i-lucide-puzzle"} Default `42.00`  
       ::
       ::field{name="Width" type="gdouble"}
-        Horizontal extent  
+        Horizontal extent.  
         :icon{name="i-lucide-puzzle"} Default `23.00`  
       ::
       ::field{name="Height" type="gdouble"}
-        Vertical extent  
+        Vertical extent.  
         :icon{name="i-lucide-puzzle"} Default `42.00`  
       ::
       ::field{name="Color" type="GeglColor"}
-        Color to render  
+        Color to render.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 

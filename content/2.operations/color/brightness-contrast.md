@@ -39,13 +39,13 @@ name: Operation properties
 
     ::field-group
       ::field{name="Contrast" type="gdouble"}
-        Magnitude of contrast scaling >1.0 brighten < 1.0 darken  
+        Magnitude of contrast scaling >1.0 brighten < 1.0 darken.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-5.00` • :icon{name="i-lucide-arrow-right"} • `5.00`. 
         
       ::
       ::field{name="Brightness" type="gdouble"}
-        Amount to increase brightness  
+        Amount to increase brightness.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-3.00` • :icon{name="i-lucide-arrow-right"} • `3.00`. 
         

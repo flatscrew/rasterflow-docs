@@ -1,6 +1,6 @@
 ---
 title: Weighted Blend
-description: "blend two images using alpha values as weights"
+description: "blend two images using alpha values as weights."
 links:
   - label: "gegl:weighted-blend"
     to: "https://gegl.org/operations/gegl-weighted-blend"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Weighted Blend
-caption: blend two images using alpha values as weights
+caption: blend two images using alpha values as weights.
 src: /images/operations/gegl-weighted-blend.png
 ---
 ::

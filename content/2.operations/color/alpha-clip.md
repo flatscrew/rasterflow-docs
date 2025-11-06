@@ -1,6 +1,6 @@
 ---
 title: Clip Alpha
-description: "Keep alpha values inside a specific range"
+description: "Keep alpha values inside a specific range."
 links:
   - label: "gegl:alpha-clip"
     to: "https://gegl.org/operations/gegl-alpha-clip"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Clip Alpha
-caption: Keep alpha values inside a specific range
+caption: Keep alpha values inside a specific range.
 src: /images/operations/gegl-alpha-clip.png
 ---
 ::
@@ -39,19 +39,19 @@ name: Operation properties
 
     ::field-group
       ::field{name="Clip low pixel values" type="gboolean"}
-        Clip low pixel values  
+        Clip low pixel values.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="Low limit" type="gdouble"}
-        Pixels values lower than this limit will be set to it  
+        Pixels values lower than this limit will be set to it.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="Clip high pixel values" type="gboolean"}
-        Clip high pixel values  
+        Clip high pixel values.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="High limit" type="gdouble"}
-        Pixels values higher than this limit will be set to it  
+        Pixels values higher than this limit will be set to it.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
       ::
 

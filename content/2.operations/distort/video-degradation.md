@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Pattern" type="dictionary"}
-        Type of RGB pattern to use  
+        Type of RGB pattern to use.  
         :icon{name="i-lucide-puzzle"} Default `Striped`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Staggered` • `Large staggered` • `Striped` • `Wide striped` • `Long staggered` • `3x3` • `Large 3x3` • `Hex` • `Dots` 
       ::

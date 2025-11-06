@@ -42,7 +42,7 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="babl format" type="gpointer"}
+      ::field{name="Babl format" type="gpointer"}
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::

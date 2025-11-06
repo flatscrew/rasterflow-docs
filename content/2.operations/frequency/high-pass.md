@@ -39,13 +39,13 @@ name: Operation properties
 
     ::field-group
       ::field{name="Std. Dev." type="gdouble"}
-        Standard deviation (spatial scale factor)  
+        Standard deviation (spatial scale factor).  
         :icon{name="i-lucide-puzzle"} Default `4.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `10000.00`. 
         
       ::
       ::field{name="Contrast" type="gdouble"}
-        Contrast of high-pass  
+        Contrast of high-pass.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `5.00`. 
         

@@ -39,37 +39,37 @@ name: Operation properties
 
     ::field-group
       ::field{name="Epsilon" type="gint"}
-        Log of the error weighting  
+        Log of the error weighting.  
         :icon{name="i-lucide-puzzle"} Default `-6`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-9` • :icon{name="i-lucide-arrow-right"} • `-1`. 
         
       ::
       ::field{name="Radius" type="gint"}
-        Radius of the processing window  
+        Radius of the processing window.  
         :icon{name="i-lucide-puzzle"} Default `1`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `3`. 
         
       ::
       ::field{name="Threshold" type="gdouble"}
-        Alpha threshold for multilevel processing  
+        Alpha threshold for multilevel processing.  
         :icon{name="i-lucide-puzzle"} Default `0.02`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `0.10`. 
         
       ::
       ::field{name="Lambda" type="gdouble"}
-        Trimap influence factor  
+        Trimap influence factor.  
         :icon{name="i-lucide-puzzle"} Default `100.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `100.00`. 
         
       ::
       ::field{name="Levels" type="gint"}
-        Number of downsampled levels to use  
+        Number of downsampled levels to use.  
         :icon{name="i-lucide-puzzle"} Default `4`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `8`. 
         
       ::
       ::field{name="Active levels" type="gint"}
-        Number of levels to perform solving  
+        Number of levels to perform solving.  
         :icon{name="i-lucide-puzzle"} Default `2`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `8`. 
         

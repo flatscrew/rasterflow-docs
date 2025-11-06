@@ -1,6 +1,6 @@
 ---
 title: Dst-in
-description: "Porter Duff operation dst-in (d = cB * aA)"
+description: "Porter Duff operation dst-in (d = cB * aA)."
 links:
   - label: "svg:dst-in"
     to: "https://gegl.org/operations/svg-dst-in"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Dst-in
-caption: Porter Duff operation dst-in (d = cB * aA)
+caption: Porter Duff operation dst-in (d = cB * aA).
 src: /images/operations/svg-dst-in.png
 ---
 ::
@@ -38,8 +38,8 @@ name: Operation properties
 ---
 
     ::field-group
-      ::field{name="sRGB" type="gboolean"}
-        Use sRGB gamma instead of linear  
+      ::field{name="SRGB" type="gboolean"}
+        Use sRGB gamma instead of linear.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 

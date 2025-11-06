@@ -1,6 +1,6 @@
 ---
 title: Zooming Motion Blur
-description: "Zoom motion blur"
+description: "Zoom motion blur."
 links:
   - label: "gegl:motion-blur-zoom"
     to: "https://gegl.org/operations/gegl-motion-blur-zoom"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Zooming Motion Blur
-caption: Zoom motion blur
+caption: Zoom motion blur.
 src: /images/operations/gegl-motion-blur-zoom.png
 ---
 ::

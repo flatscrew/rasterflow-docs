@@ -1,6 +1,6 @@
 ---
 title: TIFF File Saver
-description: "TIFF image saver using libtiff"
+description: "TIFF image saver using libtiff."
 links:
   - label: "gegl:tiff-save"
     to: "https://gegl.org/operations/gegl-tiff-save"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: TIFF File Saver
-caption: TIFF image saver using libtiff
+caption: TIFF image saver using libtiff.
 src: /images/operations/gegl-tiff-save.png
 ---
 ::
@@ -39,23 +39,23 @@ name: Operation properties
 
     ::field-group
       ::field{name="File" type="gchararray"}
-        Target path and filename, use '-' for stdout  
+        Target path and filename, use '-' for stdout.  
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
       ::field{name="Bitdepth" type="gint"}
-        -1, 8, 16, 32 and 64 are the currently accepted values, -1 means auto  
+        -1, 8, 16, 32 and 64 are the currently accepted values, -1 means auto.  
         :icon{name="i-lucide-puzzle"} Default `-1`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-1` • :icon{name="i-lucide-arrow-right"} • `64`. 
         
       ::
-      ::field{name="use floating point" type="gint"}
+      ::field{name="Use floating point" type="gint"}
         floating point -1 means auto, 0 means integer 1 meant float.  
         :icon{name="i-lucide-puzzle"} Default `-1`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-1` • :icon{name="i-lucide-arrow-right"} • `1`. 
         
       ::
       ::field{name="Metadata" type="GeglMetadata"}
-        Object to receive image metadata  
+        Object to receive image metadata.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 

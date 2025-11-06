@@ -43,7 +43,7 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
       ::field{name="Metadata" type="GeglMetadata"}
-        Object providing image metadata  
+        Object providing image metadata.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 

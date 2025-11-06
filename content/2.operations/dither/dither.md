@@ -39,31 +39,31 @@ name: Operation properties
 
     ::field-group
       ::field{name="Red levels" type="gint"}
-        Number of levels for red channel  
+        Number of levels for red channel.  
         :icon{name="i-lucide-puzzle"} Default `6`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `2` • :icon{name="i-lucide-arrow-right"} • `65536`. 
         
       ::
       ::field{name="Green levels" type="gint"}
-        Number of levels for green channel  
+        Number of levels for green channel.  
         :icon{name="i-lucide-puzzle"} Default `7`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `2` • :icon{name="i-lucide-arrow-right"} • `65536`. 
         
       ::
       ::field{name="Blue levels" type="gint"}
-        Number of levels for blue channel  
+        Number of levels for blue channel.  
         :icon{name="i-lucide-puzzle"} Default `6`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `2` • :icon{name="i-lucide-arrow-right"} • `65536`. 
         
       ::
       ::field{name="Alpha levels" type="gint"}
-        Number of levels for alpha channel  
+        Number of levels for alpha channel.  
         :icon{name="i-lucide-puzzle"} Default `256`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `2` • :icon{name="i-lucide-arrow-right"} • `65536`. 
         
       ::
       ::field{name="Dithering method" type="dictionary"}
-        The dithering method to use  
+        The dithering method to use.  
         :icon{name="i-lucide-puzzle"} Default `Floyd-Steinberg`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `None` • `Floyd-Steinberg` • `Bayer` • `Random` • `Random Covariant` • `Arithmetic add` • `Arithmetic add covariant` • `Arithmetic xor` • `Arithmetic xor covariant` • `Blue Noise` • `Blue Noise Covariant` 
       ::

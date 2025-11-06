@@ -47,19 +47,19 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="Red Threshold" type="gdouble"}
-        Red threshold of the input color  
+        Red threshold of the input color.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
       ::
       ::field{name="Green Threshold" type="gdouble"}
-        Green threshold of the input color  
+        Green threshold of the input color.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
       ::
       ::field{name="Blue Threshold" type="gdouble"}
-        Blue threshold of the input color  
+        Blue threshold of the input color.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         

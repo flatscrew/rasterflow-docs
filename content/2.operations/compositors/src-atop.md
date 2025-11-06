@@ -1,6 +1,6 @@
 ---
 title: Src-atop
-description: "Porter Duff operation src-atop (d = cA * aB + cB * (1.0f - aA))"
+description: "Porter Duff operation src-atop (d = cA * aB + cB * (1.0f - aA))."
 links:
   - label: "svg:src-atop"
     to: "https://gegl.org/operations/svg-src-atop"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Src-atop
-caption: Porter Duff operation src-atop (d = cA * aB + cB * (1.0f - aA))
+caption: Porter Duff operation src-atop (d = cA * aB + cB * (1.0f - aA)).
 src: /images/operations/svg-src-atop.png
 ---
 ::
@@ -38,8 +38,8 @@ name: Operation properties
 ---
 
     ::field-group
-      ::field{name="sRGB" type="gboolean"}
-        Use sRGB gamma instead of linear  
+      ::field{name="SRGB" type="gboolean"}
+        Use sRGB gamma instead of linear.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 

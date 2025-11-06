@@ -39,31 +39,31 @@ name: Operation properties
 
     ::field-group
       ::field{name="Turbulence" type="gdouble"}
-        High values give more variation in details  
+        High values give more variation in details.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `7.00`. 
         
       ::
       ::field{name="X" type="gint"}
-        X start of the generated buffer  
+        X start of the generated buffer.  
         :icon{name="i-lucide-puzzle"} Default `0`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-2147483648` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         
       ::
       ::field{name="Y" type="gint"}
-        Y start of the generated buffer  
+        Y start of the generated buffer.  
         :icon{name="i-lucide-puzzle"} Default `0`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-2147483648` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         
       ::
       ::field{name="Width" type="gint"}
-        Width of the generated buffer  
+        Width of the generated buffer.  
         :icon{name="i-lucide-puzzle"} Default `1024`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         
       ::
       ::field{name="Height" type="gint"}
-        Height of the generated buffer  
+        Height of the generated buffer.  
         :icon{name="i-lucide-puzzle"} Default `768`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         

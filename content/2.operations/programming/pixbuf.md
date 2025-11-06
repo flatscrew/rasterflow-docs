@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Pixbuf" type="GdkPixbuf"}
-        GdkPixbuf to use  
+        GdkPixbuf to use.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 

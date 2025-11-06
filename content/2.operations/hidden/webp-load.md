@@ -39,11 +39,11 @@ name: Operation properties
 
     ::field-group
       ::field{name="File" type="gchararray"}
-        Path of file to load  
+        Path of file to load.  
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
       ::field{name="URI" type="gchararray"}
-        URI for file to load  
+        URI for file to load.  
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
 

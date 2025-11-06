@@ -39,11 +39,11 @@ name: Operation properties
 
     ::field-group
       ::field{name="Text" type="gchararray"}
-        String to display (utf8)  
+        String to display (utf8).  
         :icon{name="i-lucide-puzzle"} Default `"Hello"`  
       ::
       ::field{name="Font family" type="gchararray"}
-        Font family (utf8)  
+        Font family (utf8).  
         :icon{name="i-lucide-puzzle"} Default `"Sans"`  
       ::
       ::field{name="Size" type="gdouble"}
@@ -53,7 +53,7 @@ name: Operation properties
         
       ::
       ::field{name="Color" type="GeglColor"}
-        Color for the text (defaults to 'black')  
+        Color for the text (defaults to 'black').  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="Wrap width" type="gint"}
@@ -69,25 +69,25 @@ name: Operation properties
         
       ::
       ::field{name="Justification" type="gint"}
-        Alignment for multi-line text (0=Left, 1=Center, 2=Right)  
+        Alignment for multi-line text (0=Left, 1=Center, 2=Right).  
         :icon{name="i-lucide-puzzle"} Default `0`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `2`. 
         
       ::
       ::field{name="Vertical justification" type="gint"}
-        Vertical text alignment (0=Top, 1=Middle, 2=Bottom)  
+        Vertical text alignment (0=Top, 1=Middle, 2=Bottom).  
         :icon{name="i-lucide-puzzle"} Default `0`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `2`. 
         
       ::
       ::field{name="Width" type="gint"}
-        Rendered width in pixels. (read only)  
+        Rendered width in pixels. (read only).  
         :icon{name="i-lucide-puzzle"} Default `0`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-2147483648` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         
       ::
       ::field{name="Height" type="gint"}
-        Rendered height in pixels. (read only)  
+        Rendered height in pixels. (read only).  
         :icon{name="i-lucide-puzzle"} Default `0`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-2147483648` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         

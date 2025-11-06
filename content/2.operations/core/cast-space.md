@@ -1,6 +1,6 @@
 ---
 title: Cast color space
-description: "Override the specified color space setting a pointer to a format override the string property and setting an aux pad overrides both. "
+description: "Override the specified color space setting a pointer to a format override the string property and setting an aux pad overrides both. ."
 links:
   - label: "gegl:cast-space"
     to: "https://gegl.org/operations/gegl-cast-space"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Cast color space
-caption: Override the specified color space setting a pointer to a format override the string property and setting an aux pad overrides both. 
+caption: Override the specified color space setting a pointer to a format override the string property and setting an aux pad overrides both. .
 src: /images/operations/gegl-cast-space.png
 ---
 ::
@@ -39,15 +39,15 @@ name: Operation properties
 
     ::field-group
       ::field{name="Name" type="gchararray"}
-        One of: sRGB, Adobish, Rec2020, ProPhoto, Apple, ACEScg, ACES2065-1  
+        One of: sRGB, Adobish, Rec2020, ProPhoto, Apple, ACEScg, ACES2065-1.  
         :icon{name="i-lucide-puzzle"} Default `"sRGB"`  
       ::
       ::field{name="Pointer" type="gpointer"}
-        pointer to a const * Babl space  
+        pointer to a const * Babl space.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="Path" type="gchararray"}
-        File system path to ICC matrix profile to load  
+        File system path to ICC matrix profile to load.  
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
 

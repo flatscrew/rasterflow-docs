@@ -1,6 +1,6 @@
 ---
 title: Src
-description: "Porter Duff operation src (d = cA)"
+description: "Porter Duff operation src (d = cA)."
 links:
   - label: "svg:src"
     to: "https://gegl.org/operations/svg-src"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Src
-caption: Porter Duff operation src (d = cA)
+caption: Porter Duff operation src (d = cA).
 src: /images/operations/svg-src.png
 ---
 ::
@@ -38,8 +38,8 @@ name: Operation properties
 ---
 
     ::field-group
-      ::field{name="sRGB" type="gboolean"}
-        Use sRGB gamma instead of linear  
+      ::field{name="SRGB" type="gboolean"}
+        Use sRGB gamma instead of linear.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 

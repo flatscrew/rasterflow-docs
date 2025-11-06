@@ -1,6 +1,6 @@
 ---
 title: Linear Gradient
-description: "Linear gradient renderer"
+description: "Linear gradient renderer."
 links:
   - label: "gegl:linear-gradient"
     to: "https://gegl.org/operations/gegl-linear-gradient"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Linear Gradient
-caption: Linear gradient renderer
+caption: Linear gradient renderer.
 src: /images/operations/gegl-linear-gradient.png
 ---
 ::
@@ -55,11 +55,11 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `150.00`  
       ::
       ::field{name="Start Color" type="GeglColor"}
-        The color at (x1, y1)  
+        The color at (x1, y1).  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="End Color" type="GeglColor"}
-        The color at (x2, y2)  
+        The color at (x2, y2).  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 

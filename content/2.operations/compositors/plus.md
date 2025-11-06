@@ -1,6 +1,6 @@
 ---
 title: Plus
-description: "SVG blend operation plus (<code>d = cA + cB</code>)"
+description: "SVG blend operation plus (<code>d = cA + cB</code>)."
 links:
   - label: "svg:plus"
     to: "https://gegl.org/operations/svg-plus"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Plus
-caption: SVG blend operation plus (<code>d = cA + cB</code>)
+caption: SVG blend operation plus (<code>d = cA + cB</code>).
 src: /images/operations/svg-plus.png
 ---
 ::
@@ -38,8 +38,8 @@ name: Operation properties
 ---
 
     ::field-group
-      ::field{name="sRGB" type="gboolean"}
-        Use sRGB gamma instead of linear  
+      ::field{name="SRGB" type="gboolean"}
+        Use sRGB gamma instead of linear.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 

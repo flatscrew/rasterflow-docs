@@ -1,6 +1,6 @@
 ---
 title: Noise Slur
-description: "Randomly slide some pixels downward (similar to melting)"
+description: "Randomly slide some pixels downward (similar to melting)."
 links:
   - label: "gegl:noise-slur"
     to: "https://gegl.org/operations/gegl-noise-slur"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Noise Slur
-caption: Randomly slide some pixels downward (similar to melting)
+caption: Randomly slide some pixels downward (similar to melting).
 src: /images/operations/gegl-noise-slur.png
 ---
 ::

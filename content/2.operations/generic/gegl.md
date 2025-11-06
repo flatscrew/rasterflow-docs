@@ -38,8 +38,8 @@ name: Operation properties
 ---
 
     ::field-group
-      ::field{name="pipeline" type="gchararray"}
-        [op [property=value] [property=value]] [[op] [property=value]  
+      ::field{name="Pipeline" type="gchararray"}
+        [op [property=value] [property=value]] [[op] [property=value].  
         :icon{name="i-lucide-puzzle"} Default `"# uncomment a set of lines below by removing the
 # leading to test and modify an example, use
 # use ctrl+a before typing to select all, if you

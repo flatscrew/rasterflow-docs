@@ -1,6 +1,6 @@
 ---
 title: Gamma
-description: "Math operation gamma, performs the operation per pixel, using either the constant provided in 'value' or the corresponding pixel from the buffer on aux as operands. The result is the evaluation of the expression result = (input >= 0.0f ? powf (input, value) : -powf (-input, value))"
+description: "Math operation gamma, performs the operation per pixel, using either the constant provided in 'value' or the corresponding pixel from the buffer on aux as operands. The result is the evaluation of the expression result = (input >= 0.0f ? powf (input, value) : -powf (-input, value))."
 links:
   - label: "gegl:gamma"
     to: "https://gegl.org/operations/gegl-gamma"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Gamma
-caption: Math operation gamma, performs the operation per pixel, using either the constant provided in 'value' or the corresponding pixel from the buffer on aux as operands. The result is the evaluation of the expression result = (input >= 0.0f ? powf (input, value) : -powf (-input, value))
+caption: Math operation gamma, performs the operation per pixel, using either the constant provided in 'value' or the corresponding pixel from the buffer on aux as operands. The result is the evaluation of the expression result = (input >= 0.0f ? powf (input, value) : -powf (-input, value)).
 src: /images/operations/gegl-gamma.png
 ---
 ::
@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Value" type="gdouble"}
-        global value used if aux doesn't contain data  
+        global value used if aux doesn't contain data.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
       ::
 

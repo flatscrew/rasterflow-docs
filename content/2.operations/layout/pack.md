@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Gap" type="gdouble"}
-        How many pixels of space between items  
+        How many pixels of space between items.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="Align" type="gdouble"}

@@ -1,6 +1,6 @@
 ---
 title: Ripple
-description: "Displace pixels in a ripple pattern"
+description: "Displace pixels in a ripple pattern."
 links:
   - label: "gegl:ripple"
     to: "https://gegl.org/operations/gegl-ripple"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Ripple
-caption: Displace pixels in a ripple pattern
+caption: Displace pixels in a ripple pattern.
 src: /images/operations/gegl-ripple.png
 ---
 ::
@@ -73,13 +73,13 @@ name: Operation properties
       ::
 
       ::field{name="Abyss policy" type="dictionary"}
-        How image edges are handled  
+        How image edges are handled.  
         :icon{name="i-lucide-puzzle"} Default `None`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `None` • `Clamp` • `Loop` • `Black` • `White` 
       ::
 
       ::field{name="Tileable" type="gboolean"}
-        Retain tilebility  
+        Retain tilebility.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 

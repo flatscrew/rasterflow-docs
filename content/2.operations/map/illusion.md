@@ -39,13 +39,13 @@ name: Operation properties
 
     ::field-group
       ::field{name="Division" type="gint"}
-        The number of divisions  
+        The number of divisions.  
         :icon{name="i-lucide-puzzle"} Default `8`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `64`. 
         
       ::
       ::field{name="Illusion type" type="dictionary"}
-        Type of illusion  
+        Type of illusion.  
         :icon{name="i-lucide-puzzle"} Default `Type 1`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Type 1` • `Type 2` 
       ::

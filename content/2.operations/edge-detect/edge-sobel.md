@@ -1,6 +1,6 @@
 ---
 title: Sobel Edge Detection
-description: "Specialized direction-dependent edge detection"
+description: "Specialized direction-dependent edge detection."
 links:
   - label: "gegl:edge-sobel"
     to: "https://gegl.org/operations/gegl-edge-sobel"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Sobel Edge Detection
-caption: Specialized direction-dependent edge detection
+caption: Specialized direction-dependent edge detection.
 src: /images/operations/gegl-edge-sobel.png
 ---
 ::

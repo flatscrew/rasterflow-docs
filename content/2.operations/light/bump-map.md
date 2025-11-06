@@ -39,21 +39,21 @@ name: Operation properties
 
     ::field-group
       ::field{name="Type" type="dictionary"}
-        Type of map  
+        Type of map.  
         :icon{name="i-lucide-puzzle"} Default `Linear`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Linear` • `Spherical` • `Sinusoidal` 
       ::
 
       ::field{name="Compensate" type="gboolean"}
-        Compensate for darkening  
+        Compensate for darkening.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="Invert" type="gboolean"}
-        Invert bumpmap  
+        Invert bumpmap.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
       ::field{name="Tiled" type="gboolean"}
-        Tiled bumpmap  
+        Tiled bumpmap.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
       ::field{name="Azimuth" type="gdouble"}
@@ -87,7 +87,7 @@ name: Operation properties
         
       ::
       ::field{name="Waterlevel" type="gdouble"}
-        Level that full transparency should represent  
+        Level that full transparency should represent.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         

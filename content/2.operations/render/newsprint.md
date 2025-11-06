@@ -1,6 +1,6 @@
 ---
 title: Newsprint
-description: "Digital halftoning with optional modulations. "
+description: "Digital halftoning with optional modulations. ."
 links:
   - label: "gegl:newsprint"
     to: "https://gegl.org/operations/gegl-newsprint"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Newsprint
-caption: Digital halftoning with optional modulations. 
+caption: Digital halftoning with optional modulations. .
 src: /images/operations/gegl-newsprint.png
 ---
 ::
@@ -39,13 +39,13 @@ name: Operation properties
 
     ::field-group
       ::field{name="Color Model" type="dictionary"}
-        How many inks to use just black, rg, rgb (additive), or cmyk  
+        How many inks to use just black, rg, rgb (additive), or cmyk.  
         :icon{name="i-lucide-puzzle"} Default `Black on White`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `White on Black` • `Black on White` • `RGB` • `CMYK` 
       ::
 
       ::field{name="Red and cyan pattern" type="dictionary"}
-        Halftoning/dot pattern to use  
+        Halftoning/dot pattern to use.  
         :icon{name="i-lucide-puzzle"} Default `Line`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Line` • `Circle` • `Diamond` • `PSSquare (or Euclidian) dot` • `Crossing Lines` 
       ::
@@ -63,7 +63,7 @@ name: Operation properties
         
       ::
       ::field{name="Green and magenta pattern" type="dictionary"}
-        Halftoning/dot pattern to use  
+        Halftoning/dot pattern to use.  
         :icon{name="i-lucide-puzzle"} Default `Line`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Line` • `Circle` • `Diamond` • `PSSquare (or Euclidian) dot` • `Crossing Lines` 
       ::
@@ -81,7 +81,7 @@ name: Operation properties
         
       ::
       ::field{name="Blue and Yellow pattern" type="dictionary"}
-        Halftoning/dot pattern to use  
+        Halftoning/dot pattern to use.  
         :icon{name="i-lucide-puzzle"} Default `Line`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Line` • `Circle` • `Diamond` • `PSSquare (or Euclidian) dot` • `Crossing Lines` 
       ::
@@ -99,7 +99,7 @@ name: Operation properties
         
       ::
       ::field{name="Black pattern" type="dictionary"}
-        Halftoning/dot pattern to use  
+        Halftoning/dot pattern to use.  
         :icon{name="i-lucide-puzzle"} Default `Line`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Line` • `Circle` • `Diamond` • `PSSquare (or Euclidian) dot` • `Crossing Lines` 
       ::
@@ -111,13 +111,13 @@ name: Operation properties
         
       ::
       ::field{name="Black angle" type="gdouble"}
-        Angle offset for patterns  
+        Angle offset for patterns.  
         :icon{name="i-lucide-puzzle"} Default `75.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-180.00` • :icon{name="i-lucide-arrow-right"} • `180.00`. 
         
       ::
       ::field{name="Black pullout" type="gdouble"}
-        How much of common gray to pull out of CMY  
+        How much of common gray to pull out of CMY.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
@@ -129,13 +129,13 @@ name: Operation properties
         
       ::
       ::field{name="Turbulence" type="gdouble"}
-        Color saturation dependent compression of period  
+        Color saturation dependent compression of period.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
       ::
       ::field{name="Blocksize" type="gdouble"}
-        Number of periods per tile, this tiling avoids high frequency anomaly that angle boost causes  
+        Number of periods per tile, this tiling avoids high frequency anomaly that angle boost causes.  
         :icon{name="i-lucide-puzzle"} Default `-1.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-1.00` • :icon{name="i-lucide-arrow-right"} • `64.00`. 
         

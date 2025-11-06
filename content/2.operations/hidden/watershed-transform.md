@@ -39,13 +39,13 @@ name: Operation properties
 
     ::field-group
       ::field{name="Index of component flagging unlabelled pixels" type="gint"}
-        Index of component flagging unlabelled pixels  
+        Index of component flagging unlabelled pixels.  
         :icon{name="i-lucide-puzzle"} Default `-1`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-2147483648` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         
       ::
-      ::field{name="flag" type="gpointer"}
-        Pointer to flag value for unlabelled pixels  
+      ::field{name="Flag" type="gpointer"}
+        Pointer to flag value for unlabelled pixels.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 

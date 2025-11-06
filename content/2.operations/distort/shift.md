@@ -1,6 +1,6 @@
 ---
 title: Shift
-description: "Shift each row or column of pixels by a random amount"
+description: "Shift each row or column of pixels by a random amount."
 links:
   - label: "gegl:shift"
     to: "https://gegl.org/operations/gegl-shift"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Shift
-caption: Shift each row or column of pixels by a random amount
+caption: Shift each row or column of pixels by a random amount.
 src: /images/operations/gegl-shift.png
 ---
 ::
@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Shift" type="gint"}
-        Maximum amount to shift  
+        Maximum amount to shift.  
         :icon{name="i-lucide-puzzle"} Default `5`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `200`. 
         

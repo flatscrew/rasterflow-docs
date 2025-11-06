@@ -39,25 +39,25 @@ name: Operation properties
 
     ::field-group
       ::field{name="Alpha" type="gdouble"}
-        Gradient threshold for detail enhancement  
+        Gradient threshold for detail enhancement.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `2.00`. 
         
       ::
       ::field{name="Beta" type="gdouble"}
-        Strength of local detail enhancement  
+        Strength of local detail enhancement.  
         :icon{name="i-lucide-puzzle"} Default `0.90`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.10` • :icon{name="i-lucide-arrow-right"} • `2.00`. 
         
       ::
       ::field{name="Saturation" type="gdouble"}
-        Global color saturation factor  
+        Global color saturation factor.  
         :icon{name="i-lucide-puzzle"} Default `0.80`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
       ::
       ::field{name="Noise" type="gdouble"}
-        Gradient threshold for lowering detail enhancement  
+        Gradient threshold for lowering detail enhancement.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         

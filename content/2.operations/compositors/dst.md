@@ -1,6 +1,6 @@
 ---
 title: Dst
-description: "Porter Duff operation dst (d = cB)"
+description: "Porter Duff operation dst (d = cB)."
 links:
   - label: "svg:dst"
     to: "https://gegl.org/operations/svg-dst"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Dst
-caption: Porter Duff operation dst (d = cB)
+caption: Porter Duff operation dst (d = cB).
 src: /images/operations/svg-dst.png
 ---
 ::
@@ -38,8 +38,8 @@ name: Operation properties
 ---
 
     ::field-group
-      ::field{name="sRGB" type="gboolean"}
-        Use sRGB gamma instead of linear  
+      ::field{name="SRGB" type="gboolean"}
+        Use sRGB gamma instead of linear.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 

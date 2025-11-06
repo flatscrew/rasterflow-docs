@@ -1,6 +1,6 @@
 ---
 title: Clear
-description: "Porter Duff operation clear (d = 0.0f)"
+description: "Porter Duff operation clear (d = 0.0f)."
 links:
   - label: "svg:clear"
     to: "https://gegl.org/operations/svg-clear"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Clear
-caption: Porter Duff operation clear (d = 0.0f)
+caption: Porter Duff operation clear (d = 0.0f).
 src: /images/operations/svg-clear.png
 ---
 ::
@@ -38,8 +38,8 @@ name: Operation properties
 ---
 
     ::field-group
-      ::field{name="sRGB" type="gboolean"}
-        Use sRGB gamma instead of linear  
+      ::field{name="SRGB" type="gboolean"}
+        Use sRGB gamma instead of linear.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 

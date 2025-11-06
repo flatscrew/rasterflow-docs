@@ -1,6 +1,6 @@
 ---
 title: Dst-over
-description: "Porter Duff operation dst-over (d = cB + cA * (1.0f - aB))"
+description: "Porter Duff operation dst-over (d = cB + cA * (1.0f - aB))."
 links:
   - label: "svg:dst-over"
     to: "https://gegl.org/operations/svg-dst-over"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Dst-over
-caption: Porter Duff operation dst-over (d = cB + cA * (1.0f - aB))
+caption: Porter Duff operation dst-over (d = cB + cA * (1.0f - aB)).
 src: /images/operations/svg-dst-over.png
 ---
 ::
@@ -38,8 +38,8 @@ name: Operation properties
 ---
 
     ::field-group
-      ::field{name="sRGB" type="gboolean"}
-        Use sRGB gamma instead of linear  
+      ::field{name="SRGB" type="gboolean"}
+        Use sRGB gamma instead of linear.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 

@@ -39,27 +39,27 @@ name: Operation properties
 
     ::field-group
       ::field{name="Center X" type="gdouble"}
-        X coordinates of the center of supernova  
+        X coordinates of the center of supernova.  
         :icon{name="i-lucide-puzzle"} Default `0.50`  
       ::
       ::field{name="Center Y" type="gdouble"}
-        Y coordinates of the center of supernova  
+        Y coordinates of the center of supernova.  
         :icon{name="i-lucide-puzzle"} Default `0.50`  
       ::
       ::field{name="Radius" type="gint"}
-        Radius of supernova  
+        Radius of supernova.  
         :icon{name="i-lucide-puzzle"} Default `20`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `20000`. 
         
       ::
       ::field{name="Number of spokes" type="gint"}
-        Number of spokes  
+        Number of spokes.  
         :icon{name="i-lucide-puzzle"} Default `100`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `1024`. 
         
       ::
       ::field{name="Random hue" type="gint"}
-        Random hue  
+        Random hue.  
         :icon{name="i-lucide-puzzle"} Default `0`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `360`. 
         
@@ -69,7 +69,7 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="Random seed" type="guint"}
-        The random seed for spokes and random hue  
+        The random seed for spokes and random hue.  
         :icon{name="i-lucide-puzzle"} Default `0`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `4294967295`. 
         

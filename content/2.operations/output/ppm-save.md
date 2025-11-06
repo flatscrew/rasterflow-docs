@@ -1,6 +1,6 @@
 ---
 title: PPM File Saver
-description: "PPM image saver (Portable pixmap saver.)"
+description: "PPM image saver (Portable pixmap saver.)."
 links:
   - label: "gegl:ppm-save"
     to: "https://gegl.org/operations/gegl-ppm-save"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: PPM File Saver
-caption: PPM image saver (Portable pixmap saver.)
+caption: PPM image saver (Portable pixmap saver.).
 src: /images/operations/gegl-ppm-save.png
 ---
 ::

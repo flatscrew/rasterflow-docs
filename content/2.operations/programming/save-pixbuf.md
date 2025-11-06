@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Pixbuf" type="GdkPixbuf"}
-        The output pixbuf produced by process is stored in this property  
+        The output pixbuf produced by process is stored in this property.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 

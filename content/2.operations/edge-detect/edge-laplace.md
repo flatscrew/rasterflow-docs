@@ -1,6 +1,6 @@
 ---
 title: Laplacian Edge Detection
-description: "High-resolution edge detection"
+description: "High-resolution edge detection."
 links:
   - label: "gegl:edge-laplace"
     to: "https://gegl.org/operations/gegl-edge-laplace"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Laplacian Edge Detection
-caption: High-resolution edge detection
+caption: High-resolution edge detection.
 src: /images/operations/gegl-edge-laplace.png
 ---
 ::

@@ -1,6 +1,6 @@
 ---
 title: 
-description: "SVG blend operation screen (<code>d = cA + cB - cA * cB</code>)"
+description: "SVG blend operation screen (<code>d = cA + cB - cA * cB</code>)."
 links:
   - label: "svg:screen"
     to: "https://gegl.org/operations/svg-screen"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: 
-caption: SVG blend operation screen (<code>d = cA + cB - cA * cB</code>)
+caption: SVG blend operation screen (<code>d = cA + cB - cA * cB</code>).
 src: /images/operations/svg-screen.png
 ---
 ::
@@ -38,8 +38,8 @@ name: Operation properties
 ---
 
     ::field-group
-      ::field{name="sRGB" type="gboolean"}
-        Use sRGB gamma instead of linear  
+      ::field{name="SRGB" type="gboolean"}
+        Use sRGB gamma instead of linear.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 

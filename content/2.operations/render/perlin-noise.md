@@ -1,6 +1,6 @@
 ---
 title: Perlin Noise
-description: "Perlin noise generator"
+description: "Perlin noise generator."
 links:
   - label: "gegl:perlin-noise"
     to: "https://gegl.org/operations/gegl-perlin-noise"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Perlin Noise
-caption: Perlin noise generator
+caption: Perlin noise generator.
 src: /images/operations/gegl-perlin-noise.png
 ---
 ::

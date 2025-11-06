@@ -1,6 +1,6 @@
 ---
 title: Waterpixels
-description: "Superpixels based on the watershed transformation"
+description: "Superpixels based on the watershed transformation."
 links:
   - label: "gegl:waterpixels"
     to: "https://gegl.org/operations/gegl-waterpixels"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Waterpixels
-caption: Superpixels based on the watershed transformation
+caption: Superpixels based on the watershed transformation.
 src: /images/operations/gegl-waterpixels.png
 ---
 ::
@@ -51,13 +51,13 @@ name: Operation properties
         
       ::
       ::field{name="Spatial regularization" type="gint"}
-        trade-off between superpixel regularity and adherence to object boundaries  
+        trade-off between superpixel regularity and adherence to object boundaries.  
         :icon{name="i-lucide-puzzle"} Default `0`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `50`. 
         
       ::
       ::field{name="Superpixels color" type="dictionary"}
-        How to fill superpixels  
+        How to fill superpixels.  
         :icon{name="i-lucide-puzzle"} Default `Average`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Average` • `Random` 
       ::

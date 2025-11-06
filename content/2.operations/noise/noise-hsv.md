@@ -1,6 +1,6 @@
 ---
 title: Add HSV Noise
-description: "Randomize hue, saturation and value independently"
+description: "Randomize hue, saturation and value independently."
 links:
   - label: "gegl:noise-hsv"
     to: "https://gegl.org/operations/gegl-noise-hsv"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Add HSV Noise
-caption: Randomize hue, saturation and value independently
+caption: Randomize hue, saturation and value independently.
 src: /images/operations/gegl-noise-hsv.png
 ---
 ::
@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Dulling" type="gint"}
-        A high value lowers the randomness of the noise  
+        A high value lowers the randomness of the noise.  
         :icon{name="i-lucide-puzzle"} Default `2`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `8`. 
         

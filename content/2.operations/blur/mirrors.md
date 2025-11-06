@@ -39,67 +39,67 @@ name: Operation properties
 
     ::field-group
       ::field{name="Mirror rotation" type="gdouble"}
-        Rotation applied to the mirrors  
+        Rotation applied to the mirrors.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `180.00`. 
         
       ::
       ::field{name="Result rotation" type="gdouble"}
-        Rotation applied to the result  
+        Rotation applied to the result.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `360.00`. 
         
       ::
       ::field{name="Mirrors" type="gint"}
-        Number of mirrors to use  
+        Number of mirrors to use.  
         :icon{name="i-lucide-puzzle"} Default `6`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `2` • :icon{name="i-lucide-arrow-right"} • `24`. 
         
       ::
       ::field{name="Offset X" type="gdouble"}
-        position of symmetry center in output  
+        position of symmetry center in output.  
         :icon{name="i-lucide-puzzle"} Default `0.50`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
       ::
       ::field{name="Offset Y" type="gdouble"}
-        position of symmetry center in output  
+        position of symmetry center in output.  
         :icon{name="i-lucide-puzzle"} Default `0.50`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
       ::
       ::field{name="Center X" type="gdouble"}
-        X axis ratio for the center of mirroring  
+        X axis ratio for the center of mirroring.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-1.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
       ::
       ::field{name="Center Y" type="gdouble"}
-        Y axis ratio for the center of mirroring  
+        Y axis ratio for the center of mirroring.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-1.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
       ::
       ::field{name="Trim X" type="gdouble"}
-        X axis ratio for trimming mirror expanse  
+        X axis ratio for trimming mirror expanse.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `0.50`. 
         
       ::
       ::field{name="Trim Y" type="gdouble"}
-        Y axis ratio for trimming mirror expanse  
+        Y axis ratio for trimming mirror expanse.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `0.50`. 
         
       ::
       ::field{name="Zoom" type="gdouble"}
-        Scale factor to make rendering size bigger  
+        Scale factor to make rendering size bigger.  
         :icon{name="i-lucide-puzzle"} Default `100.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.10` • :icon{name="i-lucide-arrow-right"} • `100.00`. 
         
       ::
       ::field{name="Expand" type="gdouble"}
-        Scale factor to make rendering size bigger  
+        Scale factor to make rendering size bigger.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `100.00`. 
         
@@ -109,7 +109,7 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="Wrap input" type="gboolean"}
-        Fill full output area  
+        Fill full output area.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
 

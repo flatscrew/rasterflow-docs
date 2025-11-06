@@ -1,6 +1,6 @@
 ---
 title: Fill Path
-description: "Renders a filled region"
+description: "Renders a filled region."
 links:
   - label: "gegl:fill-path"
     to: "https://gegl.org/operations/gegl-fill-path"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Fill Path
-caption: Renders a filled region
+caption: Renders a filled region.
 src: /images/operations/gegl-fill-path.png
 ---
 ::
@@ -49,7 +49,7 @@ name: Operation properties
         
       ::
       ::field{name="Fill rule." type="gchararray"}
-        how to determine what to fill (nonzero|evenodd)  
+        how to determine what to fill (nonzero|evenodd).  
         :icon{name="i-lucide-puzzle"} Default `"nonzero"`  
       ::
       ::field{name="Transform" type="gchararray"}
@@ -57,7 +57,7 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
       ::field{name="Vector" type="GeglPath"}
-        A GeglVector representing the path of the stroke  
+        A GeglVector representing the path of the stroke.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 

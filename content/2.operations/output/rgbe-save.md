@@ -1,6 +1,6 @@
 ---
 title: RGBE File Saver
-description: "RGBE image saver (Radiance HDR format)"
+description: "RGBE image saver (Radiance HDR format)."
 links:
   - label: "gegl:rgbe-save"
     to: "https://gegl.org/operations/gegl-rgbe-save"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: RGBE File Saver
-caption: RGBE image saver (Radiance HDR format)
+caption: RGBE image saver (Radiance HDR format).
 src: /images/operations/gegl-rgbe-save.png
 ---
 ::

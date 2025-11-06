@@ -1,6 +1,6 @@
 ---
 title: Vector Stroke
-description: "Renders a vector stroke"
+description: "Renders a vector stroke."
 links:
   - label: "gegl:vector-stroke"
     to: "https://gegl.org/operations/gegl-vector-stroke"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Vector Stroke
-caption: Renders a vector stroke
+caption: Renders a vector stroke.
 src: /images/operations/gegl-vector-stroke.png
 ---
 ::
@@ -59,7 +59,7 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
       ::field{name="Vector" type="GeglPath"}
-        A GeglVector representing the path of the stroke  
+        A GeglVector representing the path of the stroke.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 

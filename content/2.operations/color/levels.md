@@ -1,6 +1,6 @@
 ---
 title: Levels
-description: "Remaps the intensity range of the image"
+description: "Remaps the intensity range of the image."
 links:
   - label: "gegl:levels"
     to: "https://gegl.org/operations/gegl-levels"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Levels
-caption: Remaps the intensity range of the image
+caption: Remaps the intensity range of the image.
 src: /images/operations/gegl-levels.png
 ---
 ::
@@ -39,19 +39,19 @@ name: Operation properties
 
     ::field-group
       ::field{name="Low input" type="gdouble"}
-        Input luminance level to become lowest output  
+        Input luminance level to become lowest output.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="High input" type="gdouble"}
-        Input luminance level to become white  
+        Input luminance level to become white.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
       ::
       ::field{name="Low output" type="gdouble"}
-        Lowest luminance level in output  
+        Lowest luminance level in output.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="High output" type="gdouble"}
-        Highest luminance level in output  
+        Highest luminance level in output.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
       ::
 

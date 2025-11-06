@@ -39,13 +39,13 @@ name: Operation properties
 
     ::field-group
       ::field{name="Direction" type="dictionary"}
-        Position of the light source which lightens the canvas: Top-right, Top-left, Bottom-left or Bottom-right  
+        Position of the light source which lightens the canvas: Top-right, Top-left, Bottom-left or Bottom-right.  
         :icon{name="i-lucide-puzzle"} Default `Top-right`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Top-right` • `Top-left` • `Bottom-left` • `Bottom-right` 
       ::
 
       ::field{name="Depth" type="gint"}
-        Apparent depth of the rendered canvas effect; from 1 (very flat) to 50 (very deep)  
+        Apparent depth of the rendered canvas effect; from 1 (very flat) to 50 (very deep).  
         :icon{name="i-lucide-puzzle"} Default `4`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `50`. 
         

@@ -1,6 +1,6 @@
 ---
 title: JPEG File Saver
-description: "JPEG image saver, using libjpeg"
+description: "JPEG image saver, using libjpeg."
 links:
   - label: "gegl:jpg-save"
     to: "https://gegl.org/operations/gegl-jpg-save"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: JPEG File Saver
-caption: JPEG image saver, using libjpeg
+caption: JPEG image saver, using libjpeg.
 src: /images/operations/gegl-jpg-save.png
 ---
 ::
@@ -39,35 +39,35 @@ name: Operation properties
 
     ::field-group
       ::field{name="File" type="gchararray"}
-        Target path and filename, use '-' for stdout  
+        Target path and filename, use '-' for stdout.  
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
       ::field{name="Quality" type="gint"}
-        JPEG compression quality (between 1 and 100)  
+        JPEG compression quality (between 1 and 100).  
         :icon{name="i-lucide-puzzle"} Default `90`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `100`. 
         
       ::
       ::field{name="Smoothing" type="gint"}
-        Smoothing factor from 1 to 100; 0 disables smoothing  
+        Smoothing factor from 1 to 100; 0 disables smoothing.  
         :icon{name="i-lucide-puzzle"} Default `0`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `100`. 
         
       ::
       ::field{name="Optimize" type="gboolean"}
-        Use optimized huffman tables  
+        Use optimized huffman tables.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="Progressive" type="gboolean"}
-        Create progressive JPEG images  
+        Create progressive JPEG images.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="Grayscale" type="gboolean"}
-        Create a grayscale (monochrome) image  
+        Create a grayscale (monochrome) image.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
       ::field{name="Metadata" type="GeglMetadata"}
-        Object to supply image metadata  
+        Object to supply image metadata.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 

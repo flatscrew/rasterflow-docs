@@ -1,6 +1,6 @@
 ---
 title: SVG Luminance to Alpha
-description: "SVG color matrix operation svg_luminancetoalpha"
+description: "SVG color matrix operation svg_luminancetoalpha."
 links:
   - label: "gegl:svg-luminancetoalpha"
     to: "https://gegl.org/operations/gegl-svg-luminancetoalpha"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: SVG Luminance to Alpha
-caption: SVG color matrix operation svg_luminancetoalpha
+caption: SVG color matrix operation svg_luminancetoalpha.
 src: /images/operations/gegl-svg-luminancetoalpha.png
 ---
 ::

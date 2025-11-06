@@ -1,6 +1,6 @@
 ---
 title: libraw File Loader
-description: "Camera RAW image loader"
+description: "Camera RAW image loader."
 links:
   - label: "gegl:raw-load"
     to: "https://gegl.org/operations/gegl-raw-load"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: libraw File Loader
-caption: Camera RAW image loader
+caption: Camera RAW image loader.
 src: /images/operations/gegl-raw-load.png
 ---
 ::
@@ -49,12 +49,12 @@ name: Operation properties
         
       ::
       ::field{name="Color space" type="dictionary"}
-        Color space to use for loaded data  
+        Color space to use for loaded data.  
         :icon{name="i-lucide-puzzle"} Default `s RGB`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Camera RGB` • `s RGB` • `Adobe RGB compatible` • `Wide gamut RGB` • `ProPhoto RGB` 
       ::
 
-      ::field{name="quality" type="gint"}
+      ::field{name="Quality" type="gint"}
         
         :icon{name="i-lucide-puzzle"} Default `10`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-2147483648` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 

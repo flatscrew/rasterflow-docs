@@ -39,11 +39,11 @@ name: Operation properties
 
     ::field-group
       ::field{name="Color" type="GeglColor"}
-        The color to render (defaults to 'black')  
+        The color to render (defaults to 'black').  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="Babl Format" type="gpointer"}
-        The babl format of the output  
+        The babl format of the output.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 

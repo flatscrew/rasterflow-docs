@@ -1,6 +1,6 @@
 ---
 title: Paper Tile
-description: "Cut image into paper tiles, and slide them"
+description: "Cut image into paper tiles, and slide them."
 links:
   - label: "gegl:tile-paper"
     to: "https://gegl.org/operations/gegl-tile-paper"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Paper Tile
-caption: Cut image into paper tiles, and slide them
+caption: Cut image into paper tiles, and slide them.
 src: /images/operations/gegl-tile-paper.png
 ---
 ::
@@ -39,45 +39,45 @@ name: Operation properties
 
     ::field-group
       ::field{name="Tile Width" type="gint"}
-        Width of the tile  
+        Width of the tile.  
         :icon{name="i-lucide-puzzle"} Default `155`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         
       ::
       ::field{name="Tile Height" type="gint"}
-        Height of the tile  
+        Height of the tile.  
         :icon{name="i-lucide-puzzle"} Default `56`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         
       ::
       ::field{name="Move rate" type="gdouble"}
-        Move rate  
+        Move rate.  
         :icon{name="i-lucide-puzzle"} Default `25.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1.00` • :icon{name="i-lucide-arrow-right"} • `100.00`. 
         
       ::
       ::field{name="Wrap around" type="gboolean"}
-        Wrap the fractional tiles  
+        Wrap the fractional tiles.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
       ::field{name="Fractional type" type="dictionary"}
-        Fractional Type  
+        Fractional Type.  
         :icon{name="i-lucide-puzzle"} Default `Force`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Background` • `Ignore` • `Force` 
       ::
 
       ::field{name="Centering" type="gboolean"}
-        Centering of the tiles  
+        Centering of the tiles.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="Background type" type="dictionary"}
-        Background type  
+        Background type.  
         :icon{name="i-lucide-puzzle"} Default `Inverted image`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Transparent` • `Inverted image` • `Image` • `Color` 
       ::
 
       ::field{name="Background color" type="GeglColor"}
-        The tiles' background color  
+        The tiles' background color.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="Random seed" type="guint"}

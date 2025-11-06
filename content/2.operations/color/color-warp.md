@@ -46,7 +46,7 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="weight 0" type="gdouble"}
+      ::field{name="Weight 0" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
@@ -58,7 +58,7 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="weight 1" type="gdouble"}
+      ::field{name="Weight 1" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
@@ -70,7 +70,7 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="weight 2" type="gdouble"}
+      ::field{name="Weight 2" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
@@ -82,7 +82,7 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="weight 3" type="gdouble"}
+      ::field{name="Weight 3" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
@@ -94,7 +94,7 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="weight 4" type="gdouble"}
+      ::field{name="Weight 4" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
@@ -106,7 +106,7 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="weight 5" type="gdouble"}
+      ::field{name="Weight 5" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
@@ -118,7 +118,7 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="weight 6" type="gdouble"}
+      ::field{name="Weight 6" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
@@ -130,15 +130,15 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="weight 7" type="gdouble"}
+      ::field{name="Weight 7" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
-      ::field{name="global weight scale" type="gdouble"}
+      ::field{name="Global weight scale" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `1.00`  
       ::
-      ::field{name="amount" type="gdouble"}
+      ::field{name="Amount" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `1.00`  
       ::

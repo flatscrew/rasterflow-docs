@@ -1,6 +1,6 @@
 ---
 title: Radial Gradient
-description: "Radial gradient renderer"
+description: "Radial gradient renderer."
 links:
   - label: "gegl:radial-gradient"
     to: "https://gegl.org/operations/gegl-radial-gradient"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Radial Gradient
-caption: Radial gradient renderer
+caption: Radial gradient renderer.
 src: /images/operations/gegl-radial-gradient.png
 ---
 ::
@@ -55,11 +55,11 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `50.00`  
       ::
       ::field{name="Start Color" type="GeglColor"}
-        The color at (x1, y1)  
+        The color at (x1, y1).  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="End Color" type="GeglColor"}
-        The color at (x2, y2)  
+        The color at (x2, y2).  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 

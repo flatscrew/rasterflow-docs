@@ -39,11 +39,11 @@ name: Operation properties
 
     ::field-group
       ::field{name="X position" type="gdouble"}
-        X coordinates of the flare center  
+        X coordinates of the flare center.  
         :icon{name="i-lucide-puzzle"} Default `0.50`  
       ::
       ::field{name="Y position" type="gdouble"}
-        Y coordinates of the flare center  
+        Y coordinates of the flare center.  
         :icon{name="i-lucide-puzzle"} Default `0.50`  
       ::
 

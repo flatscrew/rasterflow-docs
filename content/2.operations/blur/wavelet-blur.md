@@ -1,6 +1,6 @@
 ---
 title: Wavelet Blur
-description: "This blur is used for the wavelet decomposition filter, each pixel is computed from another by the HAT transform"
+description: "This blur is used for the wavelet decomposition filter, each pixel is computed from another by the HAT transform."
 links:
   - label: "gegl:wavelet-blur"
     to: "https://gegl.org/operations/gegl-wavelet-blur"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Wavelet Blur
-caption: This blur is used for the wavelet decomposition filter, each pixel is computed from another by the HAT transform
+caption: This blur is used for the wavelet decomposition filter, each pixel is computed from another by the HAT transform.
 src: /images/operations/gegl-wavelet-blur.png
 ---
 ::
@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Radius" type="gdouble"}
-        Radius of the wavelet blur  
+        Radius of the wavelet blur.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1500.00`. 
         

@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Radius" type="gint"}
-        Radius of square pixel region, (width and height will be radius*2+1)  
+        Radius of square pixel region, (width and height will be radius*2+1).  
         :icon{name="i-lucide-puzzle"} Default `4`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `1000`. 
         

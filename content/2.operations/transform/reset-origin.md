@@ -39,21 +39,21 @@ name: Operation properties
 
     ::field-group
       ::field{name="Origin-x" type="gdouble"}
-        X coordinate of origin  
+        X coordinate of origin.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="Origin-y" type="gdouble"}
-        Y coordinate of origin  
+        Y coordinate of origin.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="Near-z" type="gdouble"}
-        Z coordinate of the near clipping plane  
+        Z coordinate of the near clipping plane.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
       ::
       ::field{name="Sampler" type="dictionary"}
-        Sampler used internally  
+        Sampler used internally.  
         :icon{name="i-lucide-puzzle"} Default `Linear`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Nearest` • `Linear` • `Cubic` • `NoHalo` • `LoHalo` 
       ::

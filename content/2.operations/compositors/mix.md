@@ -1,6 +1,6 @@
 ---
 title: Mix
-description: "Do a lerp, linear interpolation (lerp) between input and aux"
+description: "Do a lerp, linear interpolation (lerp) between input and aux."
 links:
   - label: "gegl:mix"
     to: "https://gegl.org/operations/gegl-mix"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Mix
-caption: Do a lerp, linear interpolation (lerp) between input and aux
+caption: Do a lerp, linear interpolation (lerp) between input and aux.
 src: /images/operations/gegl-mix.png
 ---
 ::
@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Ratio" type="gdouble"}
-        Mixing ratio, read as amount of aux, 0=input 0.5=half 1.0=aux  
+        Mixing ratio, read as amount of aux, 0=input 0.5=half 1.0=aux.  
         :icon{name="i-lucide-puzzle"} Default `0.50`  
       ::
 

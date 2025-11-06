@@ -1,6 +1,6 @@
 ---
 title: Layer
-description: "A layer in the traditional sense"
+description: "A layer in the traditional sense."
 links:
   - label: "gegl:layer"
     to: "https://gegl.org/operations/gegl-layer"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Layer
-caption: A layer in the traditional sense
+caption: A layer in the traditional sense.
 src: /images/operations/gegl-layer.png
 ---
 ::
@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Operation" type="gchararray"}
-        Composite operation to use  
+        Composite operation to use.  
         :icon{name="i-lucide-puzzle"} Default `"gegl:over"`  
       ::
       ::field{name="Opacity" type="gdouble"}
@@ -49,19 +49,19 @@ name: Operation properties
         
       ::
       ::field{name="X" type="gdouble"}
-        Horizontal position in pixels  
+        Horizontal position in pixels.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="Y" type="gdouble"}
-        Vertical position in pixels  
+        Vertical position in pixels.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="Scale" type="gdouble"}
-        Scale 1:1 size  
+        Scale 1:1 size.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
       ::
       ::field{name="Source" type="gchararray"}
-        Source image file path (png, jpg, raw, svg, bmp, tif, ...)  
+        Source image file path (png, jpg, raw, svg, bmp, tif, ...).  
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
 

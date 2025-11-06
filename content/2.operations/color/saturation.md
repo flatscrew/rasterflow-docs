@@ -1,6 +1,6 @@
 ---
 title: Saturation
-description: "Changes the saturation"
+description: "Changes the saturation."
 links:
   - label: "gegl:saturation"
     to: "https://gegl.org/operations/gegl-saturation"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Saturation
-caption: Changes the saturation
+caption: Changes the saturation.
 src: /images/operations/gegl-saturation.png
 ---
 ::
@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Scale" type="gdouble"}
-        Scale, strength of effect  
+        Scale, strength of effect.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `10.00`. 
         

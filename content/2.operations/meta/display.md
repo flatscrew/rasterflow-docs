@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Window title" type="gchararray"}
-        Title to be given to output window  
+        Title to be given to output window.  
         :icon{name="i-lucide-puzzle"} Default `"window_title"`  
       ::
 

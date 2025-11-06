@@ -1,6 +1,6 @@
 ---
 title: Divide
-description: "Math operation divide, performs the operation per pixel, using either the constant provided in 'value' or the corresponding pixel from the buffer on aux as operands. The result is the evaluation of the expression result = value==0.0f?0.0f:input/value"
+description: "Math operation divide, performs the operation per pixel, using either the constant provided in 'value' or the corresponding pixel from the buffer on aux as operands. The result is the evaluation of the expression result = value==0.0f?0.0f:input/value."
 links:
   - label: "gegl:divide"
     to: "https://gegl.org/operations/gegl-divide"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Divide
-caption: Math operation divide, performs the operation per pixel, using either the constant provided in 'value' or the corresponding pixel from the buffer on aux as operands. The result is the evaluation of the expression result = value==0.0f?0.0f:input/value
+caption: Math operation divide, performs the operation per pixel, using either the constant provided in 'value' or the corresponding pixel from the buffer on aux as operands. The result is the evaluation of the expression result = value==0.0f?0.0f:input/value.
 src: /images/operations/gegl-divide.png
 ---
 ::
@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Value" type="gdouble"}
-        global value used if aux doesn't contain data  
+        global value used if aux doesn't contain data.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
       ::
 

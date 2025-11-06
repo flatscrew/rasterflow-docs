@@ -39,11 +39,11 @@ name: Operation properties
 
     ::field-group
       ::field{name="Color" type="GeglColor"}
-        The color to paint over the input  
+        The color to paint over the input.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="sRGB" type="gboolean"}
-        Use sRGB gamma instead of linear  
+      ::field{name="SRGB" type="gboolean"}
+        Use sRGB gamma instead of linear.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 

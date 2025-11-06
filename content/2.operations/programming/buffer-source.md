@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Input buffer" type="GeglBuffer"}
-        The GeglBuffer to load into the pipeline  
+        The GeglBuffer to load into the pipeline.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 

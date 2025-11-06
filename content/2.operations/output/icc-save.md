@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="File" type="gchararray"}
-        Target path and filename  
+        Target path and filename.  
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
 

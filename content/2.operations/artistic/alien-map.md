@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Color model" type="dictionary"}
-        What color model used for the transformation  
+        What color model used for the transformation.  
         :icon{name="i-lucide-puzzle"} Default `RGB`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `RGB` • `HSL` 
       ::

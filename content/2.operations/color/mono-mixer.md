@@ -1,6 +1,6 @@
 ---
 title: Mono Mixer
-description: "Monochrome channel mixer"
+description: "Monochrome channel mixer."
 links:
   - label: "gegl:mono-mixer"
     to: "https://gegl.org/operations/gegl-mono-mixer"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Mono Mixer
-caption: Monochrome channel mixer
+caption: Monochrome channel mixer.
 src: /images/operations/gegl-mono-mixer.png
 ---
 ::

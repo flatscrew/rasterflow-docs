@@ -1,6 +1,6 @@
 ---
 title: Randomly Shuffle Pixels
-description: "Completely randomize a fraction of pixels"
+description: "Completely randomize a fraction of pixels."
 links:
   - label: "gegl:noise-hurl"
     to: "https://gegl.org/operations/gegl-noise-hurl"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Randomly Shuffle Pixels
-caption: Completely randomize a fraction of pixels
+caption: Completely randomize a fraction of pixels.
 src: /images/operations/gegl-noise-hurl.png
 ---
 ::

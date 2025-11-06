@@ -1,6 +1,6 @@
 ---
 title: Sinus
-description: "Generate complex sinusoidal textures"
+description: "Generate complex sinusoidal textures."
 links:
   - label: "gegl:sinus"
     to: "https://gegl.org/operations/gegl-sinus"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Sinus
-caption: Generate complex sinusoidal textures
+caption: Generate complex sinusoidal textures.
 src: /images/operations/gegl-sinus.png
 ---
 ::
@@ -39,15 +39,15 @@ name: Operation properties
 
     ::field-group
       ::field{name="X Scale" type="gdouble"}
-        Scale value for x axis  
+        Scale value for x axis.  
         :icon{name="i-lucide-puzzle"} Default `15.00`  
       ::
       ::field{name="Y Scale" type="gdouble"}
-        Scale value for y axis  
+        Scale value for y axis.  
         :icon{name="i-lucide-puzzle"} Default `15.00`  
       ::
       ::field{name="Complexity" type="gdouble"}
-        Complexity factor  
+        Complexity factor.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `15.00`. 
         
@@ -59,11 +59,11 @@ name: Operation properties
         
       ::
       ::field{name="Force tiling" type="gboolean"}
-        If set, the pattern generated will tile  
+        If set, the pattern generated will tile.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="Distorted" type="gboolean"}
-        If set, the pattern will be a little more distorted  
+        If set, the pattern will be a little more distorted.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="Color 1" type="GeglColor"}
@@ -80,19 +80,19 @@ name: Operation properties
       ::
 
       ::field{name="Exponent" type="gdouble"}
-        Power used to stretch the blend  
+        Power used to stretch the blend.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-7.50` • :icon{name="i-lucide-arrow-right"} • `7.50`. 
         
       ::
       ::field{name="Width" type="gint"}
-        Width of the generated buffer  
+        Width of the generated buffer.  
         :icon{name="i-lucide-puzzle"} Default `1024`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         
       ::
       ::field{name="Height" type="gint"}
-        Height of the generated buffer  
+        Height of the generated buffer.  
         :icon{name="i-lucide-puzzle"} Default `768`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         

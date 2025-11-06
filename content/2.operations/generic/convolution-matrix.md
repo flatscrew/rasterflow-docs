@@ -1,6 +1,6 @@
 ---
 title: Convolution Matrix
-description: "Apply a generic 5x5 convolution matrix"
+description: "Apply a generic 5x5 convolution matrix."
 links:
   - label: "gegl:convolution-matrix"
     to: "https://gegl.org/operations/gegl-convolution-matrix"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Convolution Matrix
-caption: Apply a generic 5x5 convolution matrix
+caption: Apply a generic 5x5 convolution matrix.
 src: /images/operations/gegl-convolution-matrix.png
 ---
 ::

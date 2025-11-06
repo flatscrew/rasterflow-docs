@@ -45,7 +45,7 @@ name: Operation properties
         
       ::
       ::field{name="Edge preservation" type="gdouble"}
-        Amount of edge preservation  
+        Amount of edge preservation.  
         :icon{name="i-lucide-puzzle"} Default `8.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `100.00`. 
         

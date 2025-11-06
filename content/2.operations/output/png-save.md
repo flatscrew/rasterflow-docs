@@ -1,6 +1,6 @@
 ---
 title: PNG File Saver
-description: "PNG image saver, using libpng"
+description: "PNG image saver, using libpng."
 links:
   - label: "gegl:png-save"
     to: "https://gegl.org/operations/gegl-png-save"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: PNG File Saver
-caption: PNG image saver, using libpng
+caption: PNG image saver, using libpng.
 src: /images/operations/gegl-png-save.png
 ---
 ::
@@ -43,7 +43,7 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
       ::field{name="Compression" type="gint"}
-        PNG compression level from 1 to 9  
+        PNG compression level from 1 to 9.  
         :icon{name="i-lucide-puzzle"} Default `3`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `9`. 
         
@@ -55,7 +55,7 @@ name: Operation properties
         
       ::
       ::field{name="Metadata" type="GeglMetadata"}
-        Object to supply image metadata  
+        Object to supply image metadata.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 

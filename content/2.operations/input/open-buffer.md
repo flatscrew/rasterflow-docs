@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="File" type="gchararray"}
-        a GeglBuffer on disk to open  
+        a GeglBuffer on disk to open.  
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
 

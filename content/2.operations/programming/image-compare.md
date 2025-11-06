@@ -1,6 +1,6 @@
 ---
 title: 
-description: "Compares if input and aux buffers are different. Global statistics are saved in the properties and a visual difference image is produced as a visual result. "
+description: "Compares if input and aux buffers are different. Global statistics are saved in the properties and a visual difference image is produced as a visual result. ."
 links:
   - label: "gegl:image-compare"
     to: "https://gegl.org/operations/gegl-image-compare"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: 
-caption: Compares if input and aux buffers are different. Global statistics are saved in the properties and a visual difference image is produced as a visual result. 
+caption: Compares if input and aux buffers are different. Global statistics are saved in the properties and a visual difference image is produced as a visual result. .
 src: /images/operations/gegl-image-compare.png
 ---
 ::

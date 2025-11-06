@@ -1,6 +1,6 @@
 ---
 title: WebP File Saver
-description: "WebP image saver"
+description: "WebP image saver."
 links:
   - label: "gegl:webp-save"
     to: "https://gegl.org/operations/gegl-webp-save"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: WebP File Saver
-caption: WebP image saver
+caption: WebP image saver.
 src: /images/operations/gegl-webp-save.png
 ---
 ::
@@ -39,11 +39,11 @@ name: Operation properties
 
     ::field-group
       ::field{name="File" type="gchararray"}
-        Target path and filename, use '-' for stdout  
+        Target path and filename, use '-' for stdout.  
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
       ::field{name="Quality" type="gint"}
-        WebP compression quality  
+        WebP compression quality.  
         :icon{name="i-lucide-puzzle"} Default `90`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `100`. 
         

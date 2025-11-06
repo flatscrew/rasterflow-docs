@@ -1,6 +1,6 @@
 ---
 title: SVG Saturate
-description: "SVG color matrix operation svg_saturate"
+description: "SVG color matrix operation svg_saturate."
 links:
   - label: "gegl:svg-saturate"
     to: "https://gegl.org/operations/gegl-svg-saturate"
@@ -12,7 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: SVG Saturate
-caption: SVG color matrix operation svg_saturate
+caption: SVG color matrix operation svg_saturate.
 src: /images/operations/gegl-svg-saturate.png
 ---
 ::
@@ -39,7 +39,7 @@ name: Operation properties
 
     ::field-group
       ::field{name="Values" type="gchararray"}
-        list of <number>s  
+        list of <number>s.  
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
 
