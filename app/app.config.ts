@@ -9,10 +9,18 @@ export default defineAppConfig({
         root: 'border-t border-default',
         left: 'text-sm text-muted'
       }
+    },
+    prose: {
+      ul: {
+        base: 'list-disc ps-6 my-5 marker:text-(--ui-border-accented)'
+      },
+      li: {
+        base: 'my-1.5 ps-1.5 leading-7 [&>ul]:my-0'
+      }
     }
   },
   seo: {
-    siteName: 'Nuxt Docs Template'
+    siteName: 'RasterFlow'
   },
   header: {
     title: 'RasterFlow',
@@ -36,8 +44,7 @@ export default defineAppConfig({
     }]
   },
   footer: {
-    credits: `RasterFlow © ${new Date().getFullYear()}`,
-    colorMode: false,
+    credits: `RasterFlow © ${new Date().getFullYear()} · Licensed under GPL-3.0 · Powered by GEGL, GTK, and their contributors.`,
     links: [
       {
         icon: '/icons/gtk.svg',
@@ -77,29 +84,11 @@ export default defineAppConfig({
       }]
     }
   },
-  
-  gegl: {
-    operations: [
-      {
-        id: 'gaussian-blur',
-        title: 'Gaussian Blur',
-        description: 'Blurs the image using a Gaussian kernel.',
-        params: [
-          { name: 'std-dev-x', type: 'float', default: 4.0 },
-          { name: 'std-dev-y', type: 'float', default: 4.0 }
-        ],
-        thumbnail: '/images/gegl/gaussian-blur.png'
-      },
-      {
-        id: 'unsharp-mask',
-        title: 'Unsharp Mask',
-        description: 'Enhances edges by subtracting a blurred version of the image from the original.',
-        params: [
-          { name: 'radius', type: 'float', default: 3.0 },
-          { name: 'amount', type: 'float', default: 1.0 }
-        ],
-        thumbnail: '/images/gegl/unsharp-mask.png'
+  docs: {
+    content: {
+      download: {
+        layout: 'page'
       }
-    ]
+    }
   }
 })

@@ -18,7 +18,7 @@
     "@nuxt/image": "^1.11.0",
     "@nuxt/ui": "^4.1.0",
     "@nuxtjs/google-fonts": "^3.2.0",
-    "@nuxtjs/mdc": "^0.18.0",
+    "@nuxtjs/mdc": "^0.18.2",
     "@splidejs/vue-splide": "^0.6.12",
     "better-sqlite3": "^12.4.1",
     "nuxt": "^4.2.0",

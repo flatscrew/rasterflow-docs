@@ -22,7 +22,7 @@
     </div>
 
     <!-- Middle separator -->
-    <USeparator orientation="vertical"  icon="i-lucide-arrow-right" class="h-20 self-center" />
+    <USeparator orientation="vertical" icon="i-lucide-arrow-right" class="h-20 self-center" />
 
     <!-- Right: Output -->
     <div class="flex items-center justify-start self-center">
