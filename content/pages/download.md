@@ -1,9 +1,10 @@
-::div{class="flex justify-center dark:bg-gradient-to-b from-neutral-900 to-neutral-950"}
-::u-page-hero{class="max-w-2xl"}
+::u-page-hero{class="flex justify-center dark:bg-gradient-to-b from-neutral-900 to-neutral-950"}
 ---
 orientation: vertical
-align: center
 ---
+#top
+:hero-background
+
 #title
 Download latest [RasterFlow]{.text-primary} version.
 
@@ -28,15 +29,11 @@ Each package includes all dependencies required to start generating procedural i
   icon: i-lucide-arrow-right
   color: neutral
   variant: outline
-  size: xl
   to: /downloads
   ---
   See other systems
   :::
-  
 ::
-::
-
 
 ::u-page-section
 ---
@@ -57,17 +54,19 @@ class: dark:bg-neutral-950
     description: 'The first public release of RasterFlow.'
     ---
     #body
-    ::u-prose
-    ---
-    class: 'max-w-none'
-    ---
     - First public release of **RasterFlow**
     - Node-based procedural editor powered by **GEGL** and **GTK4**
     - Includes over **250 operations**
     - Real-time preview and non-destructive workflow
     - Cross-platform builds for Linux, Windows, and macOS
     ::
-
-    ::
   ::
+::
+
+::u-page-section
+---
+class: dark:bg-neutral-950
+title: Download older version
+icon: i-lucide-calendar-arrow-down
+---
 ::
