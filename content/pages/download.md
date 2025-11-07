@@ -30,8 +30,8 @@ Each package includes all dependencies required to start generating procedural i
   color: neutral
   variant: outline
   to: /downloads
+  label: See other systems
   ---
-  See other systems
   :::
 ::
 
