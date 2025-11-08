@@ -1,64 +1,63 @@
 <script setup lang="ts">
 import type { ContentNavigationItem } from '@nuxt/content'
 
-const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
-
+const route = useRoute()
 const { header } = useAppConfig()
+const { value: colorModeValue } = useColorMode()
+const desktopNavigation = computed(() => header.navigation.map(link => ({ ...link, active: route.path.startsWith(link.to) })))
+
+const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 </script>
 
 <template>
   <UHeader
-    :ui="{ center: 'flex-1' }"
-    :to="header?.to || '/'"
+    :ui="{ left: 'min-w-0' }"
+    class="flex flex-col"
   >
-    <UContentSearchButton
-      v-if="header?.search"
-      :collapsed="false"
-      class="w-full"
-    />
-
-    <template
-      v-if="header?.logo?.dark || header?.logo?.light || header?.title"
-      #title
-    >
-      <div class="flex items-center gap-4">
-        <AppLogo class="w-auto h-6 shrink-0" />
-        <span
-          v-if="header?.title"
-          class="leading-none"
-        >
-          {{ header.title }}
-        </span>
-
-        <TemplateMenu />
-      </div>
+    <template #title>
+      <AppLogo class="size-6" />
+      <span
+        v-if="header?.title"
+        class="leading-none"
+      >
+        {{ header.title }}
+      </span>
     </template>
 
-    <template
-      v-else
-      #left
-    >
-      <NuxtLink :to="header?.to || '/'">
-        <AppLogo class="w-auto h-6 shrink-0" />
-      </NuxtLink>
-
-      <TemplateMenu />
-    </template>
+    <div class="flex gap-3 items-center">
+      <UNavigationMenu
+        :items="desktopNavigation"
+        variant="link"
+      />
+    </div>
 
     <template #right>
-      <UContentSearchButton
-        v-if="header?.search"
-        class="lg:hidden"
-      />
+      <UTooltip
+        text="Search"
+        :kbds="['meta', 'K']"
+      >
+        <UContentSearchButton />
+      </UTooltip>
 
-      <UColorModeButton v-if="header?.colorMode" />
+      <UTooltip
+        :text="`Switch to ${colorModeValue === 'dark' ? 'light' : 'dark'} mode`"
+      >
+        <!-- wrapper div just for correct tooltip positioning -->
+        <div>
+          <UColorModeButton v-if="header?.colorMode" />
+        </div>
+      </UTooltip>
 
       <template v-if="header?.links">
-        <UButton
+        <UTooltip
           v-for="(link, index) of header.links"
           :key="index"
-          v-bind="{ color: 'neutral', variant: 'ghost', ...link }"
-        />
+          :text="link['aria-label']"
+        >
+          <UButton
+            v-bind="{ color: 'neutral', variant: 'ghost', ...link }"
+          />
+        </UTooltip>
       </template>
     </template>
 
