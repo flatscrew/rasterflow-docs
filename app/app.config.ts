@@ -31,11 +31,29 @@ export default defineAppConfig({
     },
     search: true,
     colorMode: true,
+    navigation: [{
+      label: 'Get Started',
+      icon: 'i-lucide-square-play',
+      to: '/guide'
+    }, {
+      label: 'Operations',
+      icon: 'i-lucide-square-code',
+      to: '/operations'
+    }, {
+      label: 'Examples',
+      icon: 'i-lucide-square-code',
+      to: '/docs/components',
+      disabled: true
+    }, {
+      label: 'Download',
+      icon: 'i-lucide-download',
+      to: '/pages/download'
+    }],
     links: [{
       'icon': 'i-simple-icons-github',
       'to': 'https://github.com/flatscrew/rasterflow',
       'target': '_blank',
-      'aria-label': 'GitHub'
+      'aria-label': 'RasterFlow GitHub Repository'
     }, {
       'icon': 'i-lucide-coffee',
       'to': 'https://buymeacoffee.com/rasterflow',
