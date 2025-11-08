@@ -16,7 +16,9 @@ logs
 # Misc
 .DS_Store
 .fleet
-.idea
+.idea/*.*
+!.idea/jsLinters/eslint.xml
+!.idea/inspectionProfiles/Project_Default.xml
 
 # Local env files
 .env
