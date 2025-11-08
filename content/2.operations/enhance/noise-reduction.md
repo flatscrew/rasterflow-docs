@@ -17,27 +17,19 @@ src: /images/operations/gegl-noise-reduction.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Strength" type="gint"}
         Controls the number of iterations; lower values give less plastic results.  
         :icon{name="i-lucide-puzzle"} Default `4`  
@@ -45,5 +37,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

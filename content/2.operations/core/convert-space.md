@@ -17,27 +17,19 @@ src: /images/operations/gegl-convert-space.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Space name" type="gchararray"}
         One of: sRGB, Adobish, Rec2020, ProPhoto, Apple, ACEScg, ACES2065-1.  
         :icon{name="i-lucide-puzzle"} Default `"sRGB"`  
@@ -51,5 +43,4 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
 
-    ::
 ::

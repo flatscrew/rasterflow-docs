@@ -17,27 +17,19 @@ src: /images/operations/gegl-domain-transform.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Quality" type="gint"}
         Number of filtering iterations. A value between 2 and 4 is usually enough.  
         :icon{name="i-lucide-puzzle"} Default `3`  
@@ -57,5 +49,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

@@ -17,27 +17,19 @@ src: /images/operations/gegl-emboss.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Emboss Type" type="dictionary"}
         Rendering type.  
         :icon{name="i-lucide-puzzle"} Default `Emboss`  
@@ -63,5 +55,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

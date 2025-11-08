@@ -17,27 +17,19 @@ src: /images/operations/gegl-mantiuk06.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Contrast" type="gdouble"}
         The amount of contrast compression.  
         :icon{name="i-lucide-puzzle"} Default `0.10`  
@@ -57,5 +49,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

@@ -17,27 +17,19 @@ src: /images/operations/gegl-exr-save.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: false
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: false
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="File" type="gchararray"}
         path of file to write to.  
         :icon{name="i-lucide-puzzle"} Default `""`  
@@ -49,5 +41,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

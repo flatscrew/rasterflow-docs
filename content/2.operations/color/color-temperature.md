@@ -17,27 +17,19 @@ src: /images/operations/gegl-color-temperature.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Original temperature" type="gdouble"}
         Estimated temperature of the light source in Kelvin the image was taken with.  
         :icon{name="i-lucide-puzzle"} Default `6500.00`  
@@ -51,5 +43,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

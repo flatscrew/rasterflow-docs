@@ -17,27 +17,19 @@ src: /images/operations/gegl-map-relative.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Scaling" type="gdouble"}
         scaling factor of displacement, indicates how large spatial displacement a relative mapping value of 1.0 corresponds to.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
@@ -57,5 +49,4 @@ name: Operation properties
       ::
 
 
-    ::
 ::

@@ -17,27 +17,19 @@ src: /images/operations/gegl-oilify.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Mask Radius" type="gint"}
         Radius of circle around pixel, can also be scaled per pixel by a buffer on the aux pad.  
         :icon{name="i-lucide-puzzle"} Default `4`  
@@ -61,5 +53,4 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
 
-    ::
 ::

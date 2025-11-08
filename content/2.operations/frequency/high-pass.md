@@ -17,27 +17,19 @@ src: /images/operations/gegl-high-pass.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Std. Dev." type="gdouble"}
         Standard deviation (spatial scale factor).  
         :icon{name="i-lucide-puzzle"} Default `4.00`  
@@ -51,5 +43,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

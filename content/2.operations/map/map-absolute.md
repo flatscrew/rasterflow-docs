@@ -17,27 +17,19 @@ src: /images/operations/gegl-map-absolute.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Resampling method" type="dictionary"}
         
         :icon{name="i-lucide-puzzle"} Default `Cubic`  
@@ -51,5 +43,4 @@ name: Operation properties
       ::
 
 
-    ::
 ::

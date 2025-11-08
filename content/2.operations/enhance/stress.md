@@ -17,27 +17,19 @@ src: /images/operations/gegl-stress.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Radius" type="gint"}
         Neighborhood taken into account, for enhancement ideal values are close to the longest side of the image, increasing this increases the runtime.  
         :icon{name="i-lucide-puzzle"} Default `300`  
@@ -61,5 +53,4 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 
-    ::
 ::

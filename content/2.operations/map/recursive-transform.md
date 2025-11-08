@@ -17,27 +17,19 @@ src: /images/operations/gegl-recursive-transform.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Transform" type="gchararray"}
         Transformation matrix, using SVG syntax (or multiple matrices, separated by semicolons).  
         :icon{name="i-lucide-puzzle"} Default `"matrix (1, 0, 0, 0, 1, 0, 0, 0, 1)"`  
@@ -75,5 +67,4 @@ name: Operation properties
       ::
 
 
-    ::
 ::

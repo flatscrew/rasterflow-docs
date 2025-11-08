@@ -17,31 +17,22 @@ src: /images/operations/gegl-mix.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Ratio" type="gdouble"}
         Mixing ratio, read as amount of aux, 0=input 0.5=half 1.0=aux.  
         :icon{name="i-lucide-puzzle"} Default `0.50`  
       ::
 
-    ::
 ::

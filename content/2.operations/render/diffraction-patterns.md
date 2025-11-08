@@ -17,27 +17,19 @@ src: /images/operations/gegl-diffraction-patterns.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: false
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: false
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Red frequency" type="gdouble"}
         Light frequency (red).  
         :icon{name="i-lucide-puzzle"} Default `0.81`  
@@ -123,5 +115,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

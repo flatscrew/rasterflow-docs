@@ -17,27 +17,19 @@ src: /images/operations/gegl-gegl.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Pipeline" type="gchararray"}
         [op [property=value] [property=value]] [[op] [property=value].  
         :icon{name="i-lucide-puzzle"} Default `"# uncomment a set of lines below by removing the
@@ -86,5 +78,4 @@ id=in # name a reference to the input buffer 'in'
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
 
-    ::
 ::

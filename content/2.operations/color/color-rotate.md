@@ -17,27 +17,19 @@ src: /images/operations/gegl-color-rotate.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Clockwise" type="gboolean"}
         Switch to clockwise.  
         :icon{name="i-lucide-puzzle"} Default `false`  
@@ -96,5 +88,4 @@ Change to this: Change gray colors to this hue and saturation.
         
       ::
 
-    ::
 ::

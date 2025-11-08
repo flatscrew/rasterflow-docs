@@ -17,27 +17,19 @@ src: /images/operations/gegl-seamless-clone-compose.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Refinement steps" type="gint"}
         Maximal amount of refinement points to be used for the interpolation mesh.  
         :icon{name="i-lucide-puzzle"} Default `2000`  
@@ -61,5 +53,4 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
 
-    ::
 ::

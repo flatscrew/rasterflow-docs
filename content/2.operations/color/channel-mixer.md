@@ -17,27 +17,19 @@ src: /images/operations/gegl-channel-mixer.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Preserve luminosity" type="gboolean"}
         
         :icon{name="i-lucide-puzzle"} Default `false`  
@@ -97,5 +89,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

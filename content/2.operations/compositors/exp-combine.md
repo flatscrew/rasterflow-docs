@@ -17,27 +17,19 @@ src: /images/operations/gegl-exp-combine.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: false
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: false
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Exposure values" type="gchararray"}
         Relative brightness of each exposure in EV.  
         :icon{name="i-lucide-puzzle"} Default `""`  
@@ -55,5 +47,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

@@ -17,27 +17,19 @@ src: /images/operations/gegl-newsprint.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Color Model" type="dictionary"}
         How many inks to use just black, rg, rgb (additive), or cmyk.  
         :icon{name="i-lucide-puzzle"} Default `Black on White`  
@@ -147,5 +139,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

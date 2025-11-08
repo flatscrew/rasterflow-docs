@@ -17,27 +17,19 @@ src: /images/operations/gegl-mirrors.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Mirror rotation" type="gdouble"}
         Rotation applied to the mirrors.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
@@ -113,5 +105,4 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
 
-    ::
 ::

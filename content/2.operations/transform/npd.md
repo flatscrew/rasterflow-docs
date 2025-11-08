@@ -17,27 +17,19 @@ src: /images/operations/gegl-npd.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Model" type="gpointer"}
         Model - basic element we operate on.  
         :icon{name="i-lucide-puzzle"} Default ``  
@@ -79,5 +71,4 @@ name: Operation properties
       ::
 
 
-    ::
 ::

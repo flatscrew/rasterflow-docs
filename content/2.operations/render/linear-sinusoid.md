@@ -17,27 +17,19 @@ src: /images/operations/gegl-linear-sinusoid.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: false
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: false
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="X Period" type="gdouble"}
         Period for X axis.  
         :icon{name="i-lucide-puzzle"} Default `128.00`  
@@ -97,5 +89,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::
