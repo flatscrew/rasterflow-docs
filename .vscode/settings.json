@@ -1,20 +1,13 @@
 {
   "cSpell.words": [
-    "apexcharts",
     "compodium",
-    "csms",
-    "formkit",
+    "GEGL",
+    "HDRP",
     "heroicons",
+    "kbds",
     "lucide",
-    "Measurand",
-    "nums",
     "nuxt",
-    "Suspendedev",
-    "Suspendedevse",
-    "Tenix",
-    "vueuse",
-    "xaxis",
-    "yaxis"
+    "vueuse"
   ],
   // Disable the default formatter, use eslint instead
   "prettier.enable": false,
