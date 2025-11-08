@@ -25,7 +25,6 @@ useSeoMeta({
 })
 
 provide('navigation', navigation)
-
 </script>
 
 <template>

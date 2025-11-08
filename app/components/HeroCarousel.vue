@@ -20,6 +20,6 @@ const images = [
       :src="item"
       alt=""
       class="w-full h-auto object-contain"
-    />
+    >
   </UCarousel>
 </template>

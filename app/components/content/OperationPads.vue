@@ -7,7 +7,12 @@
         class="text-white cursor-help"
       >
         <UTooltip text="Main input pad — accepts an image or buffer.">
-          <UBadge color="info" size="xl">Input</UBadge>
+          <UBadge
+            color="info"
+            size="xl"
+          >
+            Input
+          </UBadge>
         </UTooltip>
       </div>
 
@@ -16,13 +21,22 @@
         class="text-white cursor-help"
       >
         <UTooltip text="Auxiliary pad — can provide an additional input or mask.">
-          <UBadge color="info" size="xl">Aux</UBadge>
+          <UBadge
+            color="info"
+            size="xl"
+          >
+            Aux
+          </UBadge>
         </UTooltip>
       </div>
     </div>
 
     <!-- Middle separator -->
-    <USeparator orientation="vertical" icon="i-lucide-arrow-right" class="h-20 self-center" />
+    <USeparator
+      orientation="vertical"
+      icon="i-lucide-arrow-right"
+      class="h-20 self-center"
+    />
 
     <!-- Right: Output -->
     <div class="flex items-center justify-start self-center">
@@ -31,7 +45,12 @@
         class="text-white cursor-help"
       >
         <UTooltip text="Output pad — emits the processed result.">
-          <UBadge color="success" size="xl">Output</UBadge>
+          <UBadge
+            color="success"
+            size="xl"
+          >
+            Output
+          </UBadge>
         </UTooltip>
       </div>
     </div>

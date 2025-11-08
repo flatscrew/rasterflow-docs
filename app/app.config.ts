@@ -47,21 +47,21 @@ export default defineAppConfig({
     credits: `RasterFlow © ${new Date().getFullYear()} · Licensed under GPL-3.0 · Powered by GEGL, GTK, and their contributors.`,
     links: [
       {
-        icon: '/icons/gtk.svg',
-        to: 'https://www.gtk.org/',
-        target: '_blank',
+        'icon': '/icons/gtk.svg',
+        'to': 'https://www.gtk.org/',
+        'target': '_blank',
         'aria-label': 'GTK'
       },
       {
-        icon: '/icons/gegl.svg',
-        to: 'https://gegl.org/',
-        target: '_blank',
+        'icon': '/icons/gegl.svg',
+        'to': 'https://gegl.org/',
+        'target': '_blank',
         'aria-label': 'GEGL'
       },
       {
-        icon: '/icons/vala.svg',
-        to: 'https://vala.dev',
-        target: '_blank',
+        'icon': '/icons/vala.svg',
+        'to': 'https://vala.dev',
+        'target': '_blank',
         'aria-label': 'Vala'
       }
     ]

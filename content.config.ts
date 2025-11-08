@@ -10,9 +10,8 @@ export default defineContentConfig({
       type: 'page',
       source: {
         include: 'pages/**'
-      },
-    })
-    ,
+      }
+    }),
     docs: defineCollection({
       type: 'page',
       source: {

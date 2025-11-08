@@ -23,7 +23,7 @@ const { footer } = useAppConfig()
             :src="link.icon"
             alt=""
             class="h-6  opacity-80 hover:opacity-100 transition-opacity"
-          />
+          >
         </UButton>
       </div>
     </template>

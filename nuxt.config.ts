@@ -10,21 +10,13 @@ export default defineNuxtConfig({
     'nuxt-llms',
     '@nuxtjs/google-fonts'
   ],
-  
+
   devtools: {
     enabled: true
   },
 
   css: ['~/assets/css/main.css'],
 
-  googleFonts: {
-    families: {
-      'Roboto+Condensed': [300, 400, 500, 700],
-    },
-    display: 'swap',
-    preload: true,
-  },
-  
   content: {
     build: {
       markdown: {
@@ -56,9 +48,17 @@ export default defineNuxtConfig({
     }
   },
 
+  googleFonts: {
+    families: {
+      'Roboto+Condensed': [300, 400, 500, 700]
+    },
+    display: 'swap',
+    preload: true
+  },
+
   icon: {
     provider: 'iconify'
-  },
+  }
 
   // llms: {
   //   domain: 'https://rasterflow.io/',
@@ -85,5 +85,5 @@ export default defineNuxtConfig({
   //     }
   //   ]
   // }
-  
+
 })

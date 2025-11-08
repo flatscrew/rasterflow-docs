@@ -23,8 +23,10 @@ const { header } = useAppConfig()
     >
       <div class="flex items-center gap-4">
         <AppLogo class="w-auto h-6 shrink-0" />
-        <span class="leading-none"
-          v-if="header?.title">
+        <span
+          v-if="header?.title"
+          class="leading-none"
+        >
           {{ header.title }}
         </span>
 
