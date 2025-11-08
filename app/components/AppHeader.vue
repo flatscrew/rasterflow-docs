@@ -15,13 +15,15 @@ const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
     class="flex flex-col"
   >
     <template #title>
-      <AppLogo class="size-6" />
-      <span
-        v-if="header?.title"
-        class="leading-none"
-      >
-        {{ header.title }}
-      </span>
+      <div class="flex items-center gap-1.5">
+        <AppLogo class="size-6" />
+        <span
+          v-if="header?.title"
+          class="leading-none"
+        >
+          {{ header.title }}
+        </span>
+      </div>
     </template>
 
     <div class="flex gap-3 items-center">
