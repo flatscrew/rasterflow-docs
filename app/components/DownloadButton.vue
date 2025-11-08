@@ -48,25 +48,25 @@ const iconMap = {
   macos: 'i-simple-icons-apple',
   linux: 'i-simple-icons-linux',
   other: 'i-lucide-arrow-right'
-} as const
+} as const
 
 const labelMap = {
-  windows: 'Download for Windows',
-  macos: 'Download for macOS',
-  linux: 'Download for Linux (Flatpak)',
-  other: 'View all downloads'
-} as const
+  windows: 'Windows',
+  macos: 'macOS',
+  linux: 'Linux (Flatpak)',
+  other: 'All platforms'
+} as const
 </script>
 
 <template>
   <UButton
     v-if="ready && props.downloads[os]"
     icon="i-lucide-download"
-    :size="'xl'"
+    size="xl"
     :trailing-icon="iconMap[os]"
     :to="props.downloads[os]"
   >
-    {{ labelMap[os] }}
+    Download {{ version }} for {{ labelMap[os] }}
   </UButton>
 
   <UButton

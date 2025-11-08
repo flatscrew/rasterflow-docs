@@ -9,7 +9,7 @@ orientation: vertical
 Download latest [RasterFlow]{.text-primary} version.
 
 #description
-Get the newest release of **RasterFlow 0.1.0**, powered by GEGL and GTK4.  
+Get the newest release of **RasterFlow**, powered by GEGL and GTK4.  
 Choose the native build for your platform — Flatpak for Linux, or installers for Windows and macOS.  
 Each package includes all dependencies required to start generating procedural images right away.
 

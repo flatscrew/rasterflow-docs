@@ -23,12 +23,12 @@ const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
         >
           {{ header.title }}
         </span>
-        <UBadge
+        <!-- <UBadge
           color="neutral"
           variant="outline"
         >
           0.1.0
-        </UBadge>
+        </UBadge> -->
       </div>
     </template>
 

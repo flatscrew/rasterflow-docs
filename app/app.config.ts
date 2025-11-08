@@ -37,13 +37,8 @@ export default defineAppConfig({
       to: '/guide'
     }, {
       label: 'Operations',
-      icon: 'i-lucide-square-code',
+      icon: 'i-lucide-cpu',
       to: '/operations'
-    }, {
-      label: 'Examples',
-      icon: 'i-lucide-square-code',
-      to: '/docs/components',
-      disabled: true
     }, {
       label: 'Download',
       icon: 'i-lucide-download',
