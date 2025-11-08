@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 
-interface DownloadLinks {
+type DownloadLinks = {
   windows?: string
   macos?: string
   linux?: string
@@ -16,13 +16,15 @@ const props = defineProps<{
 const os = ref<'windows' | 'macos' | 'linux' | 'other'>('other')
 const ready = ref(false)
 
+type Brand = { brand: string }
+
 onMounted(() => {
-  const nav = navigator as Navigator & { userAgentData?: any }
+  const nav = navigator as Navigator & { userAgentData?: { brands: Brand[] } }
 
   try {
     if (nav.userAgentData) {
       const brands = nav.userAgentData.brands
-        ?.map((b: any) => b.brand.toLowerCase())
+        ?.map((b: Brand) => b.brand.toLowerCase())
         .join(' ') || ''
 
       if (brands.includes('windows')) os.value = 'windows'
@@ -46,14 +48,14 @@ const iconMap = {
   macos: 'i-simple-icons-apple',
   linux: 'i-simple-icons-linux',
   other: 'i-lucide-arrow-right'
-}
+} as const
 
 const labelMap = {
   windows: 'Download for Windows',
   macos: 'Download for macOS',
   linux: 'Download for Linux (Flatpak)',
   other: 'View all downloads'
-}
+} as const
 </script>
 
 <template>
