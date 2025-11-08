@@ -7,8 +7,7 @@ export default defineNuxtConfig({
     '@nuxtjs/mdc',
     '@nuxt/content',
     'nuxt-og-image',
-    'nuxt-llms',
-    '@nuxtjs/google-fonts'
+    'nuxt-llms'
   ],
 
   devtools: {
@@ -46,14 +45,6 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
-  },
-
-  googleFonts: {
-    families: {
-      'Roboto+Condensed': [300, 400, 500, 700]
-    },
-    display: 'swap',
-    preload: true
   },
 
   icon: {
