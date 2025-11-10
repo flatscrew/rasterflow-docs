@@ -76,7 +76,7 @@ const labelMap = {
     variant="outline"
     icon="i-lucide-download"
     trailing-icon="i-lucide-arrow-right"
-    to="/downloads"
+    to="/pages/download"
   >
     View all downloads for {{ version }}
   </UButton>

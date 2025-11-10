@@ -291,7 +291,7 @@ Creative & Procedural
   ---
   links:
     - label: Start building
-      to: '/getting-started'
+      to: '/guide'
       trailingIcon: i-lucide-arrow-right
     - label: View on GitHub
       to: 'https://github.com/flatscrew/rasterflow'

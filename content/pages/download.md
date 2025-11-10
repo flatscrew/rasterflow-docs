@@ -29,7 +29,7 @@ Each package includes all dependencies required to start generating procedural i
   icon: i-lucide-arrow-right
   color: neutral
   variant: outline
-  to: /downloads
+  to: /pages/download
   label: See other systems
   ---
   :::
