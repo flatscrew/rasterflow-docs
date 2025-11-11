@@ -37,6 +37,33 @@ Each package includes all dependencies required to start generating procedural i
 
 ::u-page-section
 ---
+title: How to install RasterFlow (Linux — Flatpak)
+icon: i-lucide-terminal
+class: dark:bg-neutral-950
+---
+
+::steps{level="4"}
+
+#### 1. Download the Flatpak package
+
+Click **Download for Linux (Flatpak)** and save the `.flatpak` file.
+
+#### 2. Install RasterFlow
+
+```bash
+flatpak install RasterFlow-0.1.0.flatpak
+```
+
+#### 3. Launch RasterFlow
+
+```bash
+flatpak run io.flatscrew.RasterFlow
+```
+::
+
+
+::u-page-section
+---
 icon: i-lucide-history
 title: Changelog
 description: Keep track of every improvement, fix, and new feature added to RasterFlow over time.
@@ -61,12 +88,4 @@ class: dark:bg-neutral-950
     - Cross-platform builds for Linux, Windows, and macOS
     ::
   ::
-::
-
-::u-page-section
----
-class: dark:bg-neutral-950
-title: Download older version
-icon: i-lucide-calendar-arrow-down
----
 ::
