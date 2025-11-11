@@ -52,7 +52,16 @@ const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
       >
         <!-- wrapper div just for correct tooltip positioning -->
         <div>
-          <UColorModeButton v-if="header?.colorMode" />
+          <UColorModeButton>
+            <template #fallback>
+              <UButton
+                icon="lucide:moon"
+                variant="ghost"
+                color="neutral"
+                disabled
+              />
+            </template>
+          </UColorModeButton>
         </div>
       </UTooltip>
 
