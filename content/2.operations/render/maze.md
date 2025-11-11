@@ -1,6 +1,6 @@
 ---
 title: Maze
-description: "Draw a labyrinth"
+description: "Draw a labyrinth."
 links:
   - label: "gegl:maze"
     to: "https://gegl.org/operations/gegl-maze"
@@ -12,45 +12,38 @@ links:
 ::adwaita-card
 ---
 alt: Maze
-caption: Draw a labyrinth
+caption: Draw a labyrinth.
+src: /images/operations/gegl-maze.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Width" type="gint"}
-        Horizontal width of cells pixels  
+        Horizontal width of cells pixels.  
         :icon{name="i-lucide-puzzle"} Default `16`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         
       ::
       ::field{name="Height" type="gint"}
-        Vertical width of cells pixels  
+        Vertical width of cells pixels.  
         :icon{name="i-lucide-puzzle"} Default `16`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         
       ::
       ::field{name="Algorithm type" type="dictionary"}
-        Maze algorithm type  
+        Maze algorithm type.  
         :icon{name="i-lucide-puzzle"} Default `Depth first`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Depth first` • `Prim's algorithm` 
       ::
@@ -66,13 +59,12 @@ name: Operation properties
         
       ::
       ::field{name="Foreground Color" type="GeglColor"}
-        The foreground color  
+        The foreground color.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="Background Color" type="GeglColor"}
-        The background color  
+        The background color.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 
-    ::
 ::

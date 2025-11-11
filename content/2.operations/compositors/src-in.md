@@ -1,6 +1,6 @@
 ---
 title: Src-in
-description: "Porter Duff compositing operation src-in (formula:   cA * aB)"
+description: "Porter Duff compositing operation src-in (formula:   cA * aB)."
 links:
   - label: "svg:src-in"
     to: "https://gegl.org/operations/svg-src-in"
@@ -12,35 +12,27 @@ links:
 ::adwaita-card
 ---
 alt: Src-in
-caption: Porter Duff compositing operation src-in (formula:   cA * aB)
+caption: Porter Duff compositing operation src-in (formula:   cA * aB).
+src: /images/operations/svg-src-in.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
-      ::field{name="sRGB" type="gboolean"}
-        Use sRGB gamma instead of linear  
+## Operation properties
+::field-group
+      ::field{name="SRGB" type="gboolean"}
+        Use sRGB gamma instead of linear.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 
-    ::
 ::

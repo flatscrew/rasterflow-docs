@@ -13,34 +13,26 @@ links:
 ---
 alt: Buffer Source
 caption: Use an existing in-memory GeglBuffer as image source.
+src: /images/operations/gegl-buffer-source.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: false
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: false
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Input buffer" type="GeglBuffer"}
-        The GeglBuffer to load into the pipeline  
+        The GeglBuffer to load into the pipeline.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 
-    ::
 ::

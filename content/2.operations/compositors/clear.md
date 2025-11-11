@@ -1,6 +1,6 @@
 ---
 title: Clear
-description: "Porter Duff operation clear (d = 0.0f)"
+description: "Porter Duff operation clear (d = 0.0f)."
 links:
   - label: "svg:clear"
     to: "https://gegl.org/operations/svg-clear"
@@ -12,35 +12,27 @@ links:
 ::adwaita-card
 ---
 alt: Clear
-caption: Porter Duff operation clear (d = 0.0f)
+caption: Porter Duff operation clear (d = 0.0f).
+src: /images/operations/svg-clear.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
-      ::field{name="sRGB" type="gboolean"}
-        Use sRGB gamma instead of linear  
+## Operation properties
+::field-group
+      ::field{name="SRGB" type="gboolean"}
+        Use sRGB gamma instead of linear.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 
-    ::
 ::

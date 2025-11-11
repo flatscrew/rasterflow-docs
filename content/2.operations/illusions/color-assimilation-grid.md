@@ -13,30 +13,23 @@ links:
 ---
 alt: Color Assimilation Grid
 caption: Turn image grayscale and overlay an oversaturated grid - through color assimilation happening in the human visual system, for some grid scales this produces the illusion that the grayscale grid cells themselves also have color.
+src: /images/operations/gegl-color-assimilation-grid.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Grid size" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `23.00`  
@@ -62,5 +55,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

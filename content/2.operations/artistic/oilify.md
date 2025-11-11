@@ -1,6 +1,6 @@
 ---
 title: Oilify
-description: "Emulate an oil painting"
+description: "Emulate an oil painting."
 links:
   - label: "gegl:oilify"
     to: "https://gegl.org/operations/gegl-oilify"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Oilify
-caption: Emulate an oil painting
+caption: Emulate an oil painting.
+src: /images/operations/gegl-oilify.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Mask Radius" type="gint"}
         Radius of circle around pixel, can also be scaled per pixel by a buffer on the aux pad.  
         :icon{name="i-lucide-puzzle"} Default `4`  
@@ -50,15 +43,14 @@ name: Operation properties
         
       ::
       ::field{name="Number of intensities" type="gint"}
-        Histogram size  
+        Histogram size.  
         :icon{name="i-lucide-puzzle"} Default `128`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `8` • :icon{name="i-lucide-arrow-right"} • `256`. 
         
       ::
       ::field{name="Intensity Mode" type="gboolean"}
-        Use pixel luminance values  
+        Use pixel luminance values.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
 
-    ::
 ::

@@ -1,6 +1,6 @@
 ---
 title: Linear Sinusoid
-description: "Generate a linear sinusoid pattern"
+description: "Generate a linear sinusoid pattern."
 links:
   - label: "gegl:linear-sinusoid"
     to: "https://gegl.org/operations/gegl-linear-sinusoid"
@@ -12,89 +12,81 @@ links:
 ::adwaita-card
 ---
 alt: Linear Sinusoid
-caption: Generate a linear sinusoid pattern
+caption: Generate a linear sinusoid pattern.
+src: /images/operations/gegl-linear-sinusoid.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: false
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: false
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="X Period" type="gdouble"}
-        Period for X axis  
+        Period for X axis.  
         :icon{name="i-lucide-puzzle"} Default `128.00`  
       ::
       ::field{name="Y Period" type="gdouble"}
-        Period for Y axis  
+        Period for Y axis.  
         :icon{name="i-lucide-puzzle"} Default `128.00`  
       ::
       ::field{name="X Amplitude" type="gdouble"}
-        Amplitude for X axis (logarithmic scale)  
+        Amplitude for X axis (logarithmic scale).  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="Y Amplitude" type="gdouble"}
-        Amplitude for Y axis (logarithmic scale)  
+        Amplitude for Y axis (logarithmic scale).  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="X Phase" type="gdouble"}
-        Phase for X axis  
+        Phase for X axis.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="Y Phase" type="gdouble"}
-        Phase for Y axis  
+        Phase for Y axis.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="Angle" type="gdouble"}
-        Axis separation angle  
+        Axis separation angle.  
         :icon{name="i-lucide-puzzle"} Default `90.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `360.00`. 
         
       ::
       ::field{name="Offset" type="gdouble"}
-        Value offset  
+        Value offset.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="Exponent" type="gdouble"}
-        Value exponent (logarithmic scale)  
+        Value exponent (logarithmic scale).  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="X Offset" type="gdouble"}
-        Offset for X axis  
+        Offset for X axis.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="Y Offset" type="gdouble"}
-        Offset for Y axis  
+        Offset for Y axis.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="Rotation" type="gdouble"}
-        Pattern rotation angle  
+        Pattern rotation angle.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `360.00`. 
         
       ::
       ::field{name="Supersampling" type="gint"}
-        Number of samples along each axis per pixel  
+        Number of samples along each axis per pixel.  
         :icon{name="i-lucide-puzzle"} Default `1`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `8`. 
         
       ::
 
-    ::
 ::

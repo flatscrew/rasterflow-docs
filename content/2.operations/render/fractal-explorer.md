@@ -13,32 +13,25 @@ links:
 ---
 alt: Fractal Explorer
 caption: Rendering of multiple different fractal systems, with configurable coloring options.
+src: /images/operations/gegl-fractal-explorer.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: false
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: false
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Fractal type" type="dictionary"}
-        Type of a fractal  
+        Type of a fractal.  
         :icon{name="i-lucide-puzzle"} Default `Mandelbrot`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Mandelbrot` • `Julia` • `Barnsley 1` • `Barnsley 2` • `Barnsley 3` • `Spider` • `Man O War` • `Lambda` • `Sierpinski` 
       ::
@@ -50,27 +43,27 @@ name: Operation properties
         
       ::
       ::field{name="Zoom" type="gdouble"}
-        Zoom in the fractal space  
+        Zoom in the fractal space.  
         :icon{name="i-lucide-puzzle"} Default `300.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `10000000.00`. 
         
       ::
       ::field{name="Shift X" type="gdouble"}
-        X shift in the fractal space  
+        X shift in the fractal space.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="Shift Y" type="gdouble"}
-        Y shift in the fractal space  
+        Y shift in the fractal space.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="CX" type="gdouble"}
-        CX (No effect in Mandelbrot and Sierpinski)  
+        CX (No effect in Mandelbrot and Sierpinski).  
         :icon{name="i-lucide-puzzle"} Default `-0.75`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-2.50` • :icon{name="i-lucide-arrow-right"} • `2.50`. 
         
       ::
       ::field{name="CY" type="gdouble"}
-        CY (No effect in Mandelbrot and Sierpinski)  
+        CY (No effect in Mandelbrot and Sierpinski).  
         :icon{name="i-lucide-puzzle"} Default `-0.20`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-2.50` • :icon{name="i-lucide-arrow-right"} • `2.50`. 
         
@@ -94,17 +87,20 @@ name: Operation properties
         
       ::
       ::field{name="Red application mode" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Cosine`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Cosine`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Sine` • `Cosine` • `None` 
       ::
 
       ::field{name="Green application mode" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Cosine`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Cosine`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Sine` • `Cosine` • `None` 
       ::
 
       ::field{name="Blue application mode" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Sine`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Sine`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Sine` • `Cosine` • `None` 
       ::
 
@@ -131,5 +127,4 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 
-    ::
 ::

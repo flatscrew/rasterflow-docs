@@ -1,6 +1,6 @@
 ---
 title: Unpremultiply alpha
-description: "Unpremultiplies a buffer that contains pre-multiplied colors (but according to the babl format is not.)"
+description: "Unpremultiplies a buffer that contains pre-multiplied colors (but according to the babl format is not.)."
 links:
   - label: "gegl:unpremultiply"
     to: "https://gegl.org/operations/gegl-unpremultiply"
@@ -12,31 +12,23 @@ links:
 ::adwaita-card
 ---
 alt: Unpremultiply alpha
-caption: Unpremultiplies a buffer that contains pre-multiplied colors (but according to the babl format is not.)
+caption: Unpremultiplies a buffer that contains pre-multiplied colors (but according to the babl format is not.).
+src: /images/operations/gegl-unpremultiply.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
+## Operation properties
+::field-group
 
-    ::field-group
-
-    ::
 ::

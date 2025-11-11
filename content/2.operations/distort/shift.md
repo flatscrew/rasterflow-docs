@@ -1,6 +1,6 @@
 ---
 title: Shift
-description: "Shift each row or column of pixels by a random amount"
+description: "Shift each row or column of pixels by a random amount."
 links:
   - label: "gegl:shift"
     to: "https://gegl.org/operations/gegl-shift"
@@ -12,39 +12,33 @@ links:
 ::adwaita-card
 ---
 alt: Shift
-caption: Shift each row or column of pixels by a random amount
+caption: Shift each row or column of pixels by a random amount.
+src: /images/operations/gegl-shift.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Shift" type="gint"}
-        Maximum amount to shift  
+        Maximum amount to shift.  
         :icon{name="i-lucide-puzzle"} Default `5`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `200`. 
         
       ::
       ::field{name="Shift direction" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Horizontal`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Horizontal`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Horizontal` • `Vertical` 
       ::
 
@@ -55,5 +49,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

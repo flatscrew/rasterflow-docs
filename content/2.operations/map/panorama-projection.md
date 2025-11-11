@@ -13,62 +13,55 @@ links:
 ---
 alt: Panorama Projection
 caption: Do panorama viewer rendering mapping or its inverse for an equirectangular input image. (2:1 ratio containing 360x180 degree panorama).
+src: /images/operations/gegl-panorama-projection.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Pan" type="gdouble"}
-        Horizontal camera panning  
+        Horizontal camera panning.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-360.00` • :icon{name="i-lucide-arrow-right"} • `360.00`. 
         
       ::
       ::field{name="Tilt" type="gdouble"}
-        Vertical camera panning  
+        Vertical camera panning.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-180.00` • :icon{name="i-lucide-arrow-right"} • `180.00`. 
         
       ::
       ::field{name="Spin" type="gdouble"}
-        Spin angle around camera axis  
+        Spin angle around camera axis.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-360.00` • :icon{name="i-lucide-arrow-right"} • `360.00`. 
         
       ::
       ::field{name="Zoom" type="gdouble"}
-        Zoom level  
+        Zoom level.  
         :icon{name="i-lucide-puzzle"} Default `100.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.01` • :icon{name="i-lucide-arrow-right"} • `1000.00`. 
         
       ::
       ::field{name="Width" type="gint"}
-        output/rendering width in pixels, -1 for input width  
+        output/rendering width in pixels, -1 for input width.  
         :icon{name="i-lucide-puzzle"} Default `-1`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-1` • :icon{name="i-lucide-arrow-right"} • `10000`. 
         
       ::
       ::field{name="Height" type="gint"}
-        output/rendering height in pixels, -1 for input height  
+        output/rendering height in pixels, -1 for input height.  
         :icon{name="i-lucide-puzzle"} Default `-1`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-1` • :icon{name="i-lucide-arrow-right"} • `10000`. 
         
@@ -84,5 +77,4 @@ name: Operation properties
       ::
 
 
-    ::
 ::

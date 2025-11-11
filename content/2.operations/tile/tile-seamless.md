@@ -13,30 +13,22 @@ links:
 ---
 alt: Make Seamlessly tileable
 caption: Make the input buffer seamlessly tileable. The algorithm is not content-aware, so the result may need post-processing.
+src: /images/operations/gegl-tile-seamless.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
+## Operation properties
+::field-group
 
-    ::field-group
-
-    ::
 ::

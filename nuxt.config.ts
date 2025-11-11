@@ -4,10 +4,10 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/image',
     '@nuxt/ui',
+    '@nuxtjs/mdc',
     '@nuxt/content',
     'nuxt-og-image',
-    'nuxt-llms',
-    '@nuxtjs/google-fonts'
+    'nuxt-llms'
   ],
 
   devtools: {
@@ -16,14 +16,6 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
-  googleFonts: {
-    families: {
-      'Roboto+Condensed': [300, 400, 500, 700],
-    },
-    display: 'swap',
-    preload: true,
-  },
-  
   content: {
     build: {
       markdown: {
@@ -57,32 +49,32 @@ export default defineNuxtConfig({
 
   icon: {
     provider: 'iconify'
-  },
-
-  llms: {
-    domain: 'https://docs-template.nuxt.dev/',
-    title: 'Nuxt Docs Template',
-    description: 'A template for building documentation with Nuxt UI and Nuxt Content.',
-    full: {
-      title: 'Nuxt Docs Template - Full Documentation',
-      description: 'This is the full documentation for the Nuxt Docs Template.'
-    },
-    sections: [
-      {
-        title: 'Getting Started',
-        contentCollection: 'docs',
-        contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/getting-started%' }
-        ]
-      },
-      {
-        title: 'Essentials',
-        contentCollection: 'docs',
-        contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/essentials%' }
-        ]
-      }
-    ]
   }
-  
+
+  // llms: {
+  //   domain: 'https://rasterflow.io/',
+  //   title: 'RasterFlow',
+  //   description: 'A template for building documentation with Nuxt UI and Nuxt Content.',
+  //   full: {
+  //     title: 'Nuxt Docs Template - Full Documentation',
+  //     description: 'This is the full documentation for the Nuxt Docs Template.'
+  //   },
+  //   sections: [
+  //     {
+  //       title: 'Getting Started',
+  //       contentCollection: 'docs',
+  //       contentFilters: [
+  //         { field: 'path', operator: 'LIKE', value: '/getting-started%' }
+  //       ]
+  //     },
+  //     {
+  //       title: 'Essentials',
+  //       contentCollection: 'docs',
+  //       contentFilters: [
+  //         { field: 'path', operator: 'LIKE', value: '/essentials%' }
+  //       ]
+  //     }
+  //   ]
+  // }
+
 })

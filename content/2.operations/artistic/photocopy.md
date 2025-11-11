@@ -1,6 +1,6 @@
 ---
 title: Photocopy
-description: "Simulate color distortion produced by a copy machine"
+description: "Simulate color distortion produced by a copy machine."
 links:
   - label: "gegl:photocopy"
     to: "https://gegl.org/operations/gegl-photocopy"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Photocopy
-caption: Simulate color distortion produced by a copy machine
+caption: Simulate color distortion produced by a copy machine.
+src: /images/operations/gegl-photocopy.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Mask Radius" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `10.00`  
@@ -62,5 +55,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

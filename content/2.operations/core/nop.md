@@ -1,6 +1,6 @@
 ---
 title: No Operation
-description: "No operation (can be used as a routing point)"
+description: "No operation (can be used as a routing point)."
 links:
   - label: "gegl:nop"
     to: "https://gegl.org/operations/gegl-nop"
@@ -12,31 +12,23 @@ links:
 ::adwaita-card
 ---
 alt: No Operation
-caption: No operation (can be used as a routing point)
+caption: No operation (can be used as a routing point).
+src: /images/operations/gegl-nop.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
+## Operation properties
+::field-group
 
-    ::field-group
-
-    ::
 ::

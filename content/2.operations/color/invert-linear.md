@@ -13,30 +13,22 @@ links:
 ---
 alt: Invert
 caption: Invert the components (except alpha) in linear light, the result is the corresponding "negative" image.
+src: /images/operations/gegl-invert-linear.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
+## Operation properties
+::field-group
 
-    ::field-group
-
-    ::
 ::

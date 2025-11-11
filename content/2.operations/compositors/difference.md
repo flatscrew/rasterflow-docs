@@ -1,6 +1,6 @@
 ---
 title: 
-description: "SVG blend operation difference (<code>d = cA + cB - 2 * (MIN (cA * aB, cB * aA))</code>)"
+description: "SVG blend operation difference (<code>d = cA + cB - 2 * (MIN (cA * aB, cB * aA))</code>)."
 links:
   - label: "svg:difference"
     to: "https://gegl.org/operations/svg-difference"
@@ -12,35 +12,27 @@ links:
 ::adwaita-card
 ---
 alt: 
-caption: SVG blend operation difference (<code>d = cA + cB - 2 * (MIN (cA * aB, cB * aA))</code>)
+caption: SVG blend operation difference (<code>d = cA + cB - 2 * (MIN (cA * aB, cB * aA))</code>).
+src: /images/operations/svg-difference.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
-      ::field{name="sRGB" type="gboolean"}
-        Use sRGB gamma instead of linear  
+## Operation properties
+::field-group
+      ::field{name="SRGB" type="gboolean"}
+        Use sRGB gamma instead of linear.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 
-    ::
 ::

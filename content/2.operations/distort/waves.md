@@ -1,6 +1,6 @@
 ---
 title: Waves
-description: "Distort the image with waves"
+description: "Distort the image with waves."
 links:
   - label: "gegl:waves"
     to: "https://gegl.org/operations/gegl-waves"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Waves
-caption: Distort the image with waves
+caption: Distort the image with waves.
+src: /images/operations/gegl-waves.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Center X" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `0.50`  
@@ -46,13 +39,13 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `0.50`  
       ::
       ::field{name="Amplitude" type="gdouble"}
-        Amplitude of the ripple  
+        Amplitude of the ripple.  
         :icon{name="i-lucide-puzzle"} Default `25.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1000.00`. 
         
       ::
       ::field{name="Period" type="gdouble"}
-        Period (wavelength) of the ripple  
+        Period (wavelength) of the ripple.  
         :icon{name="i-lucide-puzzle"} Default `100.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.10` • :icon{name="i-lucide-arrow-right"} • `1000.00`. 
         
@@ -70,7 +63,7 @@ name: Operation properties
         
       ::
       ::field{name="Resampling method" type="dictionary"}
-        Mathematical method for reconstructing pixel values  
+        Mathematical method for reconstructing pixel values.  
         :icon{name="i-lucide-puzzle"} Default `Cubic`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Nearest` • `Linear` • `Cubic` • `NoHalo` • `LoHalo` 
       ::
@@ -80,5 +73,4 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 
-    ::
 ::

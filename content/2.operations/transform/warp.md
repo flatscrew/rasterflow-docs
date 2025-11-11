@@ -1,6 +1,6 @@
 ---
 title: Warp
-description: "Compute a relative displacement mapping from a stroke"
+description: "Compute a relative displacement mapping from a stroke."
 links:
   - label: "gegl:warp"
     to: "https://gegl.org/operations/gegl-warp"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Warp
-caption: Compute a relative displacement mapping from a stroke
+caption: Compute a relative displacement mapping from a stroke.
+src: /images/operations/gegl-warp.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Strength" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `50.00`  
@@ -66,11 +59,10 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="Behavior" type="dictionary"}
-        Behavior of the op  
+        Behavior of the op.  
         :icon{name="i-lucide-puzzle"} Default `Move pixels`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Move pixels` • `Grow area` • `Shrink area` • `Swirl clockwise` • `Swirl counter-clockwise` • `Erase warping` • `Smooth warping` 
       ::
 
 
-    ::
 ::

@@ -1,6 +1,6 @@
 ---
 title: Convolution Matrix
-description: "Apply a generic 5x5 convolution matrix"
+description: "Apply a generic 5x5 convolution matrix."
 links:
   - label: "gegl:convolution-matrix"
     to: "https://gegl.org/operations/gegl-convolution-matrix"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Convolution Matrix
-caption: Apply a generic 5x5 convolution matrix
+caption: Apply a generic 5x5 convolution matrix.
+src: /images/operations/gegl-convolution-matrix.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="(1,1)" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `0.00`  
@@ -172,10 +165,10 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="Border" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Clamp`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Clamp`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `None` • `Clamp` • `Loop` • `Black` • `White` 
       ::
 
 
-    ::
 ::

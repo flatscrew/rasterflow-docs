@@ -1,6 +1,6 @@
 ---
 title: Plus
-description: "SVG blend operation plus (<code>d = cA + cB</code>)"
+description: "SVG blend operation plus (<code>d = cA + cB</code>)."
 links:
   - label: "svg:plus"
     to: "https://gegl.org/operations/svg-plus"
@@ -12,35 +12,27 @@ links:
 ::adwaita-card
 ---
 alt: Plus
-caption: SVG blend operation plus (<code>d = cA + cB</code>)
+caption: SVG blend operation plus (<code>d = cA + cB</code>).
+src: /images/operations/svg-plus.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
-      ::field{name="sRGB" type="gboolean"}
-        Use sRGB gamma instead of linear  
+## Operation properties
+::field-group
+      ::field{name="SRGB" type="gboolean"}
+        Use sRGB gamma instead of linear.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 
-    ::
 ::

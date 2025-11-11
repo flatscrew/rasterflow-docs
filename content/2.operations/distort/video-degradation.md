@@ -13,32 +13,25 @@ links:
 ---
 alt: Video Degradation
 caption: This function simulates the degradation of being on an old low-dotpitch RGB video monitor.
+src: /images/operations/gegl-video-degradation.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Pattern" type="dictionary"}
-        Type of RGB pattern to use  
+        Type of RGB pattern to use.  
         :icon{name="i-lucide-puzzle"} Default `Striped`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Staggered` • `Large staggered` • `Striped` • `Wide striped` • `Long staggered` • `3x3` • `Large 3x3` • `Hex` • `Dots` 
       ::
@@ -52,5 +45,4 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 
-    ::
 ::

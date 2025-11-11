@@ -1,6 +1,6 @@
 ---
 title: RGBE File Saver
-description: "RGBE image saver (Radiance HDR format)"
+description: "RGBE image saver (Radiance HDR format)."
 links:
   - label: "gegl:rgbe-save"
     to: "https://gegl.org/operations/gegl-rgbe-save"
@@ -12,35 +12,27 @@ links:
 ::adwaita-card
 ---
 alt: RGBE File Saver
-caption: RGBE image saver (Radiance HDR format)
+caption: RGBE image saver (Radiance HDR format).
+src: /images/operations/gegl-rgbe-save.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: false
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: false
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="File" type="gchararray"}
         Target path and filename, use '-' for stdout.  
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
 
-    ::
 ::

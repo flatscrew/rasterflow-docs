@@ -13,32 +13,25 @@ links:
 ---
 alt: Cell Noise
 caption: Generates a cellular texture.
+src: /images/operations/gegl-cell-noise.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: false
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: false
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Scale" type="gdouble"}
-        The scale of the noise function  
+        The scale of the noise function.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `20.00`. 
         
@@ -50,7 +43,7 @@ name: Operation properties
         
       ::
       ::field{name="Rank" type="gint"}
-        Select the n-th closest point  
+        Select the n-th closest point.  
         :icon{name="i-lucide-puzzle"} Default `1`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `3`. 
         
@@ -62,15 +55,14 @@ name: Operation properties
         
       ::
       ::field{name="Palettize" type="gboolean"}
-        Fill each cell with a random color  
+        Fill each cell with a random color.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
       ::field{name="Random seed" type="guint"}
-        The random seed for the noise function  
+        The random seed for the noise function.  
         :icon{name="i-lucide-puzzle"} Default `0`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `4294967295`. 
         
       ::
 
-    ::
 ::

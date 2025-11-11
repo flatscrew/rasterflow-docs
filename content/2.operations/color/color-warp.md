@@ -13,30 +13,23 @@ links:
 ---
 alt: Color warp
 caption: Warps the colors of an image between colors with weighted distortion factors, color pairs which are black to black get ignored when constructing the mapping.
+src: /images/operations/gegl-color-warp.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="From 0" type="GeglColor"}
         
         :icon{name="i-lucide-puzzle"} Default ``  
@@ -45,7 +38,7 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="weight 0" type="gdouble"}
+      ::field{name="Weight 0" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
@@ -57,7 +50,7 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="weight 1" type="gdouble"}
+      ::field{name="Weight 1" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
@@ -69,7 +62,7 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="weight 2" type="gdouble"}
+      ::field{name="Weight 2" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
@@ -81,7 +74,7 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="weight 3" type="gdouble"}
+      ::field{name="Weight 3" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
@@ -93,7 +86,7 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="weight 4" type="gdouble"}
+      ::field{name="Weight 4" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
@@ -105,7 +98,7 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="weight 5" type="gdouble"}
+      ::field{name="Weight 5" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
@@ -117,7 +110,7 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="weight 6" type="gdouble"}
+      ::field{name="Weight 6" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
@@ -129,18 +122,17 @@ name: Operation properties
         
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
-      ::field{name="weight 7" type="gdouble"}
+      ::field{name="Weight 7" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
-      ::field{name="global weight scale" type="gdouble"}
+      ::field{name="Global weight scale" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `1.00`  
       ::
-      ::field{name="amount" type="gdouble"}
+      ::field{name="Amount" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `1.00`  
       ::
 
-    ::
 ::

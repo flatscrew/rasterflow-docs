@@ -13,34 +13,26 @@ links:
 ---
 alt: GdkPixbuf Source
 caption: Uses the GdkPixbuf located at the memory location in <em>pixbuf</em>.
+src: /images/operations/gegl-pixbuf.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: false
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: false
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Pixbuf" type="GdkPixbuf"}
-        GdkPixbuf to use  
+        GdkPixbuf to use.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 
-    ::
 ::

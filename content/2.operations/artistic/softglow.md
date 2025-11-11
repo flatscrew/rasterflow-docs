@@ -1,6 +1,6 @@
 ---
 title: Softglow
-description: "Simulate glow by making highlights intense and fuzzy"
+description: "Simulate glow by making highlights intense and fuzzy."
 links:
   - label: "gegl:softglow"
     to: "https://gegl.org/operations/gegl-softglow"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Softglow
-caption: Simulate glow by making highlights intense and fuzzy
+caption: Simulate glow by making highlights intense and fuzzy.
+src: /images/operations/gegl-softglow.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Glow radius" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `10.00`  
@@ -56,5 +49,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

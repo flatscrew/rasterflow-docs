@@ -13,54 +13,46 @@ links:
 ---
 alt: Fattal et al. 2002 Tone Mapping
 caption: Adapt an image, which may have a high dynamic range, for presentation using a low dynamic range. This operator attenuates the magnitudes of local image gradients, producing luminance within the range 0.0-1.0. This tonemapping approach was originally presented by Raanan Fattal, in the 2002 SIGGRAPH paper: Gradient Domain High Dynamic Range Compression.
+src: /images/operations/gegl-fattal02.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Alpha" type="gdouble"}
-        Gradient threshold for detail enhancement  
+        Gradient threshold for detail enhancement.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `2.00`. 
         
       ::
       ::field{name="Beta" type="gdouble"}
-        Strength of local detail enhancement  
+        Strength of local detail enhancement.  
         :icon{name="i-lucide-puzzle"} Default `0.90`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.10` • :icon{name="i-lucide-arrow-right"} • `2.00`. 
         
       ::
       ::field{name="Saturation" type="gdouble"}
-        Global color saturation factor  
+        Global color saturation factor.  
         :icon{name="i-lucide-puzzle"} Default `0.80`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
       ::
       ::field{name="Noise" type="gdouble"}
-        Gradient threshold for lowering detail enhancement  
+        Gradient threshold for lowering detail enhancement.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
       ::
 
-    ::
 ::

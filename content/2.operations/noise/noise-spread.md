@@ -1,6 +1,6 @@
 ---
 title: Noise Spread
-description: "Move pixels around randomly"
+description: "Move pixels around randomly."
 links:
   - label: "gegl:noise-spread"
     to: "https://gegl.org/operations/gegl-noise-spread"
@@ -12,39 +12,32 @@ links:
 ::adwaita-card
 ---
 alt: Noise Spread
-caption: Move pixels around randomly
+caption: Move pixels around randomly.
+src: /images/operations/gegl-noise-spread.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Horizontal" type="gint"}
-        Horizontal spread amount  
+        Horizontal spread amount.  
         :icon{name="i-lucide-puzzle"} Default `5`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `512`. 
         
       ::
       ::field{name="Vertical" type="gint"}
-        Vertical spread amount  
+        Vertical spread amount.  
         :icon{name="i-lucide-puzzle"} Default `5`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `512`. 
         
@@ -56,5 +49,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

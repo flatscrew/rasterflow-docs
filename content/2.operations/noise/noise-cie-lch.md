@@ -1,6 +1,6 @@
 ---
 title: Add CIE Lch Noise
-description: "Randomize lightness, chroma and hue independently"
+description: "Randomize lightness, chroma and hue independently."
 links:
   - label: "gegl:noise-cie-lch"
     to: "https://gegl.org/operations/gegl-noise-cie-lch"
@@ -12,33 +12,26 @@ links:
 ::adwaita-card
 ---
 alt: Add CIE Lch Noise
-caption: Randomize lightness, chroma and hue independently
+caption: Randomize lightness, chroma and hue independently.
+src: /images/operations/gegl-noise-cie-lch.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Dulling" type="gint"}
-        A high value lowers the randomness of the noise  
+        A high value lowers the randomness of the noise.  
         :icon{name="i-lucide-puzzle"} Default `2`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `8`. 
         
@@ -68,5 +61,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

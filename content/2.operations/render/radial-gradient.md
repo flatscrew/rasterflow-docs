@@ -1,6 +1,6 @@
 ---
 title: Radial Gradient
-description: "Radial gradient renderer"
+description: "Radial gradient renderer."
 links:
   - label: "gegl:radial-gradient"
     to: "https://gegl.org/operations/gegl-radial-gradient"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Radial Gradient
-caption: Radial gradient renderer
+caption: Radial gradient renderer.
+src: /images/operations/gegl-radial-gradient.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: false
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: false
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="X1" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `25.00`  
@@ -54,13 +47,12 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `50.00`  
       ::
       ::field{name="Start Color" type="GeglColor"}
-        The color at (x1, y1)  
+        The color at (x1, y1).  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="End Color" type="GeglColor"}
-        The color at (x2, y2)  
+        The color at (x2, y2).  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 
-    ::
 ::

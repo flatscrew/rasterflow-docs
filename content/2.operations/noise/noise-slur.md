@@ -1,6 +1,6 @@
 ---
 title: Noise Slur
-description: "Randomly slide some pixels downward (similar to melting)"
+description: "Randomly slide some pixels downward (similar to melting)."
 links:
   - label: "gegl:noise-slur"
     to: "https://gegl.org/operations/gegl-noise-slur"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Noise Slur
-caption: Randomly slide some pixels downward (similar to melting)
+caption: Randomly slide some pixels downward (similar to melting).
+src: /images/operations/gegl-noise-slur.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Randomization (%)" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `50.00`  
@@ -56,5 +49,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

@@ -1,6 +1,6 @@
 ---
 title: Map Absolute
-description: "sample input with an auxiliary buffer that contain absolute source coordinates"
+description: "sample input with an auxiliary buffer that contain absolute source coordinates."
 links:
   - label: "gegl:map-absolute"
     to: "https://gegl.org/operations/gegl-map-absolute"
@@ -12,41 +12,35 @@ links:
 ::adwaita-card
 ---
 alt: Map Absolute
-caption: sample input with an auxiliary buffer that contain absolute source coordinates
+caption: sample input with an auxiliary buffer that contain absolute source coordinates.
+src: /images/operations/gegl-map-absolute.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Resampling method" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Cubic`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Cubic`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Nearest` • `Linear` • `Cubic` • `NoHalo` • `LoHalo` 
       ::
 
       ::field{name="Abyss policy" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `None`  
+        
+        :icon{name="i-lucide-puzzle"} Default `None`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `None` • `Clamp` • `Loop` • `Black` • `White` 
       ::
 
 
-    ::
 ::

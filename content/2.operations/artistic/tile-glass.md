@@ -1,6 +1,6 @@
 ---
 title: Tile Glass
-description: "Simulate distortion caused by rectangular glass tiles"
+description: "Simulate distortion caused by rectangular glass tiles."
 links:
   - label: "gegl:tile-glass"
     to: "https://gegl.org/operations/gegl-tile-glass"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Tile Glass
-caption: Simulate distortion caused by rectangular glass tiles
+caption: Simulate distortion caused by rectangular glass tiles.
+src: /images/operations/gegl-tile-glass.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Tile Width" type="gint"}
         
         :icon{name="i-lucide-puzzle"} Default `25`  
@@ -50,5 +43,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

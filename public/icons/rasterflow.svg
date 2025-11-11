@@ -7,40 +7,8 @@
    viewBox="0 0 33.866666 33.866666"
    version="1.1"
    id="svg937"
-   sodipodi:docname="io.canvas.Canvas.svg"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   inkscape:export-filename="logo-ready.png"
-   inkscape:export-xdpi="192"
-   inkscape:export-ydpi="192"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview939"
-     pagecolor="#aaaaaa"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#3d3d3d"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="6.3785522"
-     inkscape:cx="23.12437"
-     inkscape:cy="58.869159"
-     inkscape:window-width="2494"
-     inkscape:window-height="1371"
-     inkscape:window-x="66"
-     inkscape:window-y="1472"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="g17345"
-     showguides="true">
-    <inkscape:grid
-       type="xygrid"
-       id="grid2818" />
-  </sodipodi:namedview>
   <defs
      id="defs934">
     <clipPath
@@ -54,12 +22,10 @@
          x="8.9009603e-07"
          y="8.9009603e-07"
          rx="3.175"
-         ry="3.175"
-         inkscape:label="Clip shape" />
+         ry="3.175" />
     </clipPath>
     <filter
        style="color-interpolation-filters:sRGB;"
-       inkscape:label="Drop Shadow"
        id="filter19286"
        x="-0.11338583"
        y="-0.11338583"
@@ -95,7 +61,6 @@
     </filter>
     <filter
        style="color-interpolation-filters:sRGB;"
-       inkscape:label="Drop Shadow"
        id="filter19298"
        x="-0.11338583"
        y="-0.11338583"
@@ -131,7 +96,6 @@
     </filter>
     <filter
        style="color-interpolation-filters:sRGB;"
-       inkscape:label="Drop Shadow"
        id="filter19310"
        x="-0.11338583"
        y="-0.11338583"
@@ -167,7 +131,6 @@
     </filter>
     <filter
        style="color-interpolation-filters:sRGB;"
-       inkscape:label="Drop Shadow"
        id="filter19322"
        x="-0.11338583"
        y="-0.11338583"
@@ -203,7 +166,6 @@
     </filter>
     <filter
        style="color-interpolation-filters:sRGB;"
-       inkscape:label="Drop Shadow"
        id="filter19383"
        x="-0.11338583"
        y="-0.11338583"
@@ -239,7 +201,6 @@
     </filter>
     <filter
        style="color-interpolation-filters:sRGB;"
-       inkscape:label="Drop Shadow"
        id="filter19395"
        x="-0.22677167"
        y="-0.22677167"
@@ -308,7 +269,6 @@
     </filter>
     <filter
        style="color-interpolation-filters:sRGB;"
-       inkscape:label="Drop Shadow"
        id="filter19625"
        x="-0.11338583"
        y="-0.11338583"
@@ -344,7 +304,6 @@
     </filter>
     <filter
        style="color-interpolation-filters:sRGB;"
-       inkscape:label="Drop Shadow"
        id="filter19656"
        x="-0.11338583"
        y="-0.11338583"
@@ -380,8 +339,6 @@
     </filter>
   </defs>
   <g
-     inkscape:label="Background"
-     inkscape:groupmode="layer"
      id="layer1">
     <rect
        style="fill:#2a323a;fill-opacity:1;stroke-width:0.264583"
@@ -391,13 +348,10 @@
        x="8.9009603e-07"
        y="8.9009603e-07"
        rx="3.175"
-       ry="3.175"
-       inkscape:label="Main rect" />
+       ry="3.175" />
   </g>
   <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Grid">
+     id="layer2">
     <rect
        style="fill:#272d33;fill-opacity:1;stroke-width:0.264582"
        id="rect2882"
@@ -445,9 +399,7 @@
        transform="rotate(90)" />
   </g>
   <g
-     inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Nodes"
      style="display:inline">
     <rect
        style="fill:#202529;fill-opacity:1;stroke-width:0.289232"
@@ -501,14 +453,10 @@
        r="4.7624998" />
   </g>
   <g
-     inkscape:groupmode="layer"
      id="g1139"
-     inkscape:label="Pixels shadows"
      style="display:inline" />
   <g
-     inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Pixels"
      style="display:inline">
     <g
        id="g17345"
@@ -521,7 +469,7 @@
          x="31.75"
          y="31.75" />
       <rect
-         style="fill:#f53b3c;fill-opacity:1;stroke-width:0.157319"
+         style="fill:#f53b3c;fill-opacity:1;stroke-width:0.157319;filter:url(#filter19322)"
          id="rect17368"
          width="2.1166666"
          height="2.1166666"
@@ -640,7 +588,7 @@
          x="29.633331"
          y="29.633333" />
       <rect
-         style="display:inline;fill:#f53b3c;fill-opacity:1;stroke-width:0.157319"
+         style="display:inline;fill:#f53b3c;fill-opacity:1;stroke-width:0.157319;filter:url(#filter19286)"
          id="rect17851"
          width="2.1166666"
          height="2.1166666"
@@ -654,7 +602,7 @@
          x="29.633331"
          y="23.283333" />
       <rect
-         style="fill:#286668;fill-opacity:1;stroke-width:0.157319"
+         style="fill:#286668;fill-opacity:1;stroke-width:0.157319;filter:url(#filter19656)"
          id="rect17857"
          width="2.1166666"
          height="2.1166666"
@@ -885,7 +833,7 @@
          x="25.4"
          y="25.4" />
       <rect
-         style="display:inline;fill:#fa5225;fill-opacity:1;stroke-width:0.157319"
+         style="display:inline;fill:#fa5225;fill-opacity:1;stroke-width:0.157319;filter:url(#filter19383)"
          id="rect18127"
          width="2.1166666"
          height="2.1166666"
@@ -913,14 +861,14 @@
          x="27.516666"
          y="31.75" />
       <rect
-         style="display:inline;fill:#fd6310;fill-opacity:1;stroke-width:0.157319"
+         style="display:inline;fill:#fd6310;fill-opacity:1;stroke-width:0.157319;filter:url(#filter19298)"
          id="rect17853"
          width="2.1166666"
          height="2.1166666"
          x="29.633333"
          y="25.4" />
       <rect
-         style="display:inline;fill:#ca2155;fill-opacity:1;stroke-width:0.157319"
+         style="display:inline;fill:#ca2155;fill-opacity:1;stroke-width:0.157319;filter:url(#filter19395)"
          id="rect18077"
          width="2.1166666"
          height="2.1166666"
@@ -934,7 +882,7 @@
          x="27.516665"
          y="29.633333" />
       <rect
-         style="fill:#fd4e29;fill-opacity:1;stroke-width:0.157;stroke-dasharray:none"
+         style="fill:#fd4e29;fill-opacity:1;stroke-width:0.157;stroke-dasharray:none;filter:url(#filter19310)"
          id="rect18091"
          width="2.1166666"
          height="2.1166666"
@@ -955,7 +903,7 @@
          x="21.166666"
          y="31.75" />
       <rect
-         style="fill:#712053;fill-opacity:1;stroke-width:0.157319"
+         style="fill:#712053;fill-opacity:1;stroke-width:0.157319;filter:url(#filter19625)"
          id="rect18103"
          width="2.1166666"
          height="2.1166666"

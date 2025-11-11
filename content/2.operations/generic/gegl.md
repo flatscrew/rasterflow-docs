@@ -13,32 +13,25 @@ links:
 ---
 alt: GEGL graph
 caption: Do a chain of operations, with key=value pairs after each operation name to set properties. And aux=[ source filter ] for specifying a chain with a source as something connected to an aux pad.
+src: /images/operations/gegl-gegl.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
-      ::field{name="pipeline" type="gchararray"}
-        [op [property=value] [property=value]] [[op] [property=value]  
+## Operation properties
+::field-group
+      ::field{name="Pipeline" type="gchararray"}
+        [op [property=value] [property=value]] [[op] [property=value].  
         :icon{name="i-lucide-puzzle"} Default `"# uncomment a set of lines below by removing the
 # leading to test and modify an example, use
 # use ctrl+a before typing to select all, if you
@@ -85,5 +78,4 @@ id=in # name a reference to the input buffer 'in'
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
 
-    ::
 ::

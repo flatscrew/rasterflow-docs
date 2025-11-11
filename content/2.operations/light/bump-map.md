@@ -13,46 +13,39 @@ links:
 ---
 alt: Bump Map
 caption: This plug-in uses the algorithm described by John Schlag, "Fast Embossing Effects on Raster Image Data" in Graphics GEMS IV (ISBN 0-12-336155-9). It takes a buffer to be applied as a bump map to another buffer and produces a nice embossing effect.
+src: /images/operations/gegl-bump-map.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Type" type="dictionary"}
-        Type of map  
+        Type of map.  
         :icon{name="i-lucide-puzzle"} Default `Linear`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Linear` • `Spherical` • `Sinusoidal` 
       ::
 
       ::field{name="Compensate" type="gboolean"}
-        Compensate for darkening  
+        Compensate for darkening.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="Invert" type="gboolean"}
-        Invert bumpmap  
+        Invert bumpmap.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
       ::field{name="Tiled" type="gboolean"}
-        Tiled bumpmap  
+        Tiled bumpmap.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
       ::field{name="Azimuth" type="gdouble"}
@@ -86,7 +79,7 @@ name: Operation properties
         
       ::
       ::field{name="Waterlevel" type="gdouble"}
-        Level that full transparency should represent  
+        Level that full transparency should represent.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
@@ -98,5 +91,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

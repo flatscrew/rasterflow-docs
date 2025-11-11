@@ -1,6 +1,6 @@
 ---
 title: Circular Motion Blur
-description: "Circular motion blur"
+description: "Circular motion blur."
 links:
   - label: "gegl:motion-blur-circular"
     to: "https://gegl.org/operations/gegl-motion-blur-circular"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Circular Motion Blur
-caption: Circular motion blur
+caption: Circular motion blur.
+src: /images/operations/gegl-motion-blur-circular.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Center X" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `0.50`  
@@ -46,11 +39,10 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `0.50`  
       ::
       ::field{name="Angle" type="gdouble"}
-        Rotation blur angle. A large angle may take some time to render  
+        Rotation blur angle. A large angle may take some time to render.  
         :icon{name="i-lucide-puzzle"} Default `5.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `360.00`. 
         
       ::
 
-    ::
 ::

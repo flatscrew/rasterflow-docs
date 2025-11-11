@@ -1,6 +1,6 @@
 ---
 title: Absolute
-description: "Makes each linear RGB component be the absolute of its value, fabs(input_value)"
+description: "Makes each linear RGB component be the absolute of its value, fabs(input_value)."
 links:
   - label: "gegl:absolute"
     to: "https://gegl.org/operations/gegl-absolute"
@@ -12,31 +12,23 @@ links:
 ::adwaita-card
 ---
 alt: Absolute
-caption: Makes each linear RGB component be the absolute of its value, fabs(input_value)
+caption: Makes each linear RGB component be the absolute of its value, fabs(input_value).
+src: /images/operations/gegl-absolute.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
+## Operation properties
+::field-group
 
-    ::field-group
-
-    ::
 ::

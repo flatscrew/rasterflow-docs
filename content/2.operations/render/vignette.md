@@ -1,6 +1,6 @@
 ---
 title: Vignette
-description: "Applies a vignette to an image. Simulates the luminance fall off at the edge of exposed film, and some other fuzzier border effects that can naturally occur with analog photography"
+description: "Applies a vignette to an image. Simulates the luminance fall off at the edge of exposed film, and some other fuzzier border effects that can naturally occur with analog photography."
 links:
   - label: "gegl:vignette"
     to: "https://gegl.org/operations/gegl-vignette"
@@ -12,42 +12,36 @@ links:
 ::adwaita-card
 ---
 alt: Vignette
-caption: Applies a vignette to an image. Simulates the luminance fall off at the edge of exposed film, and some other fuzzier border effects that can naturally occur with analog photography
+caption: Applies a vignette to an image. Simulates the luminance fall off at the edge of exposed film, and some other fuzzier border effects that can naturally occur with analog photography.
+src: /images/operations/gegl-vignette.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Vignette shape" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Circle`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Circle`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Circle` • `Square` • `Diamond` • `Horizontal` • `Vertical` 
       ::
 
       ::field{name="Color" type="GeglColor"}
-        Defaults to 'black', you can use transparency here to erase portions of an image  
+        Defaults to 'black', you can use transparency here to erase portions of an image.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="Radius" type="gdouble"}
-        How far out vignetting goes as portion of half image diagonal  
+        How far out vignetting goes as portion of half image diagonal.  
         :icon{name="i-lucide-puzzle"} Default `1.20`  
       ::
       ::field{name="Softness" type="gdouble"}
@@ -57,11 +51,11 @@ name: Operation properties
         
       ::
       ::field{name="Gamma" type="gdouble"}
-        Falloff linearity  
+        Falloff linearity.  
         :icon{name="i-lucide-puzzle"} Default `2.00`  
       ::
       ::field{name="Proportion" type="gdouble"}
-        How close we are to image proportions  
+        How close we are to image proportions.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
@@ -87,5 +81,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

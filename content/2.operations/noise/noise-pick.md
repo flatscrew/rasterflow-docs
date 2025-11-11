@@ -1,6 +1,6 @@
 ---
 title: Noise Pick
-description: "Randomly interchange some pixels with neighbors"
+description: "Randomly interchange some pixels with neighbors."
 links:
   - label: "gegl:noise-pick"
     to: "https://gegl.org/operations/gegl-noise-pick"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Noise Pick
-caption: Randomly interchange some pixels with neighbors
+caption: Randomly interchange some pixels with neighbors.
+src: /images/operations/gegl-noise-pick.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Randomization (%)" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `50.00`  
@@ -56,5 +49,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

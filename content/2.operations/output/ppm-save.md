@@ -1,6 +1,6 @@
 ---
 title: PPM File Saver
-description: "PPM image saver (Portable pixmap saver.)"
+description: "PPM image saver (Portable pixmap saver.)."
 links:
   - label: "gegl:ppm-save"
     to: "https://gegl.org/operations/gegl-ppm-save"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: PPM File Saver
-caption: PPM image saver (Portable pixmap saver.)
+caption: PPM image saver (Portable pixmap saver.).
+src: /images/operations/gegl-ppm-save.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: false
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: false
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="File" type="gchararray"}
         Target path and filename, use '-' for stdout.  
         :icon{name="i-lucide-puzzle"} Default `""`  
@@ -52,5 +45,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

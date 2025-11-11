@@ -1,6 +1,6 @@
 ---
 title: SVG Matrix
-description: "SVG color matrix operation svg_matrix"
+description: "SVG color matrix operation svg_matrix."
 links:
   - label: "gegl:svg-matrix"
     to: "https://gegl.org/operations/gegl-svg-matrix"
@@ -12,35 +12,27 @@ links:
 ::adwaita-card
 ---
 alt: SVG Matrix
-caption: SVG color matrix operation svg_matrix
+caption: SVG color matrix operation svg_matrix.
+src: /images/operations/gegl-svg-matrix.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Values" type="gchararray"}
-        list of <number>s  
+        list of <number>s.  
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
 
-    ::
 ::

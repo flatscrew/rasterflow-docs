@@ -1,6 +1,6 @@
 ---
 title: Piecewise Blend
-description: "Blend a chain of inputs using a mask"
+description: "Blend a chain of inputs using a mask."
 links:
   - label: "gegl:piecewise-blend"
     to: "https://gegl.org/operations/gegl-piecewise-blend"
@@ -12,45 +12,37 @@ links:
 ::adwaita-card
 ---
 alt: Piecewise Blend
-caption: Blend a chain of inputs using a mask
+caption: Blend a chain of inputs using a mask.
+src: /images/operations/gegl-piecewise-blend.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Levels" type="gint"}
-        Number of blend levels  
+        Number of blend levels.  
         :icon{name="i-lucide-puzzle"} Default `0`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `16`. 
         
       ::
       ::field{name="Gamma" type="gdouble"}
-        Gamma factor for blend-level spacing  
+        Gamma factor for blend-level spacing.  
         :icon{name="i-lucide-puzzle"} Default `1.00`  
       ::
       ::field{name="Linear mask" type="gboolean"}
-        Use linear mask values  
+        Use linear mask values.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
 
-    ::
 ::

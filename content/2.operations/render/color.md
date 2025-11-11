@@ -13,38 +13,30 @@ links:
 ---
 alt: Color
 caption: Generates a buffer entirely filled with the specified color, use gegl:crop to get smaller dimensions.
+src: /images/operations/gegl-color.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: false
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: false
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Color" type="GeglColor"}
-        The color to render (defaults to 'black')  
+        The color to render (defaults to 'black').  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="Babl Format" type="gpointer"}
-        The babl format of the output  
+        The babl format of the output.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 
-    ::
 ::

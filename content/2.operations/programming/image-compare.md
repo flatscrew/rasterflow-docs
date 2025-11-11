@@ -1,6 +1,6 @@
 ---
 title: 
-description: "Compares if input and aux buffers are different. Global statistics are saved in the properties and a visual difference image is produced as a visual result. "
+description: "Compares if input and aux buffers are different. Global statistics are saved in the properties and a visual difference image is produced as a visual result. ."
 links:
   - label: "gegl:image-compare"
     to: "https://gegl.org/operations/gegl-image-compare"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: 
-caption: Compares if input and aux buffers are different. Global statistics are saved in the properties and a visual difference image is produced as a visual result. 
+caption: Compares if input and aux buffers are different. Global statistics are saved in the properties and a visual difference image is produced as a visual result. .
+src: /images/operations/gegl-image-compare.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Wrong pixels" type="gint"}
         Number of differing pixels.  
         :icon{name="i-lucide-puzzle"} Default `0`  
@@ -56,5 +49,4 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
 
-    ::
 ::

@@ -1,6 +1,6 @@
 ---
 title: Selective Gaussian Blur
-description: "Blur neighboring pixels, but only in low-contrast areas"
+description: "Blur neighboring pixels, but only in low-contrast areas."
 links:
   - label: "gegl:gaussian-blur-selective"
     to: "https://gegl.org/operations/gegl-gaussian-blur-selective"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Selective Gaussian Blur
-caption: Blur neighboring pixels, but only in low-contrast areas
+caption: Blur neighboring pixels, but only in low-contrast areas.
+src: /images/operations/gegl-gaussian-blur-selective.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Blur radius" type="gdouble"}
         Radius of square pixel region, (width and height will be radius*2+1).  
         :icon{name="i-lucide-puzzle"} Default `5.00`  
@@ -44,11 +37,10 @@ name: Operation properties
         
       ::
       ::field{name="Max. delta" type="gdouble"}
-        Maximum delta  
+        Maximum delta.  
         :icon{name="i-lucide-puzzle"} Default `0.20`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
       ::
 
-    ::
 ::

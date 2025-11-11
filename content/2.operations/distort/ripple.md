@@ -1,6 +1,6 @@
 ---
 title: Ripple
-description: "Displace pixels in a ripple pattern"
+description: "Displace pixels in a ripple pattern."
 links:
   - label: "gegl:ripple"
     to: "https://gegl.org/operations/gegl-ripple"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Ripple
-caption: Displace pixels in a ripple pattern
+caption: Displace pixels in a ripple pattern.
+src: /images/operations/gegl-ripple.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Amplitude" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `25.00`  
@@ -62,25 +55,26 @@ name: Operation properties
         
       ::
       ::field{name="Resampling method" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Cubic`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Cubic`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Nearest` • `Linear` • `Cubic` • `NoHalo` • `LoHalo` 
       ::
 
       ::field{name="Wave type" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Sine`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Sine`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Sine` • `Triangle` • `Sawtooth` 
       ::
 
       ::field{name="Abyss policy" type="dictionary"}
-        How image edges are handled  
+        How image edges are handled.  
         :icon{name="i-lucide-puzzle"} Default `None`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `None` • `Clamp` • `Loop` • `Black` • `White` 
       ::
 
       ::field{name="Tileable" type="gboolean"}
-        Retain tilebility  
+        Retain tilebility.  
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 
-    ::
 ::

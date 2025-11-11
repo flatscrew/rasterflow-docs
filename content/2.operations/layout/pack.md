@@ -13,32 +13,25 @@ links:
 ---
 alt: Pack
 caption: Packs an image horizontally or vertically next to each other with optional gap, aux right of input.
+src: /images/operations/gegl-pack.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Gap" type="gdouble"}
-        How many pixels of space between items  
+        How many pixels of space between items.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="Align" type="gdouble"}
@@ -46,10 +39,10 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `0.00`  
       ::
       ::field{name="Orientation" type="dictionary"}
-                :icon{name="i-lucide-puzzle"} Default `Horizontal`  
+        
+        :icon{name="i-lucide-puzzle"} Default `Horizontal`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Horizontal` • `Vertical` 
       ::
 
 
-    ::
 ::

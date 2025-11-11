@@ -13,30 +13,23 @@ links:
 ---
 alt: Load Image
 caption: Multipurpose file loader, that uses other native handlers, and fallback conversion using Image Magick's convert.
+src: /images/operations/gegl-load.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: false
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: false
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="File" type="gchararray"}
         Path of file to load.  
         :icon{name="i-lucide-puzzle"} Default `""`  
@@ -46,9 +39,8 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
       ::field{name="Metadata" type="GeglMetadata"}
-        Object to supply image metadata  
+        Object to supply image metadata.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 
-    ::
 ::

@@ -1,6 +1,6 @@
 ---
 title: Weighted Blend
-description: "blend two images using alpha values as weights"
+description: "blend two images using alpha values as weights."
 links:
   - label: "gegl:weighted-blend"
     to: "https://gegl.org/operations/gegl-weighted-blend"
@@ -12,31 +12,23 @@ links:
 ::adwaita-card
 ---
 alt: Weighted Blend
-caption: blend two images using alpha values as weights
+caption: blend two images using alpha values as weights.
+src: /images/operations/gegl-weighted-blend.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
+## Operation properties
+::field-group
 
-    ::field-group
-
-    ::
 ::

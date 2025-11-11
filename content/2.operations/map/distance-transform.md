@@ -1,6 +1,6 @@
 ---
 title: Distance Transform
-description: "Calculate a distance transform"
+description: "Calculate a distance transform."
 links:
   - label: "gegl:distance-transform"
     to: "https://gegl.org/operations/gegl-distance-transform"
@@ -12,39 +12,32 @@ links:
 ::adwaita-card
 ---
 alt: Distance Transform
-caption: Calculate a distance transform
+caption: Calculate a distance transform.
+src: /images/operations/gegl-distance-transform.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Metric" type="dictionary"}
-        Metric to use for the distance calculation  
+        Metric to use for the distance calculation.  
         :icon{name="i-lucide-puzzle"} Default `Euclidean`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Euclidean` • `Manhattan` • `Chebyshev` 
       ::
 
       ::field{name="Edge handling" type="dictionary"}
-        How areas outside the input are considered when calculating distance  
+        How areas outside the input are considered when calculating distance.  
         :icon{name="i-lucide-puzzle"} Default `Below threshold`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Above threshold` • `Below threshold` 
       ::
@@ -62,7 +55,7 @@ name: Operation properties
         
       ::
       ::field{name="Grayscale Averaging" type="gint"}
-        Number of computations for grayscale averaging  
+        Number of computations for grayscale averaging.  
         :icon{name="i-lucide-puzzle"} Default `0`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `1000`. 
         
@@ -72,5 +65,4 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
 
-    ::
 ::

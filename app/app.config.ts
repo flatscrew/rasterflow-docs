@@ -9,10 +9,18 @@ export default defineAppConfig({
         root: 'border-t border-default',
         left: 'text-sm text-muted'
       }
+    },
+    prose: {
+      ul: {
+        base: 'list-disc ps-6 my-5 marker:text-(--ui-border-accented)'
+      },
+      li: {
+        base: 'my-1.5 ps-1.5 leading-7 [&>ul]:my-0'
+      }
     }
   },
   seo: {
-    siteName: 'Nuxt Docs Template'
+    siteName: 'RasterFlow'
   },
   header: {
     title: 'RasterFlow',
@@ -23,11 +31,24 @@ export default defineAppConfig({
     },
     search: true,
     colorMode: true,
+    navigation: [{
+      label: 'Get Started',
+      icon: 'i-lucide-square-play',
+      to: '/guide'
+    }, {
+      label: 'Operations',
+      icon: 'i-lucide-cpu',
+      to: '/operations'
+    }, {
+      label: 'Download',
+      icon: 'i-lucide-download',
+      to: '/pages/download'
+    }],
     links: [{
       'icon': 'i-simple-icons-github',
       'to': 'https://github.com/flatscrew/rasterflow',
       'target': '_blank',
-      'aria-label': 'GitHub'
+      'aria-label': 'RasterFlow GitHub Repository'
     }, {
       'icon': 'i-lucide-coffee',
       'to': 'https://buymeacoffee.com/rasterflow',
@@ -36,70 +57,33 @@ export default defineAppConfig({
     }]
   },
   footer: {
-    credits: `RasterFlow © ${new Date().getFullYear()}`,
-    colorMode: false,
+    credits: `RasterFlow © ${new Date().getFullYear()} · Licensed under GPL-3.0 · Powered by GEGL, GTK, and their contributors.`,
     links: [
       {
-        icon: '/icons/gtk.svg',
-        to: 'https://www.gtk.org/',
-        target: '_blank',
+        'icon': '/icons/gtk.svg',
+        'to': 'https://www.gtk.org/',
+        'target': '_blank',
         'aria-label': 'GTK'
       },
       {
-        icon: '/icons/gegl.svg',
-        to: 'https://gegl.org/',
-        target: '_blank',
+        'icon': '/icons/gegl.svg',
+        'to': 'https://gegl.org/',
+        'target': '_blank',
         'aria-label': 'GEGL'
       },
       {
-        icon: '/icons/vala.svg',
-        to: 'https://vala.dev',
-        target: '_blank',
+        'icon': '/icons/vala.svg',
+        'to': 'https://vala.dev',
+        'target': '_blank',
         'aria-label': 'Vala'
       }
     ]
   },
-  toc: {
-    title: 'Table of Contents',
-    bottom: {
-      title: 'Community',
-      edit: 'https://github.com/nuxt-ui-templates/docs/edit/main/content',
-      links: [{
-        icon: 'i-lucide-star',
-        label: 'Star on GitHub',
-        to: 'https://github.com/nuxt/ui',
-        target: '_blank'
-      }, {
-        icon: 'i-lucide-book-open',
-        label: 'Nuxt UI docs',
-        to: 'https://ui.nuxt.com/docs/getting-started/installation/nuxt',
-        target: '_blank'
-      }]
-    }
-  },
-  
-  gegl: {
-    operations: [
-      {
-        id: 'gaussian-blur',
-        title: 'Gaussian Blur',
-        description: 'Blurs the image using a Gaussian kernel.',
-        params: [
-          { name: 'std-dev-x', type: 'float', default: 4.0 },
-          { name: 'std-dev-y', type: 'float', default: 4.0 }
-        ],
-        thumbnail: '/images/gegl/gaussian-blur.png'
-      },
-      {
-        id: 'unsharp-mask',
-        title: 'Unsharp Mask',
-        description: 'Enhances edges by subtracting a blurred version of the image from the original.',
-        params: [
-          { name: 'radius', type: 'float', default: 3.0 },
-          { name: 'amount', type: 'float', default: 1.0 }
-        ],
-        thumbnail: '/images/gegl/unsharp-mask.png'
+  docs: {
+    content: {
+      download: {
+        layout: 'page'
       }
-    ]
+    }
   }
 })

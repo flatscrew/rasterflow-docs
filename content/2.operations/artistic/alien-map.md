@@ -13,32 +13,25 @@ links:
 ---
 alt: Alien Map
 caption: Heavily distort images colors by applying trigonometric functions to map color values.
+src: /images/operations/gegl-alien-map.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Color model" type="dictionary"}
-        What color model used for the transformation  
+        What color model used for the transformation.  
         :icon{name="i-lucide-puzzle"} Default `RGB`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `RGB` • `HSL` 
       ::
@@ -92,5 +85,4 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 
-    ::
 ::

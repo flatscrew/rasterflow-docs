@@ -1,6 +1,6 @@
 ---
 title: Add RGB Noise
-description: "Distort colors by random amounts"
+description: "Distort colors by random amounts."
 links:
   - label: "gegl:noise-rgb"
     to: "https://gegl.org/operations/gegl-noise-rgb"
@@ -12,45 +12,38 @@ links:
 ::adwaita-card
 ---
 alt: Add RGB Noise
-caption: Distort colors by random amounts
+caption: Distort colors by random amounts.
+src: /images/operations/gegl-noise-rgb.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Correlated noise" type="gboolean"}
         
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
       ::field{name="Independent RGB" type="gboolean"}
-        Control amount of noise for each RGB channel separately  
+        Control amount of noise for each RGB channel separately.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="Linear RGB" type="gboolean"}
-        Operate on linearized RGB color data  
+        Operate on linearized RGB color data.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="Gaussian distribution" type="gboolean"}
-        Use a gaussian noise distribution, when unticked a linear noise distribution is used instead  
+        Use a gaussian noise distribution, when unticked a linear noise distribution is used instead.  
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
       ::field{name="Red" type="gdouble"}
@@ -84,5 +77,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

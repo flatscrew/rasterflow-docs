@@ -1,6 +1,6 @@
 ---
 title: Laplacian Edge Detection
-description: "High-resolution edge detection"
+description: "High-resolution edge detection."
 links:
   - label: "gegl:edge-laplace"
     to: "https://gegl.org/operations/gegl-edge-laplace"
@@ -12,31 +12,23 @@ links:
 ::adwaita-card
 ---
 alt: Laplacian Edge Detection
-caption: High-resolution edge detection
+caption: High-resolution edge detection.
+src: /images/operations/gegl-edge-laplace.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
+## Operation properties
+::field-group
 
-    ::field-group
-
-    ::
 ::

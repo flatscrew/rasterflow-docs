@@ -13,30 +13,23 @@ links:
 ---
 alt: Temporal blur
 caption: Accumulating motion blur using a kalman filter, for use with video sequences of frames.
+src: /images/operations/gegl-mblur.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Dampness" type="gdouble"}
         The value represents the contribution of the past to the new frame.  
         :icon{name="i-lucide-puzzle"} Default `0.95`  
@@ -44,5 +37,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

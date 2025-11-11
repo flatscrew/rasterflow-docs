@@ -13,30 +13,23 @@ links:
 ---
 alt: Crop
 caption: Crops a buffer, if the aux pad is connected the bounding box of the node connected is used. When the crop area is configured to 0x0 at 0,0 and nothing is connected on aux, the bounding box of the node at the producing end of the input chain is used.
+src: /images/operations/gegl-crop.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="X" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `0.00`  
@@ -58,5 +51,4 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `false`  
       ::
 
-    ::
 ::

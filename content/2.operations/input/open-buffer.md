@@ -13,34 +13,26 @@ links:
 ---
 alt: Open GEGL Buffer
 caption: Use an on-disk GeglBuffer as data source.
+src: /images/operations/gegl-open-buffer.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: false
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: false
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="File" type="gchararray"}
-        a GeglBuffer on disk to open  
+        a GeglBuffer on disk to open.  
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
 
-    ::
 ::

@@ -13,30 +13,23 @@ links:
 ---
 alt: Contrast Curve
 caption: Adjusts the contrast of a grayscale image with a curve specifying contrast for intensity.
+src: /images/operations/gegl-contrast-curve.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Sample points" type="gint"}
         Number of curve sampling points.  0 for exact calculation.  
         :icon{name="i-lucide-puzzle"} Default `0`  
@@ -48,5 +41,4 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 
-    ::
 ::

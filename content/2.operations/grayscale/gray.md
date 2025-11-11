@@ -1,6 +1,6 @@
 ---
 title: Make Gray
-description: "Turns the image grayscale"
+description: "Turns the image grayscale."
 links:
   - label: "gegl:gray"
     to: "https://gegl.org/operations/gegl-gray"
@@ -12,31 +12,23 @@ links:
 ::adwaita-card
 ---
 alt: Make Gray
-caption: Turns the image grayscale
+caption: Turns the image grayscale.
+src: /images/operations/gegl-gray.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
+## Operation properties
+::field-group
 
-    ::field-group
-
-    ::
 ::

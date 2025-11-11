@@ -1,6 +1,6 @@
 ---
 title: Scale3X Antialiasing
-description: "Antialias using the Scale3X edge-extrapolation algorithm"
+description: "Antialias using the Scale3X edge-extrapolation algorithm."
 links:
   - label: "gegl:antialias"
     to: "https://gegl.org/operations/gegl-antialias"
@@ -12,31 +12,23 @@ links:
 ::adwaita-card
 ---
 alt: Scale3X Antialiasing
-caption: Antialias using the Scale3X edge-extrapolation algorithm
+caption: Antialias using the Scale3X edge-extrapolation algorithm.
+src: /images/operations/gegl-antialias.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
+## Operation properties
+::field-group
 
-    ::field-group
-
-    ::
 ::

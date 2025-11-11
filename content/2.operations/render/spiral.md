@@ -1,6 +1,6 @@
 ---
 title: Spiral
-description: "Spiral renderer"
+description: "Spiral renderer."
 links:
   - label: "gegl:spiral"
     to: "https://gegl.org/operations/gegl-spiral"
@@ -12,67 +12,60 @@ links:
 ::adwaita-card
 ---
 alt: Spiral
-caption: Spiral renderer
+caption: Spiral renderer.
+src: /images/operations/gegl-spiral.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: false
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: false
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Type" type="dictionary"}
-        Spiral type  
+        Spiral type.  
         :icon{name="i-lucide-puzzle"} Default `Linear`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Linear` • `Logarithmic` 
       ::
 
       ::field{name="X" type="gdouble"}
-        Spiral origin X coordinate  
+        Spiral origin X coordinate.  
         :icon{name="i-lucide-puzzle"} Default `0.50`  
       ::
       ::field{name="Y" type="gdouble"}
-        Spiral origin Y coordinate  
+        Spiral origin Y coordinate.  
         :icon{name="i-lucide-puzzle"} Default `0.50`  
       ::
       ::field{name="Radius" type="gdouble"}
-        Spiral radius  
+        Spiral radius.  
         :icon{name="i-lucide-puzzle"} Default `100.00`  
       ::
       ::field{name="Base" type="gdouble"}
-        Logarithmic spiral base  
+        Logarithmic spiral base.  
         :icon{name="i-lucide-puzzle"} Default `2.00`  
       ::
       ::field{name="Balance" type="gdouble"}
-        Area balance between the two colors  
+        Area balance between the two colors.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `-1.00` • :icon{name="i-lucide-arrow-right"} • `1.00`. 
         
       ::
       ::field{name="Rotation" type="gdouble"}
-        Spiral rotation  
+        Spiral rotation.  
         :icon{name="i-lucide-puzzle"} Default `0.00`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0.00` • :icon{name="i-lucide-arrow-right"} • `360.00`. 
         
       ::
       ::field{name="Direction" type="dictionary"}
-        Spiral swirl direction  
+        Spiral swirl direction.  
         :icon{name="i-lucide-puzzle"} Default `Clockwise`  
         :icon{name="i-lucide-chart-candlestick"} Possible values `Clockwise` • `Counter-clockwise` 
       ::
@@ -86,17 +79,16 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
       ::field{name="Width" type="gint"}
-        Width of the generated buffer  
+        Width of the generated buffer.  
         :icon{name="i-lucide-puzzle"} Default `1024`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         
       ::
       ::field{name="Height" type="gint"}
-        Height of the generated buffer  
+        Height of the generated buffer.  
         :icon{name="i-lucide-puzzle"} Default `768`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `0` • :icon{name="i-lucide-arrow-right"} • `2147483647`. 
         
       ::
 
-    ::
 ::

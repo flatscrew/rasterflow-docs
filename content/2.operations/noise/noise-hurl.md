@@ -1,6 +1,6 @@
 ---
 title: Randomly Shuffle Pixels
-description: "Completely randomize a fraction of pixels"
+description: "Completely randomize a fraction of pixels."
 links:
   - label: "gegl:noise-hurl"
     to: "https://gegl.org/operations/gegl-noise-hurl"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Randomly Shuffle Pixels
-caption: Completely randomize a fraction of pixels
+caption: Completely randomize a fraction of pixels.
+src: /images/operations/gegl-noise-hurl.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Randomization (%)" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `50.00`  
@@ -56,5 +49,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

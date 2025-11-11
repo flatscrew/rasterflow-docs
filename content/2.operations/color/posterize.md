@@ -13,36 +13,28 @@ links:
 ---
 alt: Posterize
 caption: Reduces the number of levels in each color component of the image.
+src: /images/operations/gegl-posterize.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Levels" type="gint"}
-        number of levels per component  
+        number of levels per component.  
         :icon{name="i-lucide-puzzle"} Default `8`  
         :icon{name="i-lucide-ruler-dimension-line"} Value range `1` • :icon{name="i-lucide-arrow-right"} • `64`. 
         
       ::
 
-    ::
 ::

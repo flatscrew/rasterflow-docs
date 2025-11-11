@@ -13,30 +13,23 @@ links:
 ---
 alt: Matting Global
 caption: Given a sparse user supplied tri-map and an input image, create a foreground alpha matte. Set white as foreground, black as background for the tri-map. Everything else will be treated as unknown and filled in.
+src: /images/operations/gegl-matting-global.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: true
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: true
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Iterations" type="gint"}
         
         :icon{name="i-lucide-puzzle"} Default `10`  
@@ -50,5 +43,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

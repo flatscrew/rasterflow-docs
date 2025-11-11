@@ -1,6 +1,6 @@
 ---
 title: Vector Stroke
-description: "Renders a vector stroke"
+description: "Renders a vector stroke."
 links:
   - label: "gegl:vector-stroke"
     to: "https://gegl.org/operations/gegl-vector-stroke"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Vector Stroke
-caption: Renders a vector stroke
+caption: Renders a vector stroke.
+src: /images/operations/gegl-vector-stroke.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Color" type="GeglColor"}
         Color of paint to use for stroking.  
         :icon{name="i-lucide-puzzle"} Default ``  
@@ -58,9 +51,8 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `""`  
       ::
       ::field{name="Vector" type="GeglPath"}
-        A GeglVector representing the path of the stroke  
+        A GeglVector representing the path of the stroke.  
         :icon{name="i-lucide-puzzle"} Default ``  
       ::
 
-    ::
 ::

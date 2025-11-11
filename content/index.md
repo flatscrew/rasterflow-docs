@@ -24,7 +24,7 @@ The same open foundation trusted by the [GEGL](https://gegl.org/operations){.tex
   ---
   size: xl
   trailing-icon: i-lucide-download
-  to: /download-latest
+  to: /pages/download
   ---
   Download RasterFlow 0.1.0
   :::
@@ -291,7 +291,7 @@ Creative & Procedural
   ---
   links:
     - label: Start building
-      to: '/getting-started'
+      to: '/guide'
       trailingIcon: i-lucide-arrow-right
     - label: View on GitHub
       to: 'https://github.com/flatscrew/rasterflow'

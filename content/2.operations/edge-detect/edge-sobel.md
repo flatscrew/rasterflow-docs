@@ -1,6 +1,6 @@
 ---
 title: Sobel Edge Detection
-description: "Specialized direction-dependent edge detection"
+description: "Specialized direction-dependent edge detection."
 links:
   - label: "gegl:edge-sobel"
     to: "https://gegl.org/operations/gegl-edge-sobel"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Sobel Edge Detection
-caption: Specialized direction-dependent edge detection
+caption: Specialized direction-dependent edge detection.
+src: /images/operations/gegl-edge-sobel.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Horizontal" type="gboolean"}
         
         :icon{name="i-lucide-puzzle"} Default `true`  
@@ -50,5 +43,4 @@ name: Operation properties
         :icon{name="i-lucide-puzzle"} Default `true`  
       ::
 
-    ::
 ::

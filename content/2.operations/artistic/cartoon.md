@@ -1,6 +1,6 @@
 ---
 title: Cartoon
-description: "Simulates a cartoon, its result is similar to a black felt pen drawing subsequently shaded with color. This is achieved by enhancing edges and darkening areas that are already distinctly darker than their neighborhood"
+description: "Simulates a cartoon, its result is similar to a black felt pen drawing subsequently shaded with color. This is achieved by enhancing edges and darkening areas that are already distinctly darker than their neighborhood."
 links:
   - label: "gegl:cartoon"
     to: "https://gegl.org/operations/gegl-cartoon"
@@ -12,31 +12,24 @@ links:
 ::adwaita-card
 ---
 alt: Cartoon
-caption: Simulates a cartoon, its result is similar to a black felt pen drawing subsequently shaded with color. This is achieved by enhancing edges and darkening areas that are already distinctly darker than their neighborhood
+caption: Simulates a cartoon, its result is similar to a black felt pen drawing subsequently shaded with color. This is achieved by enhancing edges and darkening areas that are already distinctly darker than their neighborhood.
+src: /images/operations/gegl-cartoon.png
 ---
 ::
 
-::collapsible
----
-name: Operation pads
----
+## Operation pads
 This operation exposes the following data pads, defining how it receives, processes, and emits image data:
 
-  ::operation-pads
-  ---
-  has-input: true
-  has-aux: false
-  has-output: true
-  ---
-  ::
+::operation-pads
+---
+has-input: true
+has-aux: false
+has-output: true
+---
 ::
 
-::collapsible
----
-name: Operation properties
----
-
-    ::field-group
+## Operation properties
+::field-group
       ::field{name="Mask radius" type="gdouble"}
         
         :icon{name="i-lucide-puzzle"} Default `7.00`  
@@ -50,5 +43,4 @@ name: Operation properties
         
       ::
 
-    ::
 ::

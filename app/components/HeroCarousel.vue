@@ -12,11 +12,14 @@ const images = [
     indicators
     arrows
     loop
-    autoplay
+    :autoplay="{
+      stopOnMouseEnter: true,
+      stopOnInteraction: false
+    }"
     :autoplay-interval="4000"
-    class="w-full max-w-5xl mx-auto rounded shadow-lg overflow-hidden hover:scale-[1.2] hover:shadow-2xl hover:shadow-primary/20 bg-neutral-900 transition-all duration-500 flex items-center justify-center"
+    class="w-full max-w-5xl mx-auto rounded shadow-lg overflow-hidden hover:scale-[1.1] hover:shadow-2xl hover:shadow-primary/20 bg-neutral-900 transition-all duration-500 flex items-center justify-center"
   >
-    <img
+    <NuxtImg
       :src="item"
       alt=""
       class="w-full h-auto object-contain"
