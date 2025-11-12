@@ -3,14 +3,20 @@ import { ref, onMounted, computed } from 'vue'
 
 const props = defineProps<{
   version: string
+  system?: 'windows' | 'macos' | 'linux' | 'other'
 }>()
 
-const os = ref<'windows' | 'macos' | 'linux' | 'other'>('other')
+const os = ref<'windows' | 'macos' | 'linux' | 'other'>(props.system ?? 'other')
 const ready = ref(false)
 
 type Brand = { brand: string }
 
 onMounted(() => {
+  if (props.system) {
+    ready.value = true
+    return
+  }
+
   const nav = navigator as Navigator & { userAgentData?: { brands: Brand[] } }
 
   try {
@@ -35,12 +41,13 @@ onMounted(() => {
 
 const baseUrl = 'https://github.com/flatscrew/rasterflow/releases/download'
 
-const urls = computed<Record<'windows' | 'macos' | 'linux' | 'other', string | undefined>>(() => ({
-  windows: `${baseUrl}/v${props.version}/RasterFlow-${props.version}-Setup.exe`,
-  macos: `${baseUrl}/v${props.version}/RasterFlow-${props.version}.dmg`,
-  linux: `${baseUrl}/v${props.version}/RasterFlow-${props.version}.flatpak`,
-  other: undefined
-}))
+const urls = computed(() =>
+  ({
+    windows: `${baseUrl}/v${props.version}/RasterFlow-${props.version}-Setup.exe`,
+    macos: `https://github.com/flatscrew/rasterflow/archive/refs/tags/v${props.version}.tar.gz`,
+    linux: `${baseUrl}/v${props.version}/RasterFlow-${props.version}.flatpak`
+  } as const)
+)
 
 const iconMap = {
   windows: 'i-simple-icons-windows',
@@ -55,28 +62,38 @@ const labelMap = {
   linux: 'Linux (Flatpak)',
   other: 'All platforms'
 } as const
+
+const downloadUrl = computed<string | undefined>(() => {
+  const pick = props.system ?? os.value
+  return pick === 'other' ? undefined : urls.value[pick]
+})
+
+const displayLabel = computed(() => labelMap[props.system ?? os.value])
+const displayIcon = computed(() => iconMap[props.system ?? os.value])
 </script>
 
 <template>
   <UButton
-    v-if="ready && urls[os]"
-    icon="i-lucide-download"
-    size="xl"
-    :trailing-icon="iconMap[os]"
-    :to="urls[os]"
-  >
-    Download {{ version }} for {{ labelMap[os] }}
-  </UButton>
-
-  <UButton
-    v-else-if="ready"
+    v-if="!ready || !downloadUrl"
+    key="fallback"
     size="xl"
     color="neutral"
     variant="outline"
     icon="i-lucide-download"
     trailing-icon="i-lucide-arrow-right"
-    to="#All_available_downloads"
+    to="#all-available-downloads"
   >
     View all downloads for {{ version }}
+  </UButton>
+
+  <UButton
+    v-else
+    key="download"
+    icon="i-lucide-download"
+    size="xl"
+    :trailing-icon="displayIcon"
+    :to="downloadUrl"
+  >
+    Download {{ version }} for {{ displayLabel }}
   </UButton>
 </template>

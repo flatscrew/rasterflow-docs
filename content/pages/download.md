@@ -3,7 +3,6 @@
 orientation: vertical
 ---
 
-
 #title
 Download latest [RasterFlow]{.text-primary} version.
 
@@ -56,8 +55,8 @@ Each package includes all dependencies required to start generating procedural i
   icon: i-lucide-arrow-right
   color: neutral
   variant: outline
-  to: "#all-available-downloads"
-  label: See all available downloads
+  to: https://github.com/flatscrew/rasterflow/releases?_target=blank
+  label: See all releases
   ---
   :::
 ::
@@ -116,7 +115,6 @@ class: dark:bg-neutral-950
   ::
 ::
 
-
 ::u-page-section
 ---
 class: dark:bg-neutral-950
@@ -126,5 +124,38 @@ icon: i-lucide-download
 #title 
 ## All available downloads
 
+#description
+Browse all platform-specific builds of RasterFlow.
+Choose the package that matches your operating system to download the latest version.
 
+
+#body
+::u-page-grid
+
+  ::u-page-section
+  ---
+  title: Linux
+  ---
+  
+  #links
+  :download-button{version="0.1.0" system="linux"}
+  ::
+  
+  ::u-page-section
+  ---
+  title: Windows
+  ---
+  
+  #links
+  :download-button{version="0.1.0" system="windows"}
+  ::
+  
+  ::u-page-section
+  ---
+  title: MacOS
+  ---
+  
+  #links
+  :download-button{version="0.1.0" system="macos"}
+  ::
 ::
