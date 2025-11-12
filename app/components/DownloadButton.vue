@@ -43,7 +43,7 @@ const baseUrl = 'https://github.com/flatscrew/rasterflow/releases/download'
 
 const urls = computed(() =>
   ({
-    windows: `${baseUrl}/v${props.version}/RasterFlow-${props.version}-Setup.exe`,
+    windows: `${baseUrl}/v${props.version}/RasterFlow-${props.version}-Setup-win64.exe`,
     macos: `https://github.com/flatscrew/rasterflow/archive/refs/tags/v${props.version}.tar.gz`,
     linux: `${baseUrl}/v${props.version}/RasterFlow-${props.version}.flatpak`
   } as const)

@@ -76,13 +76,13 @@ Click **Download for Linux (Flatpak)** and save the `.flatpak` file.
 
 #### 2. Install RasterFlow
 
-```bash
+```bash [Terminal]
 flatpak install RasterFlow-{{$doc.version}}.flatpak
 ```
 
 #### 3. Launch RasterFlow
 
-```bash
+```bash [Terminal]
 flatpak run io.flatscrew.RasterFlow
 ```
 ::
@@ -159,6 +159,13 @@ Choose the package that matches your operating system to download the latest ver
   ---
   
   #links
-  :download-button{version="0.1.0" system="macos"}
+  :::u-button
+  ---
+  color: neutral
+  variant: outline
+  label: Comming soon ...
+  disabled: true
+  ---
+  :::
   ::
 ::
