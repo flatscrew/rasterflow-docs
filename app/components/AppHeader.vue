@@ -15,20 +15,14 @@ const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
     class="flex flex-col"
   >
     <template #title>
-      <div class="flex items-center gap-1.5">
-        <AppLogo class="size-6" />
+      <div class="flex items-center gap-4">
+        <AppLogo class="size-10" />
         <span
           v-if="header?.title"
           class="leading-none"
         >
           {{ header.title }}
         </span>
-        <!-- <UBadge
-          color="neutral"
-          variant="outline"
-        >
-          0.1.0
-        </UBadge> -->
       </div>
     </template>
 
