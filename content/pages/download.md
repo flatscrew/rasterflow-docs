@@ -1,4 +1,4 @@
-::u-page-hero{class="flex justify-center dark:bg-gradient-to-b from-neutral-900 to-neutral-950"}
+::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950"}
 ---
 orientation: vertical
 ---
@@ -34,7 +34,7 @@ Each package includes all dependencies required to start generating procedural i
   ::u-page-feature
   ---
   title: SHA256
-  icon: i-lucide-calendar
+  icon: i-lucide-hash
   ---
   
   #description
@@ -49,22 +49,14 @@ Each package includes all dependencies required to start generating procedural i
 ::
 
 #links
-  ::download-button
-  ---
-  version: "0.1.0"
-  downloads:
-    windows: "https://github.com/flatscrew/rasterflow/releases/download/v0.1.0/RasterFlow-0.1.0-Setup.exe"
-    macos: "https://github.com/flatscrew/rasterflow/releases/download/v0.1.0/RasterFlow-0.1.0.dmg"
-    linux: "https://github.com/flatscrew/rasterflow/releases/download/v0.1.0/RasterFlow-0.1.0.flatpak"
-  ---
-  ::
+  :download-button{version="0.1.0"}
 
   :::u-button
   ---
   icon: i-lucide-arrow-right
   color: neutral
   variant: outline
-  to: /pages/download
+  to: "#all-available-downloads"
   label: See all available downloads
   ---
   :::
@@ -72,12 +64,12 @@ Each package includes all dependencies required to start generating procedural i
 
 ::u-page-section
 ---
-title: How to install RasterFlow  (Linux — Flatpak)
+title: How to install on Linux (Flatpak)
 icon: i-lucide-terminal
 class: dark:bg-neutral-950
 ---
 
-::steps{level="4"}
+::steps{level="4" class="place-self-center"}
 
 #### 1. Download the Flatpak package
 
@@ -98,8 +90,8 @@ flatpak run io.flatscrew.RasterFlow
 
 ::u-page-section
 ---
-icon: i-lucide-history
 title: Changelog
+icon: i-lucide-history
 description: Keep track of every improvement, fix, and new feature added to RasterFlow over time.
 class: dark:bg-neutral-950
 ---
@@ -124,10 +116,15 @@ class: dark:bg-neutral-950
   ::
 ::
 
+
 ::u-page-section
 ---
 class: dark:bg-neutral-950
-title: All avaialble downloads
-
+icon: i-lucide-download
 ---
+
+#title 
+## All available downloads
+
+
 ::

@@ -2,7 +2,7 @@ export default defineAppConfig({
   ui: {
     pageSection: {
         slots: {
-          container: 'flex flex-col lg:grid py-16 sm:py-4 lg:py-4 gap-8 sm:gap-16'
+          container: 'flex flex-col lg:grid py-16 sm:py-4 lg:py-16 gap-8 sm:gap-16'
         }
     },
     colors: {
@@ -21,6 +21,9 @@ export default defineAppConfig({
       },
       li: {
         base: 'my-1.5 ps-1.5 leading-7 [&>ul]:my-0'
+      },
+      steps: {
+        base: 'ms-4 border-s border-default [counter-reset:step]'
       }
     }
   },
