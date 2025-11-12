@@ -1,5 +1,10 @@
 export default defineAppConfig({
   ui: {
+    pageSection: {
+        slots: {
+          container: 'flex flex-col lg:grid py-16 sm:py-4 lg:py-4 gap-8 sm:gap-16'
+        }
+    },
     colors: {
       primary: 'purple',
       neutral: 'gray'
