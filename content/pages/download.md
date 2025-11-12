@@ -135,6 +135,7 @@ Choose the package that matches your operating system to download the latest ver
   ::u-page-section
   ---
   title: Linux
+  icon: i-simple-icons-linux
   ---
   
   #links
@@ -144,6 +145,7 @@ Choose the package that matches your operating system to download the latest ver
   ::u-page-section
   ---
   title: Windows
+  icon: i-simple-icons-windows
   ---
   
   #links
@@ -153,6 +155,7 @@ Choose the package that matches your operating system to download the latest ver
   ::u-page-section
   ---
   title: MacOS
+  icon: i-simple-icons-apple
   ---
   
   #links
