@@ -10,7 +10,10 @@ export default defineContentConfig({
       type: 'page',
       source: {
         include: 'pages/**'
-      }
+      },
+      schema: z.object({
+        version: z.string()
+      })
     }),
     docs: defineCollection({
       type: 'page',
