@@ -25,6 +25,7 @@ if (requestedContentDir) {
 
 const publicRootArg = process.argv[3] || 'public'
 const publicRoot = path.join(cwd, publicRootArg)
+// eslint-disable-next-line no-useless-escape
 const imagePattern = /\/images\/operations\/[A-Za-z0-9_.\-@%+\/]+/g
 
 if (!fs.existsSync(publicRoot)) {

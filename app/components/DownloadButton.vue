@@ -21,8 +21,8 @@ onMounted(() => {
 
   try {
     if (nav.userAgentData) {
-      const brands =
-        nav.userAgentData.brands?.map(b => b.brand.toLowerCase()).join(' ') || ''
+      const brands
+        = nav.userAgentData.brands?.map(b => b.brand.toLowerCase()).join(' ') || ''
       if (brands.includes('windows')) os.value = 'windows'
       else if (brands.includes('mac')) os.value = 'macos'
       else if (brands.includes('linux')) os.value = 'linux'
