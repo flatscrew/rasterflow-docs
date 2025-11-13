@@ -44,7 +44,7 @@ function recursivelyReplaceCustomVariablesInStrings(data: any, replacements: Rec
 
     return data.replace(regex, (match, key) => {
       if (Object.prototype.hasOwnProperty.call(replacements, key)) {
-        return replacements[key]
+        return replacements[key] ?? ''
       }
 
       return match
