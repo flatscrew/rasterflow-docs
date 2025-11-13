@@ -1,3 +1,7 @@
+---
+version: 0.1.0
+---
+
 ::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950"}
 ---
 orientation: vertical
@@ -48,7 +52,7 @@ Each package includes all dependencies required to start generating procedural i
 ::
 
 #links
-  :download-button{version="0.1.0"}
+  :download-button{:version="version"}
 
   :::u-button
   ---
@@ -77,7 +81,7 @@ Click **Download for Linux (Flatpak)** and save the `.flatpak` file.
 #### Install RasterFlow
 
 ```bash [Terminal]
-flatpak install RasterFlow-{{$doc.version}}.flatpak
+flatpak install RasterFlow-{{version}}.flatpak
 ```
 
 #### Launch RasterFlow
@@ -100,9 +104,9 @@ class: dark:bg-neutral-950
   ---
     ::u-changelog-version
     ---
-    title: 'RasterFlow 0.1.0 — Initial Release'
+    title: 'RasterFlow {{version}} — Initial Release'
     date: '2025-11-07'
-    badge: '0.1.0'
+    badge: '{{version}}'
     description: 'The first public release of RasterFlow.'
     ---
     #body
@@ -139,7 +143,7 @@ Choose the package that matches your operating system to download the latest ver
   ---
   
   #links
-  :download-button{version="0.1.0" system="linux"}
+  :download-button{:version="version" system="linux"}
   ::
   
   ::u-page-section
@@ -149,7 +153,7 @@ Choose the package that matches your operating system to download the latest ver
   ---
   
   #links
-  :download-button{version="0.1.0" system="windows"}
+  :download-button{:version="version" system="windows"}
   ::
   
   ::u-page-section
