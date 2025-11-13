@@ -9,6 +9,8 @@ if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
 }
 
+const fixedPage = fixVariablesInMarkdownObject(page.value)
+
 const title = page.value.seo?.title || page.value.title
 const description = page.value.seo?.description || page.value.description
 
@@ -25,7 +27,7 @@ useSeoMeta({
 
 <template>
   <ContentRenderer
-    v-if="page"
-    :value="page"
+    v-if="fixedPage"
+    :value="fixedPage"
   />
 </template>
