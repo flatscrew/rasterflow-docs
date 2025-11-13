@@ -70,17 +70,17 @@ class: dark:bg-neutral-950
 
 ::steps{level="4" class="place-self-center"}
 
-#### 1. Download the Flatpak package
+#### Download the Flatpak package
 
 Click **Download for Linux (Flatpak)** and save the `.flatpak` file.
 
-#### 2. Install RasterFlow
+#### Install RasterFlow
 
 ```bash [Terminal]
 flatpak install RasterFlow-{{$doc.version}}.flatpak
 ```
 
-#### 3. Launch RasterFlow
+#### Launch RasterFlow
 
 ```bash [Terminal]
 flatpak run io.flatscrew.RasterFlow
@@ -163,7 +163,7 @@ Choose the package that matches your operating system to download the latest ver
   ---
   color: neutral
   variant: outline
-  label: Comming soon ...
+  label: Coming soon ...
   disabled: true
   ---
   :::
