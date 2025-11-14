@@ -8,7 +8,7 @@ orientation: vertical
 ---
 
 #title
-<span class="text-5xl sm:text-7xl">Download latest [RasterFlow]{.text-primary} version.</span>
+<span class="text-5xl sm:text-7xl">Get [RasterFlow]{.text-primary}.</span>
 
 #description
 Get the newest release of **RasterFlow**, powered by GEGL and GTK4.  
