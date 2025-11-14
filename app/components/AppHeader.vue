@@ -7,6 +7,16 @@ const { value: colorModeValue } = useColorMode()
 const desktopNavigation = computed(() => header.navigation.map(link => ({ ...link, active: route.path.startsWith(link.to) })))
 
 const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+
+const mobileMenuProps = computed(() => route.path === '/'
+  ? {
+      type: 'single' as const,
+      defaultOpen: undefined
+    }
+  : {
+      type: undefined,
+      defaultOpen: true
+    })
 </script>
 
 <template>
@@ -74,8 +84,8 @@ const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 
     <template #body>
       <UContentNavigation
+        v-bind="mobileMenuProps"
         highlight
-        :default-open="true"
         :navigation="navigation"
       />
     </template>
