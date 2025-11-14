@@ -50,7 +50,7 @@ export default defineAppConfig({
     }, {
       label: 'Get RasterFlow',
       icon: 'i-lucide-download',
-      to: '/pages/download'
+      to: '/pages/get-rasterflow'
     }],
     links: [{
       'icon': 'i-simple-icons-github',
