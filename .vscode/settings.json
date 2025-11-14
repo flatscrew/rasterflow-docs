@@ -7,6 +7,7 @@
     "kbds",
     "lucide",
     "nuxt",
+    "rasterflow",
     "vueuse"
   ],
   // Disable the default formatter, use eslint instead
