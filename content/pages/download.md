@@ -8,7 +8,7 @@ orientation: vertical
 ---
 
 #title
-Download latest [RasterFlow]{.text-primary} version.
+<span class="text-5xl sm:text-7xl">Download latest [RasterFlow]{.text-primary} version.</span>
 
 #description
 Get the newest release of **RasterFlow**, powered by GEGL and GTK4.  
@@ -21,7 +21,7 @@ Each package includes all dependencies required to start generating procedural i
     ::div{class="flex flex-col items-center py-12 gap-12"}
       :download-button{:version="version" system="linux"}
 
-      ::u-page-grid{class="flex justify-center"}
+      ::u-page-grid{class="flex flex-col md:flex-row justify-center"}
 
         ::u-page-feature
         ---
@@ -97,7 +97,7 @@ Each package includes all dependencies required to start generating procedural i
     ::div{class="flex flex-col items-center py-12 gap-12"}
       :download-button{:version="version" system="windows"}
 
-      ::u-page-grid{class="flex justify-center"}
+      ::u-page-grid{class="flex flex-col md:flex-row justify-center"}
 
         ::u-page-feature
         ---
@@ -133,7 +133,6 @@ Each package includes all dependencies required to start generating procedural i
       ::
     ::
   ::
-
 ::
 
 ::u-page-section
@@ -141,7 +140,7 @@ Each package includes all dependencies required to start generating procedural i
 title: Changelog
 icon: i-lucide-history
 description: Keep track of every improvement, fix, and new feature added to RasterFlow over time.
-class: dark:bg-neutral-950
+class: dark:bg-neutral-900 pt-12
 ---
   ::u-changelog-versions
   ---
