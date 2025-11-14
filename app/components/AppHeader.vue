@@ -8,6 +8,8 @@ const desktopNavigation = computed(() => header.navigation.map(link => ({ ...lin
 
 const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 
+const extendedNavigation = computed(() => desktopNavigation.value.filter(_ => _.to === '/pages/download'))
+
 const mobileMenuProps = computed(() => route.path === '/'
   ? {
       type: 'single' as const,
@@ -87,6 +89,12 @@ const mobileMenuProps = computed(() => route.path === '/'
         v-bind="mobileMenuProps"
         highlight
         :navigation="navigation"
+      />
+      <UNavigationMenu
+        :ui="{ link: 'px-0' }"
+        :items="extendedNavigation"
+        variant="link"
+        orientation="vertical"
       />
     </template>
   </UHeader>
