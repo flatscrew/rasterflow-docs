@@ -1,4 +1,6 @@
 ---
+title: Get RasterFlow.
+description: Get the newest release of RasterFlow, powered by GEGL and GTK4.
 version: 0.1.0
 ---
 
