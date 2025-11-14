@@ -32,6 +32,7 @@ onMounted(() => model.value = $os)
     variant="pill"
     color="neutral"
     :ui="{ list: 'w-auto', label: 'px-4' }"
+    class="text-left"
   >
     <template #linux>
       <slot name="linux" />
