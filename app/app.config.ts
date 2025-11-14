@@ -40,15 +40,15 @@ export default defineAppConfig({
     search: true,
     colorMode: true,
     navigation: [{
-      label: 'Get Started',
-      icon: 'i-lucide-square-play',
+      label: 'User Guide',
+      icon: 'i-lucide-book-open-text',
       to: '/guide'
     }, {
       label: 'Operations',
       icon: 'i-lucide-cpu',
       to: '/operations'
     }, {
-      label: 'Download',
+      label: 'Get RasterFlow',
       icon: 'i-lucide-download',
       to: '/pages/download'
     }],
