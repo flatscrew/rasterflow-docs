@@ -7,11 +7,9 @@ links:
     target: "_blank"
     variant: "outline"
     icon: "i-lucide-external-link"
-test: AAAAAAAA
 ---
 
 {{ $doc.description || 'bleblebel' }}
-
 
 ::adwaita-card
 ---
