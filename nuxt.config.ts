@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   },
   css: ['~/assets/css/main.css'],
 
-  site: { url: 'https://rasterflow-docs.emrts.xyz', name: 'RasterFlow' },
+  site: { url: 'https://rasterflow.io', name: 'RasterFlow' },
 
   content: {
     build: {
