@@ -8,6 +8,13 @@ definePageMeta({
 
 const route = useRoute()
 const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+const operationNav = navigation?.value[1]
+const categories = operationNav?.children
+  ?.filter(_ => _.path.includes('/operations/'))
+  ?.map(_ => ({
+    title: _.title,
+    to: _.children?.[0]?.path
+  }))
 
 const { data: page } = await useAsyncData(route.path, () => queryCollection('docs').path(route.path).first())
 if (!page.value) {
@@ -55,7 +62,20 @@ defineOgImageComponent('OgImageDocs', {
       </template>
     </UPageHeader>
 
-    <UPageBody>
+    <UPageBody v-if="route.path === '/operations'">
+      <ProseCardGroup>
+        <ProseCard
+          v-for="category in categories"
+          :key="category.title"
+          :title="category.title"
+          :to="category.to"
+        />
+      </ProseCardGroup>
+
+      <USeparator v-if="surround?.length" />
+      <UContentSurround :surround="surround" />
+    </UPageBody>
+    <UPageBody v-else>
       <ContentRenderer
         v-if="page"
         :value="page"
