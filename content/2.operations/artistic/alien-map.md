@@ -9,8 +9,6 @@ links:
     icon: "i-lucide-external-link"
 ---
 
-{{ $doc.description || 'bleblebel' }}
-
 ::adwaita-card
 ---
 alt: Alien Map
