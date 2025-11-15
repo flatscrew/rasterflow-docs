@@ -15,8 +15,8 @@ const props = withDefaults(defineProps<{
   color: 'var(--ui-primary)',
   speed: 'normal',
   size: () => ({
-    min: 1,
-    max: 2
+    min: 5,
+    max: 10
   })
 })
 
@@ -131,7 +131,7 @@ const starLayers = computed(() => [
         <div
           v-for="(star, starIndex) in layer.stars"
           :key="starIndex"
-          class="star absolute rounded-full"
+          class="star absolute"
           :style="{
             left: `${star.x}px`,
             top: `${star.y}px`,
@@ -174,10 +174,10 @@ const starLayers = computed(() => [
 
 @keyframes risingStarsAnimation {
   0% {
-    transform: translateY(0);
+    transform: translateX(0);
   }
   100% {
-    transform: translateY(-2000px);
+    transform: translateX(2000px);
   }
 }
 </style>

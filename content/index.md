@@ -298,8 +298,8 @@ Creative & Procedural
       target: _blank
       variant: subtle
       icon: i-simple-icons-github
-  title: Ready to build an amazing documentation?
-  description: Join thousands of developers building with Nuxt and Nuxt UI. Get this template and start shipping today.
+  title: Ready to get creative?
+  description: Craft procedural image pipelines with a clear, visual graph editor powered by GEGL.
   class: dark:bg-neutral-950
   ---
 
