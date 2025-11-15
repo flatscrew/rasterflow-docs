@@ -23,10 +23,10 @@ The same open foundation trusted by the [GEGL](https://gegl.org/operations){.tex
   :::u-button
   ---
   size: xl
-  trailing-icon: i-lucide-download
+  icon: i-lucide-download
   to: /pages/get-rasterflow
   ---
-  Download RasterFlow 0.1.0
+  Get RasterFlow
   :::
 
   :::u-button
@@ -37,7 +37,7 @@ The same open foundation trusted by the [GEGL](https://gegl.org/operations){.tex
   size: xl
   to: /guide
   ---
-  Getting started
+  Quick start
   :::
 
 #default
