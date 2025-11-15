@@ -126,7 +126,7 @@ Core Features
   Cross-Platform
 
   #description
-  RasterFlow runs on both Linux and Windows using open technologies — no dependencies outside GEGL and GTK.
+  RasterFlow runs on Linux, MacOS and Windows using open technologies — no dependencies outside GEGL and GTK.
   :::
 ::
 

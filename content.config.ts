@@ -12,7 +12,8 @@ export default defineContentConfig({
         include: 'pages/**'
       },
       schema: z.object({
-        version: z.string()
+        version: z.string(),
+        releaseDate: z.string()
       })
     }),
     docs: defineCollection({

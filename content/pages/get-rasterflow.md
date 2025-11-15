@@ -1,7 +1,8 @@
 ---
 title: Get RasterFlow.
 description: Get the newest release of RasterFlow, powered by GEGL and GTK4.
-version: 0.1.0
+version: 0.1.1
+releaseDate: 15.11.2025
 ---
 
 ::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950 -mb-12"}
@@ -14,7 +15,7 @@ orientation: vertical
 
 #description
 Get the newest release of **RasterFlow**, powered by GEGL and GTK4.  
-Choose the native build for your platform — Flatpak for Linux, or installers for Windows and macOS.  
+Choose the native build for your platform — Flatpak for Linux, brew for MacOS and installer for.  
 Each package includes all dependencies required to start generating procedural images right away.
 
 #links
@@ -25,10 +26,9 @@ Each package includes all dependencies required to start generating procedural i
 
       ::u-page-grid{class="flex flex-col md:flex-row justify-center"}
 
-        ::u-page-feature
+        ::u-page-feature{:description="releaseDate"}
         ---
         title: Release Date
-        description: 12.11.2025
         icon: i-lucide-calendar
         ---
         ::
@@ -36,7 +36,7 @@ Each package includes all dependencies required to start generating procedural i
         ::u-page-feature
         ---
         title: File Size
-        description: 26MB
+        description: 4.03MB
         icon: i-lucide-weight
         ---
         ::
@@ -51,7 +51,7 @@ Each package includes all dependencies required to start generating procedural i
           
           ::ellipsis-copy
           ---
-          text: sha256:1041140a12ecb9c3ca213af2db5455ae3f7dda6915ab8636e89f40ec44326cb3
+          text: sha256:d710aeca1d0ddc2aa6bd474d9def44c8a95130c177573bca547ea6a319020a2f
           ---
           ::
         ::
@@ -85,13 +85,13 @@ Each package includes all dependencies required to start generating procedural i
     #### Install RasterFlow
 
     ```zsh [Terminal]
-    brew install flatscrew/rasterflow-tap/rasterflow
+    brew install flatscrew/osx/rasterflow
     ```
 
     #### Launch RasterFlow
 
     ```zsh [Terminal]
-    open -a rasterflow
+    rasterflow
     ```
     ::
 
@@ -101,10 +101,9 @@ Each package includes all dependencies required to start generating procedural i
 
       ::u-page-grid{class="flex flex-col md:flex-row justify-center"}
 
-        ::u-page-feature
+        ::u-page-feature{:description="releaseDate"}
         ---
         title: Release Date
-        description: 12.11.2025
         icon: i-lucide-calendar
         ---
         ::
@@ -112,7 +111,7 @@ Each package includes all dependencies required to start generating procedural i
         ::u-page-feature
         ---
         title: File Size
-        description: 26MB
+        description: 58MB
         icon: i-lucide-weight
         ---
         ::
@@ -127,7 +126,7 @@ Each package includes all dependencies required to start generating procedural i
           
           ::ellipsis-copy
           ---
-          text: sha256:1041140a12ecb9c3ca213af2db5455ae3f7dda6915ab8636e89f40ec44326cb3
+          text: sha256:4c98a91195f358d1333c05418a07b197ad40c6d992732532230da75368bd08b2
           ---
           ::
         ::
@@ -150,9 +149,20 @@ class: dark:bg-neutral-900 pt-12
   ---
     ::u-changelog-version
     ---
-    title: 'RasterFlow {{version}} — Initial Release'
+    title: 'RasterFlow 0.1.1'
+    date: '2025-11-15'
+    badge: '0.1.1'
+    description: 'Small improvements for cross-platform builds.'
+    ---
+    #body
+    - Introduced several improvement around CI build pipelines for Linux, Windows, and MacOS
+    ::
+  
+    ::u-changelog-version
+    ---
+    title: 'RasterFlow 0.1.0 — Initial Release'
     date: '2025-11-07'
-    badge: '{{version}}'
+    badge: '0.1.0'
     description: 'The first public release of RasterFlow.'
     ---
     #body

@@ -7,7 +7,7 @@ const items = [
     slot: 'linux'
   },
   {
-    label: 'macOS',
+    label: 'MacOS',
     icon: 'i-simple-icons-apple',
     value: 'macos',
     slot: 'macos'
