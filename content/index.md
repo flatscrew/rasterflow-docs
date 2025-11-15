@@ -298,10 +298,12 @@ Creative & Procedural
       target: _blank
       variant: subtle
       icon: i-simple-icons-github
-  title: Ready to get creative?
   description: Craft procedural image pipelines with a clear, visual graph editor powered by GEGL.
   class: dark:bg-neutral-950
   ---
+  
+  #title
+  Ready to get [Creative]{.text-primary}?
 
   :stars-bg
   :::
