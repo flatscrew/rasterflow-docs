@@ -13,6 +13,7 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true
   },
+
   css: ['~/assets/css/main.css'],
 
   site: { url: 'https://rasterflow.io', name: 'RasterFlow' },
@@ -25,6 +26,11 @@ export default defineNuxtConfig({
         }
       }
     }
+  },
+
+  experimental: {
+    // buildCache: true,
+
   },
 
   compatibilityDate: '2024-07-11',
@@ -50,6 +56,10 @@ export default defineNuxtConfig({
 
   icon: {
     provider: 'iconify'
+  },
+
+  image: {
+    densities: [1, 2]
   },
 
   ogImage: {
