@@ -1,7 +1,8 @@
 <script setup lang="ts">
 const images = [
   '/images/screenshots/rasterflow1.png',
-  '/images/screenshots/rasterflow2.png'
+  '/images/screenshots/rasterflow2.png',
+  '/images/screenshots/rasterflow3.png'
 ]
 </script>
 
