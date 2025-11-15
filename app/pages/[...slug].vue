@@ -32,7 +32,7 @@ useSeoMeta({
 
 const headline = computed(() => findPageHeadline(navigation?.value, page.value?.path))
 
-defineOgImageComponent('Docs', {
+defineOgImageComponent('OgImageDocs', {
   headline: headline.value
 })
 </script>
