@@ -1,4 +1,5 @@
 const getNavigator = (): 'windows' | 'macos' | 'linux' => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const userAgentData = (navigator as any)?.userAgentData
   if (userAgentData?.platform) {
     const platform = userAgentData.platform.toLowerCase()
