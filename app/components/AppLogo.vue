@@ -368,7 +368,7 @@
       cx="17.077"
       cy="14.513"
       r="4.762"
-      fill="var(--ui-primary)"
+      fill="#c27bff"
     />
     <circle
       cx="6.423"

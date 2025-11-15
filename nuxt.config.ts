@@ -50,6 +50,13 @@ export default defineNuxtConfig({
 
   icon: {
     provider: 'iconify'
+  },
+
+  ogImage: {
+    fonts: [
+      'Roboto Condensed:400',
+      'Roboto Condensed:700'
+    ]
   }
 
   // llms: {

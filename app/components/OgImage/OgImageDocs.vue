@@ -4,6 +4,8 @@ const props = withDefaults(defineProps<{ title?: string, description?: string, h
   description: 'description'
 })
 
+const { seo: { siteName } } = useAppConfig()
+
 const title = computed(() => (props.title || '').slice(0, 60))
 const description = computed(() => (props.description || '').slice(0, 200))
 </script>
@@ -53,6 +55,16 @@ const description = computed(() => (props.description || '').slice(0, 200))
     </svg>
 
     <div class="pl-[100px]">
+      <div class="flex items-center gap-4 mb-4 text-white">
+        <AppLogo class="scale-50" />
+        <div>abc</div>
+        <span
+          v-if="siteName"
+          class="leading-none text-5xl font-bold"
+        >
+          {{ siteName }}
+        </span>
+      </div>
       <p
         v-if="headline"
         class="uppercase text-[24px] text-purple-300 mb-4 font-semibold"
@@ -60,7 +72,7 @@ const description = computed(() => (props.description || '').slice(0, 200))
         {{ headline }}
       </p>
       <h1
-        v-if="title"
+        v-if="title && title !== siteName"
         class="m-0 text-[75px] font-semibold mb-4 text-white flex items-center"
       >
         <span>{{ title }}</span>
