@@ -55,9 +55,8 @@ const description = computed(() => (props.description || '').slice(0, 200))
     </svg>
 
     <div class="pl-[100px]">
-      <div class="flex items-center gap-4 mb-4 text-white">
-        <AppLogo class="scale-50" />
-        <div>abc</div>
+      <div class="flex flex-row items-center gap-4 mb-8 text-white">
+        <AppLogo class="size-20" />
         <span
           v-if="siteName"
           class="leading-none text-5xl font-bold"
