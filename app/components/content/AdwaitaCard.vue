@@ -21,36 +21,28 @@ const { src, alt } = defineProps<{
         justify-center
       "
     >
-      <NuxtImg
-        v-slot="{ isLoaded }"
+      <ProseImg
+        v-if="src"
         :src="src"
-        :alt="alt"
-        class="rounded-lg block"
-        :custom="true"
+        :alt="alt ?? ''"
+        sizes="100vw md:1000px"
+      />
+
+      <img
+        v-else
+        src="/images/operations/_none.png"
       >
-        <ProseImg
-          v-if="src && isLoaded"
-          :src="src"
-          :alt="alt ?? ''"
-          sizes="100vw md:100vw"
+
+      <figcaption
+        v-if="!src"
+        class="absolute inset-0 flex items-center justify-center gap-2 text-white text-sm italic"
+      >
+        <UIcon
+          name="i-heroicons-photo"
+          class="w-5 h-5 text-white/80"
         />
-
-        <img
-          v-else
-          src="/images/operations/_none.png"
-        >
-
-        <figcaption
-          v-if="!isLoaded"
-          class="absolute inset-0 flex items-center justify-center gap-2 text-white text-sm italic"
-        >
-          <UIcon
-            name="i-heroicons-photo"
-            class="w-5 h-5 text-white/80"
-          />
-          Picture not available yet
-        </figcaption>
-      </NuxtImg>
+        Picture not available yet
+      </figcaption>
     </figure>
   </div>
 </template>
