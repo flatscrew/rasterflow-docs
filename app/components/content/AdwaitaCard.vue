@@ -22,18 +22,18 @@ const { src, alt } = defineProps<{
       "
     >
       <NuxtImg
-        v-slot="{ isLoaded, imgAttrs }"
+        v-slot="{ isLoaded }"
         :src="src"
         :alt="alt"
         class="rounded-lg block"
-        sizes="30vw"
         :custom="true"
       >
-        <img
-          v-if="isLoaded"
-          v-bind="imgAttrs"
+        <ProseImg
+          v-if="src && isLoaded"
           :src="src"
-        >
+          :alt="alt ?? ''"
+          sizes="100vw md:100vw"
+        />
 
         <img
           v-else
