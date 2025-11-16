@@ -35,11 +35,11 @@ const { src, alt } = defineProps<{
 
       <figcaption
         v-if="!src"
-        class="absolute inset-0 flex items-center justify-center gap-2 text-white text-sm italic"
+        class="absolute inset-0 flex items-center justify-center gap-2 text-black dark:text-white text-sm italic"
       >
         <UIcon
           name="i-heroicons-photo"
-          class="w-5 h-5 text-white/80"
+          class="w-5 h-5 text-black/80 dark:text-white/80"
         />
         Picture not available yet
       </figcaption>
