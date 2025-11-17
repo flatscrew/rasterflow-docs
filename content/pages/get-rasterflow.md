@@ -80,7 +80,10 @@ Each package includes all dependencies required to start generating procedural i
     ::
 
   #macos
-    ::steps{level="4" class="place-self-center"}
+  ::note
+  Coming soon...
+  ::
+    <!-- ::steps{level="4" class="place-self-center"}
 
     #### Install RasterFlow
 
@@ -93,7 +96,7 @@ Each package includes all dependencies required to start generating procedural i
     ```bash [Terminal]
     rasterflow
     ```
-    ::
+    :: -->
 
   #windows
     ::div{class="flex flex-col items-center py-12 gap-12"}
