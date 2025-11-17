@@ -1,8 +1,8 @@
 ---
 title: Get RasterFlow.
 description: Get the newest release of RasterFlow, powered by GEGL and GTK4.
-version: 0.1.1
-releaseDate: 15.11.2025
+version: 0.1.2
+releaseDate: 17.11.2025
 ---
 
 ::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950 -mb-12"}
@@ -80,10 +80,7 @@ Each package includes all dependencies required to start generating procedural i
     ::
 
   #macos
-  ::note
-  Coming soon...
-  ::
-    <!-- ::steps{level="4" class="place-self-center"}
+    ::steps{level="4" class="place-self-center"}
 
     #### Install RasterFlow
 
@@ -96,7 +93,11 @@ Each package includes all dependencies required to start generating procedural i
     ```bash [Terminal]
     rasterflow
     ```
-    :: -->
+    ::
+    
+    ::warning
+    Experimental release! Please report any issues during the setup.
+    ::
 
   #windows
     ::div{class="flex flex-col items-center py-12 gap-12"}
@@ -150,6 +151,17 @@ class: dark:bg-neutral-900 pt-12
   ---
   indicator-motion: true
   ---
+    ::u-changelog-version
+    ---
+    title: 'RasterFlow 0.1.2'
+    date: '2025-11-17'
+    badge: '0.1.2'
+    description: 'MacOS build improvements.'
+    ---
+    #body
+    - Improvements for MacOS build
+    ::
+  
     ::u-changelog-version
     ---
     title: 'RasterFlow 0.1.1'
