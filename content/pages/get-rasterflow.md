@@ -84,13 +84,13 @@ Each package includes all dependencies required to start generating procedural i
 
     #### Install RasterFlow
 
-    ```zsh [Terminal]
+    ```bash [Terminal]
     brew install flatscrew/osx/rasterflow
     ```
 
     #### Launch RasterFlow
 
-    ```zsh [Terminal]
+    ```bash [Terminal]
     rasterflow
     ```
     ::
