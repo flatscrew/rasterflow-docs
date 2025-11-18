@@ -81,8 +81,8 @@ Each package includes all dependencies required to start generating procedural i
 
   #macos
     ::note{class="max-w-md"}
-    When installing Rasterflow on macOS, GEGL will be built from source automaticallyn, 
-    as the default Homebrew bottle lacks gdk-pixbuf support required by Rasterflow.
+    When installing Rasterflow on macOS, GEGL will be built from source automatically, 
+    as the default Homebrew bottle lacks `gdk-pixbuf` support required by Rasterflow.
     ::
   
     ::steps{level="4" class="place-self-center"}
