@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     '@nuxtjs/mdc',
     '@nuxt/content',
     'nuxt-og-image',
-    'nuxt-llms'
+    'nuxt-llms',
+    'nuxt-umami'
   ],
 
   devtools: {
@@ -17,7 +18,6 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   site: { url: 'https://rasterflow.io', name: 'RasterFlow' },
-
   content: {
     build: {
       markdown: {
@@ -67,6 +67,13 @@ export default defineNuxtConfig({
       'Roboto Condensed:400',
       'Roboto Condensed:700'
     ]
+  },
+
+  umami: {
+    id: '1c9c15ad-8f56-44c5-89cd-afdf0256d350',
+    host: 'https://cloud.umami.is',
+    autoTrack: true,
+    ignoreLocalhost: true
   }
 
   // llms: {
