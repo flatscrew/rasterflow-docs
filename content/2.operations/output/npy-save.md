@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: NumPy File Saver
-caption: NumPy (Numerical Python) image saver.
 src: /images/operations/gegl-npy-save.png
 ---
 ::

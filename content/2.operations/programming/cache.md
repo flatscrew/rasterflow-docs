@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Cache
-caption: An explicit caching node, caches results and should provide faster recomputation if what is cached by it is expensive but isn't changing.
 src: /images/operations/gegl-cache.png
 ---
 ::

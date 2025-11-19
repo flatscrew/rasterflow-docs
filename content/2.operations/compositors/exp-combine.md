@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Combine Exposures
-caption: Combine multiple scene exposures into one high dynamic range image.
 src: /images/operations/gegl-exp-combine.png
 ---
 ::

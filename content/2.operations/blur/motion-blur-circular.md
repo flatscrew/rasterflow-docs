@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Circular Motion Blur
-caption: Circular motion blur.
 src: /images/operations/gegl-motion-blur-circular.png
 ---
 ::

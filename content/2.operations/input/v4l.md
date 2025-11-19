@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Video4Linux Frame Source
-caption: Video4Linux input, webcams framegrabbers and similar devices.
 src: /images/operations/gegl-v4l.png
 ---
 ::

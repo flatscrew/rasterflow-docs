@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Render Text
-caption: Display a string of text using pango and cairo.
 src: /images/operations/gegl-text.png
 ---
 ::

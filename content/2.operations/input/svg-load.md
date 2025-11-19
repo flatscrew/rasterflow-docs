@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: SVG File Loader
-caption: Load an SVG file using librsvg.
 src: /images/operations/gegl-svg-load.png
 ---
 ::

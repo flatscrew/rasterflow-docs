@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Bilateral Filter
-caption: Like a gaussian blur; but where the contribution for each neighborhood pixel is also weighted by the color difference with the original center pixel.
 src: /images/operations/gegl-bilateral-filter.png
 ---
 ::

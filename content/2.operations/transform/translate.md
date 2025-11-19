@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Translate
-caption: Repositions the buffer (with subpixel precision), if integer coordinates are passed a fast-path without resampling is used.
 src: /images/operations/gegl-translate.png
 ---
 ::

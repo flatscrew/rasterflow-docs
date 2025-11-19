@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Posterize
-caption: Reduces the number of levels in each color component of the image.
 src: /images/operations/gegl-posterize.png
 ---
 ::

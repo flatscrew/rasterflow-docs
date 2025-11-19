@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Whirl Pinch
-caption: Distort an image by whirling and pinching.
 src: /images/operations/gegl-whirl-pinch.png
 ---
 ::

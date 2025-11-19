@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Convolution Matrix
-caption: Apply a generic 5x5 convolution matrix.
 src: /images/operations/gegl-convolution-matrix.png
 ---
 ::

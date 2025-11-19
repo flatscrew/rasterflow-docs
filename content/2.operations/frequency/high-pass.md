@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: High Pass Filter
-caption: Enhances fine details.
 src: /images/operations/gegl-high-pass.png
 ---
 ::

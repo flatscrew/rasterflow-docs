@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Cell Noise
-caption: Generates a cellular texture.
 src: /images/operations/gegl-cell-noise.png
 ---
 ::

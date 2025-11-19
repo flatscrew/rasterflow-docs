@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Stretch Contrast
-caption: Scales the components of the buffer to be in the 0.0-1.0 range. This improves images that make poor use of the available contrast (little contrast, very dark, or very bright images).
 src: /images/operations/gegl-stretch-contrast.png
 ---
 ::

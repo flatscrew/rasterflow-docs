@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: RGBE File Loader
-caption: RGBE image loader (Radiance HDR format).
 src: /images/operations/gegl-rgbe-load.png
 ---
 ::

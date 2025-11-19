@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Spiral
-caption: Spiral renderer.
 src: /images/operations/gegl-spiral.png
 ---
 ::

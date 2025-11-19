@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Tile
-caption: Infinitely repeats the input image.
 src: /images/operations/gegl-tile.png
 ---
 ::

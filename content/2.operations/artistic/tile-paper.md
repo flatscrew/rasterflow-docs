@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Paper Tile
-caption: Cut image into paper tiles, and slide them.
 src: /images/operations/gegl-tile-paper.png
 ---
 ::

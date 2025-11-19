@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: ICC File Loader
-caption: ICC profile loader.
 src: /images/operations/gegl-icc-load.png
 ---
 ::

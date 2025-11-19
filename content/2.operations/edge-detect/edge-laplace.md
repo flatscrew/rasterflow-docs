@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Laplacian Edge Detection
-caption: High-resolution edge detection.
 src: /images/operations/gegl-edge-laplace.png
 ---
 ::

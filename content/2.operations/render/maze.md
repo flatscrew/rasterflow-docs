@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Maze
-caption: Draw a labyrinth.
 src: /images/operations/gegl-maze.png
 ---
 ::

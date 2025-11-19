@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Color Assimilation Grid
-caption: Turn image grayscale and overlay an oversaturated grid - through color assimilation happening in the human visual system, for some grid scales this produces the illusion that the grayscale grid cells themselves also have color.
 src: /images/operations/gegl-color-assimilation-grid.png
 ---
 ::

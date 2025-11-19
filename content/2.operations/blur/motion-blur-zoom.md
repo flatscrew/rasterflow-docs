@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Zooming Motion Blur
-caption: Zoom motion blur.
 src: /images/operations/gegl-motion-blur-zoom.png
 ---
 ::

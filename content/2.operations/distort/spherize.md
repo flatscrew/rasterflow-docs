@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Spherize
-caption: Wrap image around a spherical cap.
 src: /images/operations/gegl-spherize.png
 ---
 ::

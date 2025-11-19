@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Add RGB Noise
-caption: Distort colors by random amounts.
 src: /images/operations/gegl-noise-rgb.png
 ---
 ::

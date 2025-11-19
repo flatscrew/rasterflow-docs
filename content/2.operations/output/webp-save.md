@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: WebP File Saver
-caption: WebP image saver.
 src: /images/operations/gegl-webp-save.png
 ---
 ::

@@ -2,8 +2,8 @@
 title: Load Image
 description: "Multipurpose file loader, that uses other native handlers, and fallback conversion using Image Magick's convert."
 links:
-  - label: "gegl:load"
-    to: "https://gegl.org/operations/gegl-load"
+  - label: "LinuxBeaver"
+    to: "https://github.com/LinuxBeaver"
     target: "_blank"
     variant: "outline"
     icon: "i-lucide-external-link"
@@ -12,8 +12,7 @@ links:
 ::adwaita-card
 ---
 alt: Load Image
-caption: Multipurpose file loader, that uses other native handlers, and fallback conversion using Image Magick's convert.
-src: /images/operations/gegl-load.png
+src: /images/operations/port-load.png
 ---
 ::
 

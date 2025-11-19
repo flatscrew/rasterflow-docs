@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Mono Mixer
-caption: Monochrome channel mixer.
 src: /images/operations/gegl-mono-mixer.png
 ---
 ::

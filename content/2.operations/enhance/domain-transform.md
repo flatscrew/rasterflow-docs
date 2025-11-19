@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Smooth by Domain Transform
-caption: An edge-preserving smoothing filter implemented with the Domain Transform recursive technique. Similar to a bilateral filter, but faster to compute.
 src: /images/operations/gegl-domain-transform.png
 ---
 ::

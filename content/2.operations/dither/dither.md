@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Dither
-caption: Reduce the number of colors in the image, by reducing the levels per channel (colors and alpha). Different dithering methods can be specified to counteract quantization induced banding.
 src: /images/operations/gegl-dither.png
 ---
 ::

@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Shift
-caption: Shift each row or column of pixels by a random amount.
 src: /images/operations/gegl-shift.png
 ---
 ::
