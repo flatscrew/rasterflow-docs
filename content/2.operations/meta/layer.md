@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Layer
-caption: A layer in the traditional sense.
 src: /images/operations/gegl-layer.png
 ---
 ::

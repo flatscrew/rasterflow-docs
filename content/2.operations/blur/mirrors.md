@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Kaleidoscopic Mirroring
-caption: Create a kaleidoscope like effect.
 src: /images/operations/gegl-mirrors.png
 ---
 ::

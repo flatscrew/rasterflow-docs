@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Unpremultiply alpha
-caption: Unpremultiplies a buffer that contains pre-multiplied colors (but according to the babl format is not.).
 src: /images/operations/gegl-unpremultiply.png
 ---
 ::

@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: TIFF File Loader
-caption: TIFF image loader using libtiff.
 src: /images/operations/gegl-tiff-load.png
 ---
 ::

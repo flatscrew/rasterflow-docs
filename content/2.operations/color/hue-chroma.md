@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Hue-Chroma
-caption: Adjust LCH Hue, Chroma, and Lightness.
 src: /images/operations/gegl-hue-chroma.png
 ---
 ::

@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: PPM File Loader
-caption: PPM image loader.
 src: /images/operations/gegl-ppm-load.png
 ---
 ::

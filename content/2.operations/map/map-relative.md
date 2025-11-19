@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Map Relative
-caption: sample input with an auxiliary buffer that contain relative source coordinates.
 src: /images/operations/gegl-map-relative.png
 ---
 ::

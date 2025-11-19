@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Border Align
-caption: Aligns box of input rectangle with border of compositing target or aux' bounding-box border, if aux pad is not connected the op tries to figure out which bounding box' border applies.
 src: /images/operations/gegl-border-align.png
 ---
 ::

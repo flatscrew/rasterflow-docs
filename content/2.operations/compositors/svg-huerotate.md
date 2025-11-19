@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: SVG Hue Rotate
-caption: SVG color matrix operation svg_huerotate.
 src: /images/operations/gegl-svg-huerotate.png
 ---
 ::

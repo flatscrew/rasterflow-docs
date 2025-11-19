@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Mosaic
-caption: Mosaic is a filter which transforms an image into what appears to be a mosaic, composed of small primitives, each of constant color and of an approximate size.
 src: /images/operations/gegl-mosaic.png
 ---
 ::

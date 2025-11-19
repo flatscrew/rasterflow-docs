@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Convert Format
-caption: Convert the data to the specified format.
 src: /images/operations/gegl-convert-format.png
 ---
 ::

@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: WebP File Loader
-caption: WebP image loader.
 src: /images/operations/gegl-webp-load.png
 ---
 ::

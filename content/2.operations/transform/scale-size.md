@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Scale size
-caption: Scales the buffer according to a size.
 src: /images/operations/gegl-scale-size.png
 ---
 ::

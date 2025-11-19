@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Fractal Explorer
-caption: Rendering of multiple different fractal systems, with configurable coloring options.
 src: /images/operations/gegl-fractal-explorer.png
 ---
 ::

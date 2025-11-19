@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: SVG Luminance to Alpha
-caption: SVG color matrix operation svg_luminancetoalpha.
 src: /images/operations/gegl-svg-luminancetoalpha.png
 ---
 ::

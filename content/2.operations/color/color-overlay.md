@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Color Overlay
-caption: Paint a color overlay over the input, preserving its transparency.
 src: /images/operations/gegl-color-overlay.png
 ---
 ::

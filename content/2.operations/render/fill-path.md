@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Fill Path
-caption: Renders a filled region.
 src: /images/operations/gegl-fill-path.png
 ---
 ::

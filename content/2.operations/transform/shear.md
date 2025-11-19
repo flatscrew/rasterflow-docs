@@ -1,6 +1,6 @@
 ---
 title: Shear
-description: "Shears the buffer. ."
+description: "Shears the buffer."
 links:
   - label: "gegl:shear"
     to: "https://gegl.org/operations/gegl-shear"
@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Shear
-caption: Shears the buffer. .
 src: /images/operations/gegl-shear.png
 ---
 ::

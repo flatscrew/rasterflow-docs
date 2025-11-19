@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Extract Component
-caption: Extract a color model component.
 src: /images/operations/gegl-component-extract.png
 ---
 ::

@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: JPEG File Saver
-caption: JPEG image saver, using libjpeg.
 src: /images/operations/gegl-jpg-save.png
 ---
 ::

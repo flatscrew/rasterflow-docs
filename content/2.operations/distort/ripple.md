@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Ripple
-caption: Displace pixels in a ripple pattern.
 src: /images/operations/gegl-ripple.png
 ---
 ::
