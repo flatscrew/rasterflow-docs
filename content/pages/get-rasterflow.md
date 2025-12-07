@@ -1,8 +1,8 @@
 ---
 title: Get RasterFlow.
 description: Get the newest release of RasterFlow, powered by GEGL and GTK4.
-version: 0.1.2
-releaseDate: 17.11.2025
+version: 0.1.5
+releaseDate: 07.12.2025
 ---
 
 ::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950 -mb-12"}
@@ -51,7 +51,7 @@ Each package includes all dependencies required to start generating procedural i
           
           ::ellipsis-copy
           ---
-          text: sha256:f0a0af5d5780b4cc34f4e7c22694f980a7bc9329ae412ce8e937c780d03c4d4c
+          text: sha256:9e51db0989cc79289efb509f43c6e736efe5ae2d20f4010cb852e36d5fcee1e6
           ---
           ::
         ::
@@ -80,11 +80,6 @@ Each package includes all dependencies required to start generating procedural i
     ::
 
   #macos
-    ::note{class="max-w-md"}
-    When installing Rasterflow on macOS, GEGL will be built from source automatically, 
-    as the default Homebrew bottle lacks `gdk-pixbuf` support required by Rasterflow.
-    ::
-  
     ::steps{level="4" class="place-self-center"}
 
     #### Install RasterFlow
@@ -97,6 +92,16 @@ Each package includes all dependencies required to start generating procedural i
 
     ```bash [Terminal]
     rasterflow
+    ```
+    
+    
+    #### Upgrade RasterFlow
+
+    In order to upgrade to latest version if you have already RasterFlow installed simply put:
+    
+    ```bash [Terminal]
+    brew update
+    brew upgrade
     ```
     ::
     
@@ -120,7 +125,7 @@ Each package includes all dependencies required to start generating procedural i
         ::u-page-feature
         ---
         title: File Size
-        description: 58MB
+        description: 59.6MB
         icon: i-lucide-weight
         ---
         ::
@@ -135,7 +140,7 @@ Each package includes all dependencies required to start generating procedural i
           
           ::ellipsis-copy
           ---
-          text: sha256:714e2e1b9c20e9c21fa39e077cffcf41192d7697818d69dd642e6db144785b49
+          text: sha256:680225ccaca12d4f91a349bfea29b5ea63f5358aefd0b5fbd9f7313196d06d87
           ---
           ::
         ::
@@ -156,6 +161,22 @@ class: dark:bg-neutral-900 pt-12
   ---
   indicator-motion: true
   ---
+    ::u-changelog-version
+    ---
+    title: 'RasterFlow 0.1.5'
+    date: '2025-12-17'
+    badge: '0.1.5'
+    description: 'Enhanced user interaction and cross-platform stability.'
+    to: 'https://github.com/flatscrew/rasterflow/releases/tag/v0.1.5'
+    ---
+    #body
+    ![New scale widget](/images/changelog/new-scale-widget-trimmed.png){:width="700" sizes="100vw md:700px" class="w-auto"}
+    
+    - Introduced a new custom scale widget used across all numeric properties, providing more precise control and a consistent UI experience,
+    - Added infinite graph panning for smoother exploration of large node setups,
+    - Fixed a Windows issue causing conflicts with GIMP when setting the `BABL_PATH` and `GEGL_PATH` environment variables,
+    ::
+  
     ::u-changelog-version
     ---
     title: 'RasterFlow 0.1.2'
