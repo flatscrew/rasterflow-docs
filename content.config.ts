@@ -20,7 +20,7 @@ export default defineContentConfig({
       type: 'page',
       source: {
         include: '**',
-        exclude: ['index.md', 'pages/**', '3.blog/**', '4.changelog/**']
+        exclude: ['index.md', 'pages/**', 'blog/**', 'changelog/**']
       },
       schema: z.object({
         links: z.array(z.object({
