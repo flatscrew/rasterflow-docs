@@ -8,7 +8,10 @@ const desktopNavigation = computed(() => header.navigation.map(link => ({ ...lin
 
 const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 
-const extendedNavigation = computed(() => desktopNavigation.value.filter(_ => _.to === '/pages/get-rasterflow'))
+const extendedNavigation = computed(() => desktopNavigation.value
+  .filter(_ => _.to !== '/guide')
+  .filter(_ => _.to !== '/operations')
+)
 
 const mobileMenuProps = computed(() => route.path === '/'
   ? {

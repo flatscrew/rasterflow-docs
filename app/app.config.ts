@@ -48,6 +48,14 @@ export default defineAppConfig({
       icon: 'i-lucide-cpu',
       to: '/operations'
     }, {
+      label: 'Blog',
+      icon: 'i-lucide-newspaper',
+      to: '/blog'
+    }, {
+      label: 'Changelog',
+      icon: 'i-lucide-history',
+      to: '/changelog'
+    }, {
       label: 'Get RasterFlow',
       icon: 'i-lucide-download',
       to: '/pages/get-rasterflow'
