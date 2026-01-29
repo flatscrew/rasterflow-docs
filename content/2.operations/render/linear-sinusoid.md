@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Linear Sinusoid
-caption: Generate a linear sinusoid pattern.
 src: /images/operations/gegl-linear-sinusoid.png
 ---
 ::

@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Reset origin
-caption: Translate top-left to 0,0.
 src: /images/operations/gegl-reset-origin.png
 ---
 ::

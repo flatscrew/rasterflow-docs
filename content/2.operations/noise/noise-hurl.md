@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Randomly Shuffle Pixels
-caption: Completely randomize a fraction of pixels.
 src: /images/operations/gegl-noise-hurl.png
 ---
 ::

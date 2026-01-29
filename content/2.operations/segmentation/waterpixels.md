@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Waterpixels
-caption: Superpixels based on the watershed transformation.
 src: /images/operations/gegl-waterpixels.png
 ---
 ::

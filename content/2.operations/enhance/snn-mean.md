@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Symmetric Nearest Neighbor
-caption: Noise reducing edge preserving blur filter based on Symmetric Nearest Neighbors.
 src: /images/operations/gegl-snn-mean.png
 ---
 ::

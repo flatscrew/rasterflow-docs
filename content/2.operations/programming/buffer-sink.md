@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Buffer Sink
-caption: Create a new GEGL buffer to write the resulting rendering.
 src: /images/operations/gegl-buffer-sink.png
 ---
 ::

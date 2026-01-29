@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: PNG File Saver
-caption: PNG image saver, using libpng.
 src: /images/operations/gegl-png-save.png
 ---
 ::

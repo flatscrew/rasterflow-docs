@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Spatio Temporal Retinex-like Envelope with Stochastic Sampling
-caption: Spatio Temporal Retinex-like Envelope with Stochastic Sampling.
 src: /images/operations/gegl-stress.png
 ---
 ::

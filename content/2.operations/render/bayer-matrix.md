@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Bayer Matrix
-caption: Generate a Bayer matrix pattern.
 src: /images/operations/gegl-bayer-matrix.png
 ---
 ::

@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: No Operation
-caption: No operation (can be used as a routing point).
 src: /images/operations/gegl-nop.png
 ---
 ::

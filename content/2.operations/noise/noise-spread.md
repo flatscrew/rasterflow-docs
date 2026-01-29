@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Noise Spread
-caption: Move pixels around randomly.
 src: /images/operations/gegl-noise-spread.png
 ---
 ::

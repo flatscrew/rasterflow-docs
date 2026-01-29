@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Engrave
-caption: Simulate an antique engraving.
 src: /images/operations/gegl-engrave.png
 ---
 ::

@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Saturation
-caption: Changes the saturation.
 src: /images/operations/gegl-saturation.png
 ---
 ::

@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Color to Grayscale
-caption: Color to grayscale conversion, uses envelopes formed with the STRESS approach to perform local color-difference preserving grayscale generation.
 src: /images/operations/gegl-c2g.png
 ---
 ::

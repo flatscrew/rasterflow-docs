@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Clip Alpha
-caption: Keep alpha values inside a specific range.
 src: /images/operations/gegl-alpha-clip.png
 ---
 ::

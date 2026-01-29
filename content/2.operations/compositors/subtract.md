@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Subtract
-caption: Math operation subtract, performs the operation per pixel, using either the constant provided in 'value' or the corresponding pixel from the buffer on aux as operands. The result is the evaluation of the expression result = input - value.
 src: /images/operations/gegl-subtract.png
 ---
 ::

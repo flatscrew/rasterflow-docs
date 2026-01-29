@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Grid
-caption: Grid renderer.
 src: /images/operations/gegl-grid.png
 ---
 ::

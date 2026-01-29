@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Vignette
-caption: Applies a vignette to an image. Simulates the luminance fall off at the edge of exposed film, and some other fuzzier border effects that can naturally occur with analog photography.
 src: /images/operations/gegl-vignette.png
 ---
 ::

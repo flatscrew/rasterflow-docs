@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Scale3X Antialiasing
-caption: Antialias using the Scale3X edge-extrapolation algorithm.
 src: /images/operations/gegl-antialias.png
 ---
 ::

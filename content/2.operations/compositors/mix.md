@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Mix
-caption: Do a lerp, linear interpolation (lerp) between input and aux.
 src: /images/operations/gegl-mix.png
 ---
 ::

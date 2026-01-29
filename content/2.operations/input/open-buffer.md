@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Open GEGL Buffer
-caption: Use an on-disk GeglBuffer as data source.
 src: /images/operations/gegl-open-buffer.png
 ---
 ::

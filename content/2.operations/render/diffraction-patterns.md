@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Diffraction Patterns
-caption: Generate diffraction patterns.
 src: /images/operations/gegl-diffraction-patterns.png
 ---
 ::

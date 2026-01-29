@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Simple Linear Iterative Clustering
-caption: Superpixels based on k-means clustering.
 src: /images/operations/gegl-slic.png
 ---
 ::

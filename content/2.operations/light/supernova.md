@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Supernova
-caption: This plug-in produces an effect like a supernova burst. The amount of the light effect is approximately in proportion to 1/r, where r is the distance from the center of the star.
 src: /images/operations/gegl-supernova.png
 ---
 ::

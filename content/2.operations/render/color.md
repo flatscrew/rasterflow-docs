@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Color
-caption: Generates a buffer entirely filled with the specified color, use gegl:crop to get smaller dimensions.
 src: /images/operations/gegl-color.png
 ---
 ::

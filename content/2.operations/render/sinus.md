@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Sinus
-caption: Generate complex sinusoidal textures.
 src: /images/operations/gegl-sinus.png
 ---
 ::

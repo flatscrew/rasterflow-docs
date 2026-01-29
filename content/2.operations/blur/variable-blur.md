@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Variable Blur
-caption: Blur the image by a varying amount using a mask.
 src: /images/operations/gegl-variable-blur.png
 ---
 ::

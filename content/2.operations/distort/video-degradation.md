@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Video Degradation
-caption: This function simulates the degradation of being on an old low-dotpitch RGB video monitor.
 src: /images/operations/gegl-video-degradation.png
 ---
 ::

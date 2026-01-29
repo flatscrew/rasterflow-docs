@@ -1,6 +1,6 @@
 ---
 title: Convert color space
-description: "set color space which subsequent babl-formats in the pipeline are created with, and the ICC profile potentially embedded for external color management, setting a pointer to a format overrides the string property and setting an aux pad overrides both. ."
+description: "set color space which subsequent babl-formats in the pipeline are created with, and the ICC profile potentially embedded for external color management, setting a pointer to a format overrides the string property and setting an aux pad overrides both."
 links:
   - label: "gegl:convert-space"
     to: "https://gegl.org/operations/gegl-convert-space"
@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Convert color space
-caption: set color space which subsequent babl-formats in the pipeline are created with, and the ICC profile potentially embedded for external color management, setting a pointer to a format overrides the string property and setting an aux pad overrides both. .
 src: /images/operations/gegl-convert-space.png
 ---
 ::

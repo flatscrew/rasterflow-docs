@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Shadows-Highlights
-caption: Perform shadows and highlights correction.
 src: /images/operations/gegl-shadows-highlights.png
 ---
 ::

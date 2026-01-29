@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Scale ratio
-caption: Scales the buffer according to a ratio.
 src: /images/operations/gegl-scale-ratio.png
 ---
 ::

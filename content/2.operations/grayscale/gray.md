@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Make Gray
-caption: Turns the image grayscale.
 src: /images/operations/gegl-gray.png
 ---
 ::

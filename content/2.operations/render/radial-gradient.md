@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Radial Gradient
-caption: Radial gradient renderer.
 src: /images/operations/gegl-radial-gradient.png
 ---
 ::

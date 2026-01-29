@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Lens Distortion
-caption: Corrects barrel or pincushion lens distortion.
 src: /images/operations/gegl-lens-distortion.png
 ---
 ::

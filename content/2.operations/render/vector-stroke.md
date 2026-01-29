@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Vector Stroke
-caption: Renders a vector stroke.
 src: /images/operations/gegl-vector-stroke.png
 ---
 ::

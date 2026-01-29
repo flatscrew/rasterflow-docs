@@ -1,6 +1,6 @@
 ---
 title: Newsprint
-description: "Digital halftoning with optional modulations. ."
+description: "Digital halftoning with optional modulations."
 links:
   - label: "gegl:newsprint"
     to: "https://gegl.org/operations/gegl-newsprint"
@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Newsprint
-caption: Digital halftoning with optional modulations. .
 src: /images/operations/gegl-newsprint.png
 ---
 ::

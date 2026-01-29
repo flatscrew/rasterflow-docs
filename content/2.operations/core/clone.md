@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Clone
-caption: Clone a buffer, this is the same as gegl:nop but can get special treatment to get more human readable references in serializations/UI.
 src: /images/operations/gegl-clone.png
 ---
 ::

@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Difference of Gaussians
-caption: Edge detection with control of edge thickness, based on the difference of two gaussian blurs.
 src: /images/operations/gegl-difference-of-gaussians.png
 ---
 ::

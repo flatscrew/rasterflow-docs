@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Box Blur
-caption: Blur resulting from averaging the colors of a square neighborhood.
 src: /images/operations/gegl-box-blur.png
 ---
 ::

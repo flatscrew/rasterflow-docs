@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Emboss
-caption: Simulates an image created by embossing.
 src: /images/operations/gegl-emboss.png
 ---
 ::

@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Plasma
-caption: Creates an image filled with a plasma effect.
 src: /images/operations/gegl-plasma.png
 ---
 ::

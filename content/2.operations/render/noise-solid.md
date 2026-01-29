@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Solid Noise
-caption: Create a random cloud-like texture.
 src: /images/operations/gegl-noise-solid.png
 ---
 ::

@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: 
-caption: Seamless cloning operation.
 src: /images/operations/gegl-seamless-clone.png
 ---
 ::

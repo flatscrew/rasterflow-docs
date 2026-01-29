@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: PNG File Loader
-caption: PNG image loader.
 src: /images/operations/gegl-png-load.png
 ---
 ::

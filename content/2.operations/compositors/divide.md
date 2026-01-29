@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Divide
-caption: Math operation divide, performs the operation per pixel, using either the constant provided in 'value' or the corresponding pixel from the buffer on aux as operands. The result is the evaluation of the expression result = value==0.0f?0.0f:input/value.
 src: /images/operations/gegl-divide.png
 ---
 ::

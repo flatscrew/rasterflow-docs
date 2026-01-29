@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: 1D Gaussian-blur
-caption: Performs an averaging of neighboring pixels with the normal distribution as weighting.
 src: /images/operations/gegl-gblur-1d.png
 ---
 ::

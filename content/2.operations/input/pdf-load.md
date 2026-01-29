@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: pdf loader
-caption: PDF page decoder.
 src: /images/operations/gegl-pdf-load.png
 ---
 ::

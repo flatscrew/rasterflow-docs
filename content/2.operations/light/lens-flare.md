@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Lens Flare
-caption: Adds a lens flare effect.
 src: /images/operations/gegl-lens-flare.png
 ---
 ::

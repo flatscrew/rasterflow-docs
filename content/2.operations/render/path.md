@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Render Path
-caption: Renders a brush stroke.
 src: /images/operations/gegl-path.png
 ---
 ::

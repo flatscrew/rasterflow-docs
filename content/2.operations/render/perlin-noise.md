@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Perlin Noise
-caption: Perlin noise generator.
 src: /images/operations/gegl-perlin-noise.png
 ---
 ::

@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: 
-caption: GeglBuffer file loader.
 src: /images/operations/gegl-gegl-buffer-load.png
 ---
 ::

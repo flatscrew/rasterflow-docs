@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Color Temperature
-caption: Change the color temperature of the image, from an assumed original color temperature to an intended one.
 src: /images/operations/gegl-color-temperature.png
 ---
 ::

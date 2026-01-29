@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: RGBE File Saver
-caption: RGBE image saver (Radiance HDR format).
 src: /images/operations/gegl-rgbe-save.png
 ---
 ::

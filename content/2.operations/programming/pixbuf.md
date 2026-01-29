@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: GdkPixbuf Source
-caption: Uses the GdkPixbuf located at the memory location in <em>pixbuf</em>.
 src: /images/operations/gegl-pixbuf.png
 ---
 ::

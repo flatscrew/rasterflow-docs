@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Add HSV Noise
-caption: Randomize hue, saturation and value independently.
 src: /images/operations/gegl-noise-hsv.png
 ---
 ::

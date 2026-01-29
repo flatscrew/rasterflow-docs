@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Focus Blur
-caption: Blur the image around a focal point.
 src: /images/operations/gegl-focus-blur.png
 ---
 ::

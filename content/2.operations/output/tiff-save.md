@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: TIFF File Saver
-caption: TIFF image saver using libtiff.
 src: /images/operations/gegl-tiff-save.png
 ---
 ::

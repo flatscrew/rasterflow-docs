@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Negative Darkroom
-caption: Simulate a negative film enlargement in an analog darkroom.
 src: /images/operations/gegl-negative-darkroom.png
 ---
 ::

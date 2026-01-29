@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Levels
-caption: Remaps the intensity range of the image.
 src: /images/operations/gegl-levels.png
 ---
 ::

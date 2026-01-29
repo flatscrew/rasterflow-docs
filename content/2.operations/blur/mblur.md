@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Temporal blur
-caption: Accumulating motion blur using a kalman filter, for use with video sequences of frames.
 src: /images/operations/gegl-mblur.png
 ---
 ::

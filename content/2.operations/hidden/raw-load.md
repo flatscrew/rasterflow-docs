@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: libraw File Loader
-caption: Camera RAW image loader.
 src: /images/operations/gegl-raw-load.png
 ---
 ::

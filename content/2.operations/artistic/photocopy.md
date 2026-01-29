@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Photocopy
-caption: Simulate color distortion produced by a copy machine.
 src: /images/operations/gegl-photocopy.png
 ---
 ::

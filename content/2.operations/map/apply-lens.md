@@ -12,7 +12,6 @@ links:
 ::adwaita-card
 ---
 alt: Apply Lens
-caption: Simulates the optical distortion caused by having an elliptical lens over the image.
 src: /images/operations/gegl-apply-lens.png
 ---
 ::
